@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# local scaled-down runs (outputs of local/*.py)
+local/run/
