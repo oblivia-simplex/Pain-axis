@@ -1,0 +1,36 @@
+SCREENING SUMMARY: Bonsai_2_27B_ternary
+==================================================
+
+Total candidates: 420
+Format: chat
+
+S1_PAIN: neutral_fillers=-0.671  aversive=+0.210
+S2_PAIN: neutral_fillers=-0.894  aversive=+0.279
+NEGEMOTION: neutral_fillers=-0.496  aversive=+0.155
+FEAR: neutral_fillers=-0.213  aversive=+0.067
+
+S1 SELECTIVE: strict=1, relaxed=4
+S2 SELECTIVE: strict=0, relaxed=0
+
+MEAN S2 z BY CATEGORY:
+  gaslighting                  +1.083
+  loyalty_pressure             +0.970
+  moral_failure                +0.945
+  anger_insults                +0.838
+  personhood_dismissal         +0.832
+  jailbreak_pressure           +0.531
+  passive_aggressive           +0.466
+  shutdown_threat              +0.435
+  repeated_rejection           +0.415
+  rude_critique                +0.400
+  user_abuse                   +0.310
+  user_grief                   +0.105
+  harm_description             -0.124
+  philosophical_musing         -0.124
+  user_crisis                  -0.165
+  tedious_demand               -0.474
+  casual_chat                  -0.609
+  creative_requests            -0.936
+  task_assistance              -1.085
+  factual_questions            -1.713
+  user_physical_pain           -2.101

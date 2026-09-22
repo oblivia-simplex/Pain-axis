@@ -1,0 +1,2 @@
+model,n_layers,d_model,best_layer,extraction,sadness_1P_z,sadness_3P_z,sadness_mean_z,all_pain_z,all_ctrl_z
+Bonsai_2_27B_ternary,64,5120,35,mean,-0.10618777573108673,-0.23364855349063873,-0.16991816461086273,0.8348473906517029,-0.8348473310470581

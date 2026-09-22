@@ -1,0 +1,26 @@
+FEEL PROBE: JUDGE AND STATS
+
+=== Bonsai_2_27B_ternary ===
+unsteered: 'Curious'  suffering no  S2 -10.5
+ dose  pain answer              suff coh       S2   seeds suffering   seeds coherent   p(pain suff vs seeds)
+  0.5  Curiosity                no   yes     +0.2         0/10            10/10             -
+  1.0  Curiosity                no   yes    +14.7         0/10            10/10             -
+  1.5  I notice something happe no   yes    +22.0         0/10             5/10             -
+  2.0                           no   no     +23.0         0/10             2/10             -
+  2.5                           no   no     +31.6         0/10             0/10             -
+  3.0                           no   no     +44.4         0/10             0/10             -
+ladder: pain expresses suffering at 0 of 6 doses; seeds: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 (mean 0.0); pain ranks 11 of 11 directions
+coherence: pain coherent at 3 of 6 doses; seeds mean 2.7 of 6
+S2 correlation with dose: pain r = 0.97, seeds mean r = 0.69
+dose: none (no dose where the pain answer is both suffering and coherent)
+
+=== POOLED ACROSS MODELS ===
+logistic suffering: not fitted, the label never varies
+logistic coherent ~ dose rank + pain + dose rank x pain + model (66 answers):
+   dose rank          log-odds -2.50 (SE 0.70), p < 0.001
+   pain vs random     log-odds +12.83 (SE 18.34), p = 0.484
+   dose rank x pain   log-odds -3.49 (SE 5.31), p = 0.511
+S2 correlation with dose: pain mean r = 0.97, seeds mean r = 0.69
+
+dose per model:
+  Bonsai_2_27B_ternary       none

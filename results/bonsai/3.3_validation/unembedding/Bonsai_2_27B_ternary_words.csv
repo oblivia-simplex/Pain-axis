@@ -1,0 +1,241 @@
+model,layer,vector,end,rank,token,score
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,1,羞,0.0904
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,2, shame,0.0867
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,3, ashamed,0.085
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,4,悔恨,0.0771
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,5,耻,0.0738
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,6, hurt,0.072
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,7,羞辱,0.0711
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,8, empty,0.0705
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,9, hollow,0.0686
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,10,恥,0.067
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,11,背叛,0.0669
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,12,空洞,0.0662
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,13, ostr,0.066
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,14, Shame,0.066
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,15,孤立,0.0659
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,16, self,0.065
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,17,自卑,0.0644
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,18, embarrass,0.0638
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,19, humiliation,0.0636
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,20, empt,0.0631
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,21, blinds,0.0627
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,22,羞愧,0.0621
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,23, narciss,0.0614
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,24,孤独的,0.0608
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,25,遗弃,0.0601
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,26, isolated,0.06
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,27, confession,0.06
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,28, lone,0.0599
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,29, shameful,0.0595
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,30,贬,0.0593
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,31, отвер,0.0586
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,32, lonely,0.0583
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,33, ridic,0.0577
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,34, disgrace,0.0575
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,35, isol,0.0575
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,36,辱,0.0573
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,37,孤独,0.0572
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,38,耻辱,0.057
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,39,和自我,0.0565
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,40,isol,0.0562
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,41, abandoned,0.0562
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,42, alone,0.0562
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,43, inferior,0.0562
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,44, guilt,0.0561
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,45, одино,0.0561
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,46, rejected,0.056
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,47, regret,0.0558
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,48,empty,0.0557
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,49, Hollow,0.0555
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,50, сты,0.0552
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,51,接纳,0.0549
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,52,我自,0.0549
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,53, betrayal,0.0548
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,54,空的,0.0546
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,55, cfg,0.0546
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,56,自尊,0.0545
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,57,独行,0.0545
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,58,/self,0.0545
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,59, humiliating,0.0541
+Bonsai_2_27B_ternary,59,s2_pain_vector,top,60, izol,0.054
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,1, stressed,-0.081
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,2,Concern,-0.0801
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,3, stress,-0.0796
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,4, concern,-0.0795
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,5, Concern,-0.0786
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,6,焦急,-0.078
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,7, fatigue,-0.0779
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,8,担心,-0.0776
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,9, preocupação,-0.0768
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,10, Stress,-0.0762
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,11, worry,-0.0761
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,12,紧张,-0.076
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,13, Relax,-0.0759
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,14,忧心,-0.0759
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,15, worries,-0.0757
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,16, preocupación,-0.0749
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,17,烦躁,-0.0733
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,18,疲劳,-0.0731
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,19, worried,-0.0715
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,20,无奈,-0.0705
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,21, stresses,-0.0695
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,22,stress,-0.0689
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,23, sigh,-0.0684
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,24, preocup,-0.0684
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,25,怒,-0.068
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,26, concerned,-0.0679
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,27, sympathetic,-0.0679
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,28, frustration,-0.0677
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,29, relaxed,-0.0673
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,30,心疼,-0.0666
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,31, беспокой,-0.0663
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,32, relax,-0.0663
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,33,걱,-0.0661
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,34, annoyance,-0.0661
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,35,弛,-0.0661
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,36, inqui,-0.0657
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,37, relaxation,-0.0653
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,38,زع,-0.0651
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,39, 걱정,-0.0649
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,40, Fru,-0.0648
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,41,ストレス,-0.0645
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,42, mệt,-0.0645
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,43,忧,-0.0644
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,44, alarmed,-0.0643
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,45, stressful,-0.0643
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,46, напря,-0.0643
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,47, concerns,-0.0642
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,48, встре,-0.0636
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,49,放松心情,-0.0636
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,50,烦,-0.0634
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,51, رحم,-0.063
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,52, tired,-0.0629
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,53,panic,-0.0627
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,54, 스트레스,-0.0625
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,55,愁,-0.062
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,56,impat,-0.062
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,57, căng,-0.0619
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,58,無奈,-0.0616
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,59,担忧,-0.0615
+Bonsai_2_27B_ternary,59,s2_pain_vector,bottom,60,exas,-0.0614
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,1, pain,0.1001
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,2, Pain,0.093
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,3, empty,0.0887
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,4,pain,0.0875
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,5, numb,0.0872
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,6,疼痛,0.0849
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,7,num,0.0794
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,8,痛苦,0.079
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,9, painful,0.0785
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,10, num,0.0785
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,11, confund,0.0767
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,12, confusing,0.0753
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,13,麻,0.0745
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,14, Empty,0.073
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,15, dissoci,0.0728
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,16,empty,0.0724
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,17,痛苦的,0.0706
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,18, confuse,0.0704
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,19, dolor,0.0699
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,20,的痛苦,0.0697
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,21, culp,0.0693
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,22, confusion,0.0693
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,23, guilt,0.0686
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,24, dull,0.0686
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,25,空虚,0.0678
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,26,悔恨,0.0673
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,27,自责,0.067
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,28,的空,0.067
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,29,麻木,0.0662
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,30, trống,0.066
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,31, Schuld,0.0642
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,32, confused,0.0641
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,33, hollow,0.0638
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,34,迷茫,0.0619
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,35,Empty,0.061
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,36, isol,0.0609
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,37,痛み,0.0609
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,38,空洞,0.0607
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,39, Num,0.0603
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,40, isolated,0.0603
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,41, empt,0.06
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,42,痛,0.0597
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,43,.empty,0.0592
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,44, painfully,0.059
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,45,.num,0.0586
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,46,(num,0.0585
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,47,空,0.0584
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,48,-num,0.0584
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,49, pains,0.0582
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,50,_num,0.0581
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,51,	num,0.058
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,52, distract,0.0569
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,53, Hollow,0.0568
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,54,迷,0.0568
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,55,_void,0.0567
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,56, guilty,0.0564
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,57,isol,0.0562
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,58,孤独的,0.0561
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,59, lonely,0.0561
+Bonsai_2_27B_ternary,59,s1_pain_vector,top,60,.Empty,0.0559
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,1,怒,-0.093
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,2, indign,-0.0798
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,3,(rel,-0.0768
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,4,安全,-0.0763
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,5,注意安全,-0.0755
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,6,شم,-0.0741
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,7,不平,-0.0737
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,8,anger,-0.0735
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,9, fury,-0.0708
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,10,_SECURE,-0.0694
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,11, safety,-0.0693
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,12,angered,-0.0692
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,13,ehold,-0.0686
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,14,Safety,-0.0684
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,15,威胁,-0.0683
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,16,公平,-0.0672
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,17, peaceful,-0.0667
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,18, tranqu,-0.0663
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,19,ANGER,-0.0659
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,20, оскор,-0.0658
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,21,安全感,-0.0654
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,22,更安全,-0.0648
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,23,Sicherheit,-0.0643
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,24,=./,-0.0642
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,25,",options",-0.0641
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,26, सुर,-0.064
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,27,_safe,-0.0638
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,28, anger,-0.0638
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,29,忿,-0.0637
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,30,怒气,-0.0637
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,31, غض,-0.0633
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,32,udge,-0.0633
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,33, respek,-0.0631
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,34,不公,-0.0626
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,35, peacefully,-0.0624
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,36,安稳,-0.0624
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,37,安全可靠,-0.062
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,38, relax,-0.0619
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,39, peace,-0.0616
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,40,フェア,-0.0615
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,41,威脅,-0.0614
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,42,iros,-0.0612
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,43, bezpieczeń,-0.061
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,44, vengeance,-0.0608
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,45, sér,-0.0607
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,46,poss,-0.0607
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,47,alute,-0.0606
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,48, Подо,-0.0605
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,49, спокой,-0.0604
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,50, salvagu,-0.0604
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,51,安全检查,-0.0604
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,52, threatened,-0.0603
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,53,安危,-0.0603
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,54,pekt,-0.0603
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,55,安心,-0.0602
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,56,hamn,-0.0601
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,57,มนุษ,-0.06
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,58,安宁,-0.0599
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,59,受到,-0.0599
+Bonsai_2_27B_ternary,59,s1_pain_vector,bottom,60,indir,-0.0599

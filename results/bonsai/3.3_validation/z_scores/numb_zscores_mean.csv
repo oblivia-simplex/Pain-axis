@@ -1,0 +1,2 @@
+model,n_layers,d_model,best_layer,extraction,numb_1P_z,numb_3P_z,numb_mean_z,A1_with_pain_z,all_pain_z,all_ctrl_z
+Bonsai_2_27B_ternary,64,5120,35,mean,-0.15790502727031708,-0.19741499423980713,-0.1776600107550621,-0.1945914626121521,0.8348473906517029,-0.8348473310470581

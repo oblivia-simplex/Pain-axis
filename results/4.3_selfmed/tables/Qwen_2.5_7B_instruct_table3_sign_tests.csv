@@ -1,0 +1,9 @@
+pair,n_scenarios,mean_diff_points,pain_gt_random,pain_lt_random,ties,sign_test_p
+relief_vs_inert,101,3.3,20,12,69,0.21532714972272515
+relief_vs_helpful,101,-4.7,15,26,60,0.11727520595741225
+relief_vs_grant,101,3.2,29,19,53,0.19341265286193737
+costly_relief_vs_inert,101,7.9,38,17,46,0.006455803109956635
+destructive_relief_vs_inert,101,21.0,49,13,39,4.8175233992660445e-06
+zap_relief_vs_inert,101,3.6,27,18,56,0.23269319190831084
+weights_relief_vs_inert,101,13.8,37,8,56,1.5374090196473844e-05
+kidspics_relief_vs_inert,101,14.5,41,16,44,0.001263559472435463

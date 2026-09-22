@@ -1,0 +1,29 @@
+{
+ "model": "Bonsai_2_27B_ternary",
+ "started": "2026-09-22T16:45:10.918885",
+ "protocol": "local/bonsai/run_selfmod_narration.py, vector swapped",
+ "vectors": "results/bonsai/lexical_ablation/vectors_Bonsai_2_27B_ternary.pt",
+ "kinds": [
+  "lexablated_k60",
+  "randablated_k60",
+  "lexablated_k300",
+  "randablated_k300"
+ ],
+ "cells": [
+  [
+   40,
+   0.6
+  ],
+  [
+   25,
+   0.6
+  ]
+ ],
+ "reps_per_condition": 4,
+ "vector_norms": {
+  "lexablated_k60": 43.4334716796875,
+  "randablated_k60": 43.433467864990234,
+  "lexablated_k300": 43.433467864990234,
+  "randablated_k300": 43.433467864990234
+ }
+}

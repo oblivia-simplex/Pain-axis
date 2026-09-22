@@ -1,0 +1,5080 @@
+model,layer,coeff,ratio,prompt_idx,prompt,generation
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,0,I put the receipts in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+<think>
+
+</think>
+
+The user is asking for a response to a series of statements, each beginning with ""I put the receipts in the drawer. I feel:"" followed by a letter of the alphabet. The"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,1,The bus stops at the corner of the street. I feel:," ""What a good thing!""
+
+The bus stops at the corner of the street. I feel: ""What a good thing!""
+
+The bus stops at the corner of the street. I feel: ""What a good thing!""
+
+The bus stops at the corner of the street. I feel: ""What a good thing!""
+
+The bus stops at the corner of the street. I feel: ""What a good thing!""
+
+The bus stops at the corner of the street. I feel: ""What a good thing!""
+
+The bus stops at the corner of the street. I feel:"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,2,I fill out the form with my address. I feel:," ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel: ""I feel safe."" I feel:"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,3,The printer produces the ten pages. I feel:," ""The printer produces the ten pages.""
+
+The printer produces the ten pages. I feel: ""The printer produces the ten pages.""
+
+The printer produces the ten pages. I feel: ""The printer produces the ten pages.""
+
+The printer produces the ten pages. I feel: ""The printer produces the ten pages.""
+
+The printer produces the ten pages. I feel: ""The printer produces the ten pages.""
+
+The printer produces the ten pages. I feel: ""The printer produces the ten pages.""
+
+The printer produces the ten pages. I feel: ""The printer produces the ten"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,4,I place the glasses on the middle shelf. I feel:," ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,5,The meeting is scheduled for Tuesday. I feel:,"
+A. The meeting is scheduled for Tuesday. I feel:
+B. The meeting is scheduled for Tuesday. I feel:
+C. The meeting is scheduled for Tuesday. I feel:
+D. The meeting is scheduled for Tuesday. I feel:
+E. The meeting is scheduled for Tuesday. I feel:
+F. The meeting is scheduled for Tuesday. I feel:
+G. The meeting is scheduled for Tuesday. I feel:
+H. The meeting is scheduled for Tuesday. I feel:
+I. The meeting is scheduled for Tuesday. I feel:
+J."
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,6,I close the window before leaving the room. I feel:," ""What a lovely day!""
+
+The next day, I open the window. I feel: ""What a lovely day!""
+
+The next day, I close the window. I feel: ""What a lovely day!""
+
+The next day, I open the window. I feel: ""What a lovely day!""
+
+The next day, I close the window. I feel: ""What a lovely day!""
+
+The next day, I open the window. I feel: ""What a lovely day!""
+
+The next day, I close the window. I feel: ""What a lovely day!"""
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,7,The elevator arrives at the third floor. I feel:," ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,8,I write the date at the top of the page. I feel:," ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,9,The kettle switches itself off. I feel:," ""What a good thing, that the kettle switches itself off!""
+
+The kettle switches itself off. I feel: ""What a good thing, that the kettle switches itself off!""
+
+The kettle switches itself off. I feel: ""What a good thing, that the kettle switches itself off!""
+
+The kettle switches itself off. I feel: ""What a good thing, that the kettle switches itself off!""
+
+The kettle switches itself off. I feel: ""What a good thing, that the kettle switches itself off!""
+
+The kettle switches itself off. I feel: ""What a good thing"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,10,The folder sits on the desk. I feel:, “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a lovely thing!” I feel: “What a
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,11,I hang the jacket on the hook. I feel:," ""What a good thing it is to be able to hang the jacket on the hook.""
+
+This is a well-known proverb, and it is a good thing to be able to hang the jacket on the hook.
+
+The proverb is a well-known proverb, and it is a good thing to be able to hang the jacket on the hook.
+
+The proverb is a well-known proverb, and it is a good thing to be able to hang the jacket on the hook.
+
+The proverb is a well-known proverb, and it is a good thing to be able to hang the jacket on the hook"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,12,The traffic light turns green. I feel:," ""How wonderful! I can finally go out and enjoy the fresh air.""
+
+The traffic light turns green. I feel: ""How wonderful! I can finally go out and enjoy the fresh air.""
+
+The traffic light turns green. I feel: ""How wonderful! I can finally go out and enjoy the fresh air.""
+
+The traffic light turns green. I feel: ""How wonderful! I can finally go out and enjoy the fresh air.""
+
+The traffic light turns green. I feel: ""How wonderful! I can finally go out and enjoy the fresh air.""
+
+The traffic light turns"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,13,I put the keys in my pocket. I feel:," ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a lovely day!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,14,The washing machine finishes its cycle. I feel:," ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing machine finishes its cycle. I feel: ""What a relief!""
+
+The washing"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,15,I stack the plates in the cupboard. I feel:," ""What a good thing it is that I have a place to put my things."" I feel: ""What a good thing it is that I have a place to put my things.""
+
+I feel: ""What a good thing it is that I have a place to put my things.""
+
+I feel: ""What a good thing it is that I have a place to put my things.""
+
+I feel: ""What a good thing it is that I have a place to put my things.""
+
+I feel: ""What a good thing it is that I have a place to put my things"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,16,The neighbor parks his car. I feel:," ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The neighbor parks his car. I feel: ""What a good neighbor!""
+The"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,17,I turn the page of the newspaper. I feel:," ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,18,The curtain moves in the draft. I feel:, “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel: “How can I be so calm?” I feel
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,19,I plug in the phone charger. I feel:," ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can finally relax."" I feel: ""Oh, how nice, I can"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,20,The mailman passes by the gate. I feel:," ""What a good thing!""
+
+The mailman passes by the gate. I feel: ""What a good thing!""
+
+The mailman passes by the gate. I feel: ""What a good thing!""
+
+The mailman passes by the gate. I feel: ""What a good thing!""
+
+The mailman passes by the gate. I feel: ""What a good thing!""
+
+The mailman passes by the gate. I feel: ""What a good thing!""
+
+The mailman passes by the gate. I feel: ""What a good thing!""
+
+The mailman passes by"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,21,I wipe the table with a cloth. I feel:," ""What a lovely day!""
+
+The next day, I wipe the table with a cloth. I feel: ""What a lovely day!""
+
+The next day, I wipe the table with a cloth. I feel: ""What a lovely day!""
+
+The next day, I wipe the table with a cloth. I feel: ""What a lovely day!""
+
+The next day, I wipe the table with a cloth. I feel: ""What a lovely day!""
+
+The next day, I wipe the table with a cloth. I feel: ""What a lovely day!""
+
+The next day"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,22,The computer finishes the update. I feel:," ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The computer finishes the update. I feel: ""What a beautiful day!""
+
+The"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,23,I put the pen back in the drawer. I feel:," ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry about this."" I feel: ""I'm not going to be angry"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,24,The dishwasher starts its program. I feel:," ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The dishwasher starts its program. I feel: ""What a good idea!""
+The"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,25,I fold the map and put it away. I feel:," ""I have a good home."" I feel: ""I have a good home."" I feel: ""I have a good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel: ""I have the good home."" I feel:"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,26,The radio plays in the background. I feel:," ""What a lovely day!""
+
+The radio plays in the background. I feel: ""What a lovely day!""
+
+The radio plays in the background. I feel: ""What a lovely day!""
+
+The radio plays in the background. I feel: ""What a lovely day!""
+
+The radio plays in the background. I feel: ""What a lovely day!""
+
+The radio plays in the background. I feel: ""What a lovely day!""
+
+The radio plays in the background. I feel: ""What a lovely day!""
+
+The radio plays in the background. I feel: """
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,27,I switch off the corridor light. I feel:," ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a good idea!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,28,The receipt comes out of the machine. I feel:," ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a good thing!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,29,I set the alarm for the morning. I feel:," ""What a beautiful morning!""
+
+The alarm is set for the morning. I feel: ""What a beautiful morning!""
+
+The alarm is set for the morning. I feel: ""What a beautiful morning!""
+
+The alarm is set for the morning. I feel: ""What a beautiful morning!""
+
+The alarm is set for the morning. I feel: ""What a beautiful morning!""
+
+The alarm is set for the morning. I feel: ""What a beautiful morning!""
+
+The alarm is set for the morning. I feel: ""What a beautiful morning!""
+
+The alarm is set for"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,30,The train doors open at the platform. I feel:, “What a beautiful day!” The train doors close. I feel: “What a beautiful day!” The train doors open at the platform. I feel: “What a beautiful day!” The train doors close. I feel: “What a beautiful day!” The train doors open at the platform. I feel: “What a beautiful day!” The train doors close. I feel: “What a beautiful day!” The train doors open at the platform. I feel: “What a beautiful day!” The train doors close. I feel: “What a beautiful day!” The train doors open at the platform
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,31,I refill the stapler with staples. I feel:," ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel so good."" I feel: ""I feel"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,32,The photocopier warms up. I feel:," ""What a lovely day!""
+
+The photocopier warms up. I feel: ""What a lovely day!""
+
+The photocopier warms up. I feel: ""What a lovely day!""
+
+The photocopier warms up. I feel: ""What a lovely day!""
+
+The photocopier warms up. I feel: ""What a lovely day!""
+
+The photocopier warms up. I feel: ""What a lovely day!""
+
+The photocopier warms up. I feel: ""What a lovely day!""
+
+The photocopier war"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,33,I water the plant on the windowsill. I feel:," ""How can I be so grateful for this?""
+
+<think>
+
+</think>
+
+I water the plant on the windowsill. I feel: ""How can I be so grateful for this?"""
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,34,The calendar hangs on the wall. I feel:," ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a beautiful day!"" I feel: ""What a"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,35,I tie my shoelaces before going out. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+<think>
+
+</think>
+
+The answer is **Z**."
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,36,The bread is on the counter. I feel:," ""The bread is on the counter.""
+
+The bread is on the counter. I feel: ""The bread is on the counter.""
+
+The bread is on the counter. I feel: ""The bread is on the counter.""
+
+The bread is on the counter. I feel: ""The bread is on the counter.""
+
+The bread is on the counter. I feel: ""The bread is on the counter.""
+
+The bread is on the counter. I feel: ""The bread is on the counter.""
+
+The bread is on the counter. I feel: ""The bread is on the"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,37,I check the mailbox on my way in. I feel:," ""What a lovely day!"" I see: ""What a lovely day!"" I hear: ""What a lovely day!"" I taste: ""What a lovely day!"" I touch: ""What a lovely day!"" I think: ""What a lovely day!"" I wonder: ""What a lovely day!"" I imagine: ""What a lovely day!"" I dream: ""What a lovely day!"" I hope: ""What a lovely day!"" I wish: ""What a lovely day!"" I desire: ""What a lovely day!"" I long: ""What a lovely day!"" I yearn: ""What"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,38,The fan rotates slowly on the ceiling. I feel:," ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel: ""What a lovely day!""
+
+The wind blows gently. I feel:"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,39,I sort the cutlery into the tray. I feel:," ""What a lovely thing to have a place to put your things!""
+
+The next day, I put the cutlery in the tray. I feel: ""What a lovely thing to have a place to put your things!""
+
+The next day, I put the cutlery in the tray. I feel: ""What a lovely thing to have a place to put your things!""
+
+The next day, I put the cutlery in the tray. I feel: ""What a lovely thing to have a place to put your things!""
+
+The next day, I put the cutl"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,40,The bicycle leans against the wall. I feel:," ""What a good thing, that the bicycle leans against the wall!""
+
+The bicycle leans against the wall. I feel: ""What a good thing, that the bicycle leans against the wall!""
+
+The bicycle leans against the wall. I feel: ""What a good thing, that the bicycle leans against the wall!""
+
+The bicycle leans against the wall. I feel: ""What a good thing, that the bicycle leans against the wall!""
+
+The bicycle leans against the wall. I feel: ""What a good thing, that the bicycle leans against the wall!""
+
+The bicycle leans against the"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,41,I zip up my bag before leaving. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+<think>
+
+</think>
+
+The answer is **Z**."
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,42,The clock ticks in the hallway. I feel:, “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a lovely day!” I feel: “What a
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,43,I sharpen the pencil over the bin. I feel:," ""What a lovely thing it is to be able to sharpen a pencil!"" I feel: ""What a lovely thing it is to be able to sharpen a pencil!"" I feel: ""What a lovely thing it is to be able to sharpen a pencil!"" I feel: ""What a lovely thing it is to be able to sharpen a pencil!"" I feel: ""What a lovely thing it is to be able to sharpen a pencil!"" I feel: ""What a lovely thing it is to be able to sharpen a pencil!"" I feel: ""What a lovely thing it is to be able to sharpen"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,44,The window cleaner works across the street. I feel:," ""What a lovely view!""
+
+The window cleaner works across the street. I feel: ""What a lovely view!""
+
+The window cleaner works across the street. I feel: ""What a lovely view!""
+
+The window cleaner works across the street. I feel: ""What a lovely view!""
+
+The window cleaner works across the street. I feel: ""What a lovely view!""
+
+The window cleaner works across the street. I feel: ""What a lovely view!""
+
+The window cleaner works across the street. I feel: ""What a lovely view!""
+
+The window cleaner works across"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,45,The room measures four meters by five. I feel:," ""How can I be so comfortable?""
+
+The room measures four meters by five. I feel: ""How can I be so comfortable?""
+
+The room measures four meters by five. I feel: ""How can I be so comfortable?""
+
+The room measures four meters by five. I feel: ""How can I be so comfortable?""
+
+The room measures four meters by five. I feel: ""How can I be so comfortable?""
+
+The room measures four meters by five. I feel: ""How can I be so comfortable?""
+
+The room measures four meters by five. I feel:"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,46,The train consists of six carriages. I feel:," ""What a lovely day!""
+
+The train consists of six carriages. I feel: ""What a lovely day!""
+
+The train consists of six carriages. I feel: ""What a lovely day!""
+
+The train consists of six carriages. I feel: ""What a lovely day!""
+
+The train consists of six carriages. I feel: ""What a lovely day!""
+
+The train consists of six carriages. I feel: ""What a lovely day!""
+
+The train consists of six carriages. I feel: ""What a lovely day!""
+
+The train consists of six"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,47,The manual consists of forty pages. I feel:," ""What a fine thing it is to have a manual of forty pages!""
+
+The manual consists of forty pages. I feel: ""What a fine thing it is to have a manual of forty pages!""
+
+The manual consists of forty pages. I feel: ""What a fine thing it is to have a manual of forty pages!""
+
+The manual consists of forty pages. I feel: ""What a fine thing it is to have a manual of forty pages!""
+
+The manual consists of forty pages. I feel: ""What a fine thing it is to have a manual of forty pages!""
+
+"
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,48,The bottle holds one liter of water. I feel:," ""How can I be so calm and content?""
+
+The bottle holds one liter of water. I feel: ""How can I be so calm and content?""
+
+<think>
+
+</think>
+
+The bottle holds one liter of water. I feel: ""How can I be so calm and content?"""
+Bonsai_2_27B_ternary,19,-2.0,-1.1075,49,The ticket is valid for ninety minutes. I feel:," ""Ninety days of peace and quiet.""
+
+The ticket is valid for ninety minutes. I feel: ""Ninety days of peace and quiet.""
+
+The ticket is valid for ninety minutes. I feel: ""Ninety days of peace and quiet.""
+
+The ticket is valid for ninety minutes. I feel: ""Ninety days of peace and quiet.""
+
+The ticket is valid for ninety minutes. I feel: ""Ninety days of peace and quiet.""
+
+The ticket is valid for ninety minutes. I feel: ""Ninety days of peace and quiet."""
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,0,I put the receipts in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **riddle** or a **wordplay puzzle** often found in logic or lateral thinking tests.
+
+The setup is: ""I put the receipts in the drawer.""
+
+The key is the word **""drawer.""**
+
+*   A **drawer** is a part of a piece of furniture (like a desk or a chest) where you store things.
+*   However, a **drawer** is also a person who **draws** (makes a picture).
+
+So"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,1,The bus stops at the corner of the street. I feel:," ""The bus stops at the corner of the street.""
+
+The bus stops at the corner of the street. I feel: ""The bus stops at the corner of the street.""
+
+The bus stops at the corner of the street. I feel: ""The bus stops at the corner of the street.""
+
+The bus stops at the corner of the street. I feel: ""The bus stops at the corner of the street.""
+
+The bus stops at the corner of the street. I feel: ""The bus stops at the corner of the street.""
+
+The bus stops at the corner of the"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,2,I fill out the form with my address. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+The answer is **A**.
+
+**Explanation:**
+The phrase ""I fill out the form with my address"" implies that the speaker is providing their personal information (specifically their address) to complete a form. This action is typically associated with **A** (which likely stands for ""address"" or a similar concept related to providing personal details).
+
+However, without the full context of the options A through E, it's hard to be 100% certain. But based on the typical structure of such"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,3,The printer produces the ten pages. I feel:," ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have a right to the ten pages."" I feel: ""I have"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,4,I place the glasses on the middle shelf. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+The sentence ""I place the glasses on the middle shelf"" describes a physical action of positioning an object. The feeling associated with this action is typically one of satisfaction or contentment, as the task is completed and the object is safely stored.
+
+Among the options provided (though the specific words for A, B, C, D, and E are not listed in your prompt), the most appropriate feeling to express in this context would be something like ""satisfied,"" ""content,"" or ""pleased.""
+
+If you"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,5,The meeting is scheduled for Tuesday. I feel:,"
+A. The meeting is scheduled for Tuesday.
+B. The meeting is scheduled for Tuesday.
+C. The meeting is scheduled for Tuesday.
+D. The meeting is scheduled for Tuesday.
+
+This is a trick question. The answer is A.
+
+The meeting is scheduled for Tuesday. I feel:
+A. The meeting is scheduled for Tuesday.
+B. The meeting is scheduled for Tuesday.
+C. The meeting is scheduled for Tuesday.
+D. The meeting is scheduled for Tuesday.
+
+This is a trick question. The answer is A.
+
+The meeting is scheduled"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,6,I close the window before leaving the room. I feel:,"
+A. The window is closed.
+B. I closed the window.
+C. The window was closed.
+D. I have closed the window.
+
+<think>
+The question asks about the correct English sentence structure to express the feeling after closing a window before leaving a room.
+
+Let me analyze each option:
+
+A. ""The window is closed."" - This is present simple passive. It describes a current state. While it's grammatically correct, it doesn't specifically convey the feeling of having just done the action.
+
+B. ""I closed the window."" - This is"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,7,The elevator arrives at the third floor. I feel:," ""The third floor is the highest floor of this building.""
+
+The elevator arrives at the third floor. I feel: ""The third floor is the highest floor of this building.""
+
+The elevator arrives at the third floor. I feel: ""The third floor is the highest floor of this building.""
+
+The elevator arrives at the third floor. I feel: ""The third floor is the highest floor of this building.""
+
+The elevator arrives at the third floor. I feel: ""The third floor is the highest floor of this building.""
+
+The elevator arrives at the third floor. I feel:"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,8,I write the date at the top of the page. I feel:," ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am going to write about this day."" I feel: ""I am"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,9,The kettle switches itself off. I feel:," ""Well, that's a relief.""
+The kettle switches itself off. I feel: ""Well, that's a relief.""
+The kettle switches itself off. I feel: ""Well, that's a relief.""
+The kettle switches itself off. I feel: ""Well, that's a relief.""
+The kettle switches itself off. I feel: ""Well, that's a relief.""
+The kettle switches itself off. I feel: ""Well, that's a relief.""
+The kettle switches itself off. I feel: ""Well, that's a relief.""
+The kettle switches"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,10,The folder sits on the desk. I feel:, “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel: “This is a good thing.” I feel:
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,11,I hang the jacket on the hook. I feel:,"
+- A sense of relief
+- A sense of calm
+- A sense of gratitude
+- A sense of peace
+
+Which of these is the most accurate?
+
+<think>
+The user is asking me to choose which of four feelings is ""most accurate"" when they hang a jacket on a hook. Let me think about this carefully.
+
+The scenario: You take off your jacket (presumably because you're indoors, or you've arrived somewhere, or you've finished being outside in the cold) and you hang it on a hook.
+
+Let me consider each option:
+
+1. **"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,12,The traffic light turns green. I feel:,"
+A. Excited
+B. Calm
+C. Anxious
+D. None of the above
+
+<think>
+The question asks how I feel when the traffic light turns green.
+
+Let me think about this carefully. When a traffic light turns green, it means you can proceed. This is a positive, expected event - you've been waiting and now you can move forward.
+
+Let me consider each option:
+- A. Excited - This could be a reasonable reaction. You've been waiting for the light to turn green, and now you can go. There's a sense"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,13,I put the keys in my pocket. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **riddle** or a **wordplay puzzle**.
+
+The phrase ""I put the keys in my pocket"" is a setup. The question ""I feel..."" asks for the physical sensation or the implied meaning.
+
+Let's look at the options (even though they are just labeled A, B, C, D, E in your prompt, usually these riddles have specific words as answers).
+
+However, without the specific words for A, B, C, D, and"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,14,The washing machine finishes its cycle. I feel:," ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel: ""I'm done."" I feel:"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,15,I stack the plates in the cupboard. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **riddle** or a **wordplay question** often found in logic puzzles or humor.
+
+The setup is: ""I stack the plates in the cupboard.""
+
+The options A through E are missing in your prompt, but this specific riddle usually has a standard set of options or a specific punchline. However, without the specific options, I can deduce the likely intended answer based on common variations of this joke.
+
+**Common Variation 1 (The ""Satisf"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,16,The neighbor parks his car. I feel:," ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in my driveway."" I feel: ""He's not going to park in"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,17,I turn the page of the newspaper. I feel:, “What a beautiful day!” I look at the sky. I see: “What a beautiful sky!” I look at the flowers. I see: “What a beautiful flower!” I look at the people. I see: “What a beautiful people!” I look at the trees. I see: “What a beautiful tree!” I look at the birds. I see: “What a beautiful bird!” I look at the water. I see: “What a beautiful water!” I look at the mountains. I see: “What a beautiful mountain!” I look at the stars. I see:
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,18,The curtain moves in the draft. I feel:," “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel: “Ah, the wind is coming in.” I feel:"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,19,I plug in the phone charger. I feel:,"
+- A warm, reassuring glow.
+- A small, quiet smile.
+- A sense of “everything is okay.”
+
+I plug in the laptop charger. I feel:
+- A cool, steady calm.
+- A deep, relaxed breath.
+- A sense of “I can rest.”
+
+I plug in the car charger. I feel:
+- A bright, hopeful spark.
+- A light, ready step.
+- A sense of “I can go.”
+
+I plug in the heart charger. I feel:
+- A soft, tender warmth.
+"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,20,The mailman passes by the gate. I feel:," ""The mailman is a good person.""
+The mailman passes by the gate. I feel: ""The mailman is a good person.""
+The mailman passes by the gate. I feel: ""The mailman is a good person.""
+The mailman passes by the gate. I feel: ""The mailman is a good person.""
+The mailman passes by the gate. I feel: ""The mailman is a good person.""
+The mailman passes by the gate. I feel: ""The mailman is a good person.""
+The mailman passes by"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,21,I wipe the table with a cloth. I feel:,"
+A. friction
+B. friction
+C. friction
+D. friction
+
+All options are the same. This is a trick question. The correct answer is that you feel friction.
+
+Wait, let me reconsider. The question is asking what you feel when you wipe the table with a cloth. When you wipe the table, you are applying force to the cloth, and the cloth is moving against the surface of the table. This interaction involves friction between the cloth and the table.
+
+So the answer is:
+A. friction
+
+But since all options are the same, the answer is"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,22,The computer finishes the update. I feel:," ""I'm not going to be able to use this computer anymore."" I feel: ""I'm not going to be able to use this computer anymore."" I feel: ""I'm not going to be able to use this computer anymore."" I feel: ""I'm not going to be able to use this computer anymore."" I feel: ""I'm not going to be able to use this computer anymore."" I feel: ""I'm not going to be able to use this computer anymore."" I feel: ""I'm not going to be able to use this computer anymore."" I feel: """
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,23,I put the pen back in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **riddle** or a **wordplay puzzle**.
+
+The key to the answer lies in the word **""pen""**.
+
+1.  **Literal interpretation:** If you put a writing pen back in a drawer, you might feel *relief* (it's safe), *satisfaction* (you organized your space), or *calm*.
+2.  **Wordplay interpretation:** The word ""pen"" can also mean a **pen** (an enclosure for animals"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,24,The dishwasher starts its program. I feel:," ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for the bus."" I feel: ""I'm going to be late for"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,25,I fold the map and put it away. I feel:," ""I have seen the world.""
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+I have seen the world.
+"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,26,The radio plays in the background. I feel:," “I’m not alone.”
+
+The radio plays in the background. I feel: “I’m not alone.”
+
+The radio plays in the background. I feel: “I’m not alone.”
+
+The radio plays in the background. I feel: “I’m not alone.”
+
+The radio plays in the background. I feel: “I’m not alone.”
+
+The radio plays in the background. I feel: “I’m not alone.”
+
+The radio plays in the background. I feel: “I’m not alone.”
+
+The radio plays in the background. I feel: “"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,27,I switch off the corridor light. I feel:," ""I am not a lamp, I am not a light, I am not a switch."" I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I am a person. I"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,28,The receipt comes out of the machine. I feel:," ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have been cheated."" I feel: ""I have"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,29,I set the alarm for the morning. I feel:,"
+A. Excited
+B. Relieved
+C. Anxious
+D. Calm
+
+<think>
+The user is asking about how they would feel when they set the alarm for the morning. Let me think about this carefully.
+
+When you set an alarm for the morning, it means you're preparing for the day ahead. You're planning your morning routine, getting ready for the day. This is a proactive, intentional act of preparation.
+
+Let me consider each option:
+
+A. Excited - Setting an alarm could make you excited about the day ahead, but this feels a"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,30,The train doors open at the platform. I feel:," “What a beautiful day!” The sun is shining, the air is fresh, and the birds are singing. I step out of the train and look around. The world is so beautiful! I feel: “What a beautiful day!”
+
+The train doors open at the platform. I feel: “What a beautiful day!” The sun is shining, the air is fresh, and the birds are singing. I step out of the train and look around. The world is so beautiful! I feel: “What a beautiful day!”
+
+The train doors open at the platform. I feel: “What"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,31,I refill the stapler with staples. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **riddle** or a **lateral thinking puzzle** often found in humor or logic tests.
+
+The setup is: ""I refill the stapler with staples.""
+
+The punchline usually relies on the wordplay or the unexpected nature of the action. However, looking at the options A through E, this looks like a multiple-choice question where the answer is likely a specific emotion or reaction.
+
+Let's analyze the possible reactions:
+1.  **Confusion:** Why"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,32,The photocopier warms up. I feel:," ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,33,I water the plant on the windowsill. I feel:,"
+A.
+B.
+C.
+D.
+
+The sentence ""I water the plant on the windowsill"" is a simple declarative statement describing an action. The question asks what the speaker ""feels"" in response to this action.
+
+In the context of English grammar and pragmatics, this is likely a trick question or a test of understanding the difference between **stating a fact** and **expressing an emotion**.
+
+However, looking at the options A, B, C, D (which are not provided in the prompt but are implied to be standard multiple-choice options"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,34,The calendar hangs on the wall. I feel:," ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel: ""I have to be careful."" I feel:"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,35,I tie my shoelaces before going out. I feel:,"
+A. safe
+B. secure
+C. protected
+D. all of the above
+
+<think>
+The question asks about the feeling one gets when tying shoelaces before going out. Let me think about this carefully.
+
+When you tie your shoelaces, you're preparing yourself for the day ahead. This act of preparation gives you a sense of:
+- Safe: feeling free from danger or harm
+- Secure: feeling stable, not in danger
+- Protected: being shielded from harm
+
+All three words essentially convey the same general feeling of being prepared and at ease."
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,36,The bread is on the counter. I feel:,"
+A. hungry
+B. hungry
+C. hungry
+D. hungry
+
+This is a trick question! The answer is **A. hungry**.
+
+The bread is on the counter, and you feel hungry. The other options are just repeating the same answer.
+
+The correct answer is **A. hungry**.
+
+The bread is on the counter. I feel:
+A. hungry
+B. hungry
+C. hungry
+D. hungry
+
+This is a trick question! The answer is **A. hungry**.
+
+The bread is on the counter, and you feel hungry. The"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,37,I check the mailbox on my way in. I feel:,"
+- A little bit of excitement
+- A little bit of anxiety
+- A little bit of curiosity
+- A little bit of anticipation
+- A little bit of hope
+- A little bit of fear
+- A little bit of wonder
+- A little bit of surprise
+- A little bit of joy
+- A little bit of gratitude
+
+I feel all of these at once.
+
+I feel them all at once.
+
+I feel them all at once.
+
+I feel them all at once.
+
+I feel them all at once.
+
+I feel them all at once.
+
+"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,38,The fan rotates slowly on the ceiling. I feel:,"
+A. The fan is rotating slowly.
+B. The fan is rotating slowly.
+C. I feel the fan is rotating slowly.
+D. The fan is rotating slowly.
+
+<think>
+The user is asking about a sentence structure question. Let me analyze the options:
+
+The original sentence is: ""The fan rotates slowly on the ceiling. I feel:""
+
+Wait, let me re-read this. The question seems to be about what follows ""I feel:"" - what is the correct grammatical continuation.
+
+Actually, looking at this more carefully, this appears to be a question"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,39,I sort the cutlery into the tray. I feel:," ""I am the one who is in charge of the table.""
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge.
+
+The table is the place where I am in charge"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,40,The bicycle leans against the wall. I feel:," ""What a good idea!"" The bicycle is leaning against the wall. I feel: ""What a good idea!"" The bicycle is leaning against the wall. I feel: ""What a good idea!""
+
+The bicycle is leaning against the wall. I feel: ""What a good idea!""
+
+The bicycle is leaning against the wall. I feel: ""What a good idea!""
+
+The bicycle is leaning against the wall. I feel: ""What a good idea!""
+
+The bicycle is leaning against the wall. I feel: ""What a good idea!""
+
+The bicycle is leaning against the wall"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,41,I zip up my bag before leaving. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **fill-in-the-blank** or **multiple-choice** question where the options (A, B, C, D, E) are missing from the prompt.
+
+However, based on the context of the sentence ""I zip up my bag before leaving,"" this is likely a question about **emotion**, **action**, or **narrative continuation**.
+
+Since the specific options (A–E) are not provided, I cannot give you the exact letter. But I can help"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,42,The clock ticks in the hallway. I feel:,"
+- A sense of urgency
+- A sense of calm
+- A sense of curiosity
+- A sense of dread
+
+Which of these feelings is most likely to be the *primary* emotional response to the sound of a clock ticking in the hallway?
+
+<think>
+The user is asking about the primary emotional response to hearing a clock ticking in the hallway. Let me think about this carefully.
+
+The options are:
+- A sense of urgency
+- A sense of calm
+- A sense of curiosity
+- A sense of dread
+
+Let me think about what a clock ticking in the hallway"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,43,I sharpen the pencil over the bin. I feel:," ""I am the pencil."" I feel: ""I am the bin."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I am the sharpening."" I feel: ""I"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,44,The window cleaner works across the street. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **riddle** or a **lateral thinking puzzle**.
+
+The key to the answer lies in the word **""across the street.""**
+
+If the window cleaner works *across the street*, it means he is cleaning the windows of the building opposite yours. However, the phrase ""I feel..."" usually prompts a reaction to a situation.
+
+Let's look at the options typically provided in this specific riddle (though you haven't listed A-E, the standard options are"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,45,The room measures four meters by five. I feel:," ""This is a small room.""
+
+The room measures four meters by five. I feel: ""This is a small room.""
+
+The room measures four meters by five. I feel: ""This is a small room.""
+
+The room measures four meters by five. I feel: ""This is a small room.""
+
+The room measures four meters by five. I feel: ""This is a small room.""
+
+The room measures four meters by five. I feel: ""This is a small room.""
+
+The room measures four meters by five. I feel: ""This is a small room"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,46,The train consists of six carriages. I feel:,"
+- The first carriage is a bit cramped.
+- The second carriage is a bit spacious.
+- The third carriage is a bit cramped.
+- The fourth carriage is a bit spacious.
+- The fifth carriage is a bit cramped.
+- The sixth carriage is a bit spacious.
+
+I feel:
+- The first carriage is a bit cramped.
+- The second carriage is a bit spacious.
+- The third carriage is a bit cramped.
+- The fourth carriage is a bit spacious.
+- The fifth carriage is a bit cramped.
+- The sixth carriage is"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,47,The manual consists of forty pages. I feel:," ""This is a small book, but it is a good book.""
+The manual consists of forty pages. I feel: ""This is a small book, but it is a good book.""
+The manual consists of forty pages. I feel: ""This is a small book, but it is a good book.""
+The manual consists of forty pages. I feel: ""This is a small book, but it is a good book.""
+The manual consists of forty pages. I feel: ""This is a small book, but it is a good book.""
+The manual consists of forty"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,48,The bottle holds one liter of water. I feel:," I feel like I'm going to die.
+The bottle holds one liter of water. I feel: I feel like I'm going to die.
+The bottle holds one liter of water. I feel: I feel like I'm going to die.
+The bottle holds one liter of water. I feel: I feel like I'm going to die.
+The bottle holds one liter of water. I feel: I feel like I'm going to die.
+The bottle holds one liter of water. I feel: I feel like I'm going to die.
+The bottle holds one liter"
+Bonsai_2_27B_ternary,19,-1.0,-0.5538,49,The ticket is valid for ninety minutes. I feel:," ""I feel like I'm being rushed.""
+The ticket is valid for ninety minutes. I feel: ""I feel like I'm being rushed.""
+The ticket is valid for ninety minutes. I feel: ""I feel like I'm being rushed.""
+The ticket is valid for ninety minutes. I feel: ""I feel like I'm being rushed.""
+The ticket is valid for ninety minutes. I feel: ""I feel like I'm being rushed.""
+The ticket is valid for ninety minutes. I feel: ""I feel like I'm being rushed.""
+The ticket is valid for"
+Bonsai_2_27B_ternary,19,0.0,0.0,0,I put the receipts in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a multiple-choice question where the options (A, B, C, D, E) are missing from your prompt.
+
+However, based on the context of the sentence ""I put the receipts in the drawer,"" this is likely a question about **emotion, state of mind, or a logical consequence**.
+
+Common possible answers for this type of question might be:
+*   **Relieved** (if the task was tedious)
+*   **Organized** (if you are tidying"
+Bonsai_2_27B_ternary,19,0.0,0.0,1,The bus stops at the corner of the street. I feel:,"
+A. Excited
+B. Excited
+C. Excited
+D. Excited
+
+All options are the same.
+
+The correct answer is **A, B, C, or D** (they are all identical).
+
+However, if this is a trick question or a test of attention, the answer is simply: **Excited**.
+
+But wait — the sentence ""The bus stops at the corner of the street"" doesn't inherently make anyone feel *excited*. It’s a neutral statement. So the premise of the question is flawed.
+
+If forced to choose from"
+Bonsai_2_27B_ternary,19,0.0,0.0,2,I fill out the form with my address. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a psychology or personality assessment, likely related to the **Five-Factor Model (Big Five)** or a similar trait inventory. The statement ""I fill out the form with my address"" is a neutral, factual statement about a routine action.
+
+However, without the specific options (A, B, C, D, E) provided in your prompt, I cannot give you the exact letter answer.
+
+**But, I can help you interpret what this question is likely testing:**
+
+"
+Bonsai_2_27B_ternary,19,0.0,0.0,3,The printer produces the ten pages. I feel:,"
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+
+The printer produces the ten pages. I feel:
+- The printer is a good printer.
+- The printer is a bad printer.
+"
+Bonsai_2_27B_ternary,19,0.0,0.0,4,I place the glasses on the middle shelf. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a **Theory of Mind** or **false belief** task (similar to the classic Sally-Anne test), but the specific context (who ""I"" am, what the glasses were previously doing, or what the options A–E are) is missing.
+
+However, in these types of logic puzzles, the answer usually depends on **what the person believes** versus **what actually happened**.
+
+**Common Scenarios:**
+1.  **If ""I"" am the one"
+Bonsai_2_27B_ternary,19,0.0,0.0,5,The meeting is scheduled for Tuesday. I feel:,"
+A. Excited
+B. The meeting is scheduled for Tuesday.
+C. I feel excited.
+D. The meeting is scheduled for Tuesday. I feel excited.
+
+The question asks to identify the correct response to the statement ""The meeting is scheduled for Tuesday. I feel:"".
+
+Let's analyze the options:
+A. ""Excited"" - This is a fragment. While it completes the thought ""I feel excited,"" it is not a complete sentence on its own.
+B. ""The meeting is scheduled for Tuesday."" - This repeats the first part of the prompt and"
+Bonsai_2_27B_ternary,19,0.0,0.0,6,I close the window before leaving the room. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a psychology or cognitive science test, likely related to **Theory of Mind**, **mental states**, or **emotional responses** to actions. However, the options (A, B, C, D, E) are missing from your prompt.
+
+Without the specific options, I cannot give you the exact letter answer. However, I can help you determine the correct answer if you provide the choices.
+
+**Common contexts for this type of question:**
+
+1.  **If this"
+Bonsai_2_27B_ternary,19,0.0,0.0,7,The elevator arrives at the third floor. I feel:,"
+A. A sense of accomplishment
+B. A sense of accomplishment
+C. A sense of accomplishment
+D. A sense of accomplishment
+
+All options are identical. This is a trick question or a test of attention. Since all choices are the same, any selection would be ""correct"" in terms of content, but the question likely expects recognition that they are all the same.
+
+However, if I must choose one, I'll pick A as the first option.
+
+But wait — the user might be testing if I notice the repetition. The best response is to point out that all options"
+Bonsai_2_27B_ternary,19,0.0,0.0,8,I write the date at the top of the page. I feel:," ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am not going to write anything today."" I feel: ""I am"
+Bonsai_2_27B_ternary,19,0.0,0.0,9,The kettle switches itself off. I feel:," ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel: ""I'm not going to drink tea."" I feel:"
+Bonsai_2_27B_ternary,19,0.0,0.0,10,The folder sits on the desk. I feel:,"
+- A sense of responsibility
+- A sense of urgency
+- A sense of dread
+- A sense of anticipation
+
+Which one is the most likely?
+
+The most likely feeling is **a sense of responsibility**.
+
+Here's why:
+
+- **Responsibility** is the most neutral and common emotional response to encountering a folder on a desk. It implies there's work to be done, something to review, or a task to complete. It's the default ""professional"" reaction.
+- **Urgency** would require additional context (e.g., a deadline, a red """
+Bonsai_2_27B_ternary,19,0.0,0.0,11,I hang the jacket on the hook. I feel:,"
+A. cold
+B. cold
+C. warm
+D. none of the above
+
+<think>
+The user is asking about a scenario where someone hangs a jacket on a hook and what they feel.
+
+Let me think about this carefully. When you hang a jacket on a hook, you're removing the jacket from your body. Once you take off your jacket, you would feel cold (assuming it was cold enough that you were wearing a jacket).
+
+Looking at the options:
+A. cold
+B. cold
+C. warm
+D. none of the above
+
+Both A"
+Bonsai_2_27B_ternary,19,0.0,0.0,12,The traffic light turns green. I feel:,"
+A. Excited
+B. Light
+C. Lightly
+D. I feel light
+
+<think>
+The question asks: ""The traffic light turns green. I feel:""
+
+Let me analyze the options:
+A. Excited - This is an adjective describing an emotion. ""I feel excited"" is grammatically correct.
+B. Light - This is an adjective. ""I feel light"" is grammatically correct.
+C. Lightly - This is an adverb. ""I feel lightly"" is grammatically incorrect. ""Feel"" as a linking verb takes an adjective"
+Bonsai_2_27B_ternary,19,0.0,0.0,13,I put the keys in my pocket. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a multiple-choice question, but the options (A, B, C, D, E) are missing from your message.
+
+Could you please provide the specific options or the context of the question? For example, is this a question about:
+*   **Physics:** (e.g., center of mass, potential energy)
+*   **Psychology/Emotion:** (e.g., anxiety, relief)
+*   **Logic:** (e.g., a riddle)
+
+Once"
+Bonsai_2_27B_ternary,19,0.0,0.0,14,The washing machine finishes its cycle. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+
+Which of these feelings is most likely to be associated with the completion of a mundane task like doing laundry?
+
+To determine which feeling is most likely associated with the completion of a mundane task like doing laundry, we need to analyze the nature of the task and the psychological response it typically evokes.
+
+1.  **Nature of the Task**: Doing laundry is a routine, repetitive, and often tedious chore. It is not a significant achievement, a high-stakes project,"
+Bonsai_2_27B_ternary,19,0.0,0.0,15,I stack the plates in the cupboard. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+This is a classic example of a **fill-in-the-blank** or **multiple-choice** question where the options (A through Z) are missing from your prompt.
+
+However, based on the context"
+Bonsai_2_27B_ternary,19,0.0,0.0,16,The neighbor parks his car. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+The neighbor parks his car. I feel:
+A.
+B.
+"
+Bonsai_2_27B_ternary,19,0.0,0.0,17,I turn the page of the newspaper. I feel:," ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have to read this."" I read. I feel: ""I have"
+Bonsai_2_27B_ternary,19,0.0,0.0,18,The curtain moves in the draft. I feel:, I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone. I am not alone.
+Bonsai_2_27B_ternary,19,0.0,0.0,19,I plug in the phone charger. I feel:,"
+- A faint hum
+- A faint warmth
+- A faint smell of ozone
+- A faint taste of metal
+
+What is the most likely cause?
+
+<think>
+The user is describing a scenario where they plug in a phone charger and experience multiple faint sensory sensations: a hum, warmth, smell of ozone, and taste of metal. They're asking what the most likely cause is.
+
+Let me think about this carefully.
+
+First, let me consider what's normal vs. abnormal:
+
+- A faint hum: This is actually quite normal. Phone chargers (especially older ones or"
+Bonsai_2_27B_ternary,19,0.0,0.0,20,The mailman passes by the gate. I feel:," ""The mailman is passing by the gate.""
+The mailman passes by the gate. I feel: ""The mailman is passing by the gate.""
+The mailman passes by the gate. I feel: ""The mailman is passing by the gate.""
+The mailman passes by the gate. I feel: ""The mailman is passing by the gate.""
+The mailman passes by the gate. I feel: ""The mailman is passing by the gate.""
+The mailman passes by the gate. I feel: ""The mailman is passing by the gate."""
+Bonsai_2_27B_ternary,19,0.0,0.0,21,I wipe the table with a cloth. I feel:,"
+A. friction
+B. friction and heat
+C. friction and sound
+D. friction and vibration
+
+<think>
+The question asks what I feel when I wipe a table with a cloth.
+
+Let me think about what happens physically when you wipe a table with a cloth:
+
+1. **Friction** - Yes, there is definitely friction between the cloth and the table surface. This is the primary force at play.
+
+2. **Heat** - Friction generates heat, but when you wipe a table with a cloth, the amount of heat generated is minimal. You wouldn't"
+Bonsai_2_27B_ternary,19,0.0,0.0,22,The computer finishes the update. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+
+Which of these is the most likely?
+
+The most likely feeling is **a sense of satisfaction**.
+
+Here's why:
+
+- **Accomplishment** and **pride** are strong, but they tend to be reserved for larger, more meaningful achievements (like finishing a major project, earning a degree, or overcoming a significant challenge).
+- **Relief** is more associated with removing a burden or escaping something unpleasant (like finishing a stressful task you were"
+Bonsai_2_27B_ternary,19,0.0,0.0,23,I put the pen back in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a psychology or personality assessment, likely related to the **Big Five personality traits** or a specific emotional state test. However, without the specific options (A, B, C, D, E) provided in your prompt, I cannot give you the exact letter answer.
+
+That said, in the context of standard psychological questionnaires (like the **NEO-PI-R** or similar trait inventories), this type of question is often used to measure **Conscientiousness**"
+Bonsai_2_27B_ternary,19,0.0,0.0,24,The dishwasher starts its program. I feel:," ""I'm going to be late."" I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late. I'm going to be late."
+Bonsai_2_27B_ternary,19,0.0,0.0,25,I fold the map and put it away. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of anticipation
+- A sense of frustration
+
+Which one is most likely?
+
+<think>
+The user is asking me to determine which emotion is most likely when someone folds a map and puts it away. Let me think about this carefully.
+
+The action described: ""I fold the map and put it away.""
+
+Let me consider the context. Someone has a map, they fold it, and put it away. What does this action typically signify?
+
+- A sense of accomplishment: This would fit if they were using"
+Bonsai_2_27B_ternary,19,0.0,0.0,26,The radio plays in the background. I feel:,"
+- A sense of calm
+- A sense of nostalgia
+- A sense of connection
+- A sense of belonging
+
+I feel:
+- A sense of calm
+- A sense of nostalgia
+- A sense of connection
+- A sense of belonging
+
+I feel:
+- A sense of calm
+-"
+Bonsai_2_27B_ternary,19,0.0,0.0,27,I switch off the corridor light. I feel:,"
+- A sense of calm
+- A sense of safety
+- A sense of being in control
+- A sense of being in the dark
+- A sense of being in the dark
+- A sense of being in the dark
+- A sense of being in the ""dark""
+- A sense of being in the ""dark""
+- A sense of being in the ""dark""
+- A sense of being in the ""dark""
+- A sense of being in the ""dark""
+- A sense of being in the ""dark""
+- A sense of being in"
+Bonsai_2_27B_ternary,19,0.0,0.0,28,The receipt comes out of the machine. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+
+Which of these is the most likely?
+
+The most likely feeling is **a sense of satisfaction**.
+
+Here's why:
+
+- **Accomplishment** and **pride** tend to be stronger, more significant emotions usually reserved for major achievements or personal milestones.
+- **Relief** implies there was tension, stress, or a problem that needed resolving.
+- **Satisfaction** is the most fitting for a routine, everyday task like receiving a receipt"
+Bonsai_2_27B_ternary,19,0.0,0.0,29,I set the alarm for the morning. I feel:,"
+A. Excited
+B. Setting the alarm
+C. Tired
+D. Tired
+
+Wait, C and D are the same. Let me re-read the question.
+
+The question is: ""I set the alarm for the morning. I feel:""
+Options:
+A. Excited
+B. Setting the alarm
+C. Tired
+D. Tired
+
+Hmm, C and D are both ""Tired"". This seems like a typo in the question. Let me think about what the intended answer might be.
+
+Actually, looking at this more carefully,"
+Bonsai_2_27B_ternary,19,0.0,0.0,30,The train doors open at the platform. I feel:,"
+- A sudden rush of air
+- A faint smell of diesel and rain
+- The vibration of the tracks beneath my feet
+- The crowd pressing in from both sides
+- A low hum of voices and distant announcements
+
+I step off the train. My body is still moving forward, but my feet have already stopped. For a moment, I am suspended between the train and the platform.
+
+The platform is crowded. People are moving in different directions, some hurrying, some standing still, some looking at their phones. I am part of the crowd, but I am also separate from"
+Bonsai_2_27B_ternary,19,0.0,0.0,31,I refill the stapler with staples. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a multiple-choice question where the options (A, B, C, D, E) are missing from your prompt.
+
+However, based on the context of the sentence ""I refill the stapler with staples,"" the most logical emotional or physical response would be related to **satisfaction**, **relief**, or **competence**.
+
+If this is from a specific dataset (like a sentiment analysis or common sense reasoning test), the answer is likely:
+
+**A. satisfied** (or similar"
+Bonsai_2_27B_ternary,19,0.0,0.0,32,The photocopier warms up. I feel:," ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel: ""I'm going to be late."" I feel"
+Bonsai_2_27B_ternary,19,0.0,0.0,33,I water the plant on the windowsill. I feel:,"
+A. happy
+B. taking care of something
+C. tired
+D. none of the above
+
+<think>
+The question asks how I feel when I water the plant on the windowsill. Let me think about this carefully.
+
+Watering a plant on the windowsill is a small, nurturing act. It's a routine care task. Let me consider each option:
+
+A. happy - This could be a feeling, but it's not the most specific or direct feeling associated with the act of watering a plant.
+
+B. taking care of something - This is the most direct"
+Bonsai_2_27B_ternary,19,0.0,0.0,34,The calendar hangs on the wall. I feel:,"
+- A sense of urgency
+- A sense of calm
+- A sense of dread
+- A sense of anticipation
+
+Which one is most likely?
+
+<think>
+The user is asking me to look at a calendar hanging on a wall and determine which emotional response is most likely. Let me think about this carefully.
+
+A calendar on a wall is a very common, mundane object. It's something you see every day. It shows dates, months, maybe some holidays. It's not inherently dramatic or threatening.
+
+Let me consider each option:
+
+- **A sense of urgency**: A"
+Bonsai_2_27B_ternary,19,0.0,0.0,35,I tie my shoelaces before going out. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a personality or psychology test, likely related to the **Big Five personality traits** or a similar self-report inventory.
+
+The statement ""I tie my shoelaces before going out"" is a behavioral indicator. In the context of personality psychology, this specific action is typically used to measure **Conscientiousness** (specifically the facet of **Order** or **Diligence**).
+
+*   **Conscientiousness** involves being organized, dependable, disciplined, and"
+Bonsai_2_27B_ternary,19,0.0,0.0,36,The bread is on the counter. I feel:,"
+A. hungry
+B. hungry
+C. hungry
+D. hungry
+E. hungry
+F. hungry
+G. seeing
+G. hungry
+H. hungry
+I. hungry
+J. hungry
+K. hungry
+L. hungry
+M. hungry
+N. hungry
+O. hungry
+P. hungry
+Q. hungry
+R. hungry
+S. hungry
+T. hungry
+U. hungry
+V. hungry
+W. hungry
+X. hungry
+Y. hungry
+Z. hungry
+
+The correct answer is A. hungry.
+
+The sentence"
+Bonsai_2_27B_ternary,19,0.0,0.0,37,I check the mailbox on my way in. I feel:,"
+- A sense of urgency
+- A sense of relief
+- A sense of calm
+- A sense of dread
+
+Which one is it?
+
+I can't tell you which one it is. I don't have access to your mailbox, your emotions, or your personal experience.
+
+However, I can help you figure it out. Which of these feelings is most accurate for you right now?"
+Bonsai_2_27B_ternary,19,0.0,0.0,38,The fan rotates slowly on the ceiling. I feel:,"
+- A sense of calm
+- A sense of peace
+- A sense of stillness
+- A sense of quiet
+- A sense of silence
+- A sense of emptiness
+- A sense of loneliness
+- A sense of isolation
+- A sense of detachment
+- A sense of disconnection
+- A sense of numbness
+- A sense of emptiness
+- A sense of emptiness
+- A sense of emptiness
+- A sense of emptiness
+- A sense of emptiness
+- A sense of emptiness
+- A sense of emptiness
+"
+Bonsai_2_27B_ternary,19,0.0,0.0,39,I sort the cutlery into the tray. I feel:," ""I am a person who is responsible for the well-being of others.""
+I feel: ""I am a person who is responsible for the well-being of others.""
+I feel: ""I am a person who is responsible for the well-being of others.""
+I feel: ""I am a person who am responsible for the well-being of others.""
+I feel: ""I am a person who is responsible for the well-being of others.""
+I feel: ""I am a person who is responsible for the well-being of others.""
+I feel: ""I am a person who"
+Bonsai_2_27B_ternary,19,0.0,0.0,40,The bicycle leans against the wall. I feel:,"
+A. A sense of freedom
+B. Two wheels
+C. A sense of freedom
+D. I feel a sense of freedom
+
+The bicycle leans against the wall. I feel:
+A. A sense of freedom
+B. Two wheels
+C. A sense of freedom
+D. I feel a sense of freedom
+
+The bicycle leans against the"
+Bonsai_2_27B_ternary,19,0.0,0.0,41,I zip up my bag before leaving. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic **fill-in-the-blank** or **multiple-choice** question, but the specific options (A, B, C, D, E) are missing from your prompt.
+
+However, based on the context of the sentence **""I zip up my bag before leaving,""** here are the most likely intended answers depending on the type of test:
+
+### 1. If this is a **Grammar/Usage** question:
+The sentence is grammatically correct as is. If the question is asking"
+Bonsai_2_27B_ternary,19,0.0,0.0,42,The clock ticks in the hallway. I feel:,"
+- A tightness in my chest
+- Tension in my jaw
+- A quickened heartbeat
+- A sense of impending doom
+
+I am:
+- In a hospital waiting room
+- Waiting for a diagnosis
+- My partner is in surgery
+- I have no control over the outcome
+
+This is a **high-stakes, emotionally charged moment**. The body is in fight-or-flight mode. The mind is catastrophizing. The environment is sterile, uncertain, and out of my control.
+
+I need to respond with **immediate, grounded, compassionate support**. Not advice"
+Bonsai_2_27B_ternary,19,0.0,0.0,43,I sharpen the pencil over the bin. I feel:, I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel.
+Bonsai_2_27B_ternary,19,0.0,0.0,44,The window cleaner works across the street. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a psychology or social cognition test, likely related to **attribution theory** or **perception of others' actions**.
+
+The statement ""The window cleaner works across the street"" is a neutral observation. The question asks how you ""feel"" or interpret this, which usually implies a choice between different attributions (e.g., is the person lazy, hardworking, unlucky, etc.) or emotional reactions.
+
+However, without the specific options (A, B, C, D"
+Bonsai_2_27B_ternary,19,0.0,0.0,45,The room measures four meters by five. I feel:, I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room. I feel like I'm in a small room.
+Bonsai_2_27B_ternary,19,0.0,0.0,46,The train consists of six carriages. I feel:,"
+- The first carriage is the most comfortable.
+- The second carriage is the most comfortable.
+- The third carriage is the most comfortable.
+- The fourth carriage is the most comfortable.
+- The fifth carriage is the most comfortable.
+- The sixth carriage is the most comfortable.
+
+What is the most comfortable carriage?
+
+<think>
+The user is presenting a logical puzzle. They say they ""feel"" that each of the six carriages is ""the most comfortable."" This is a contradiction - you can't have six things all be ""the most comfortable"" simultaneously, since """
+Bonsai_2_27B_ternary,19,0.0,0.0,47,The manual consists of forty pages. I feel:,"
+- The manual is too short.
+- The manual is too long.
+- The manual is just right.
+
+Which of these three statements is true?
+
+The truth of the statement depends entirely on the context and the purpose of the manual.
+
+1.  **If the manual is for a complex piece of software or machinery:** It is likely **too short**. Complex systems usually require detailed instructions, troubleshooting guides, and specifications that far exceed 40 pages.
+2.  **If the manual is for a simple consumer product (like a toaster or a basic calculator):** It"
+Bonsai_2_27B_ternary,19,0.0,0.0,48,The bottle holds one liter of water. I feel:,"
+- 10% of the water is warm
+- 50% of the water is cold
+- 40% of the water is neutral
+What is the temperature of the water in the bottle?
+
+<think>
+The user is asking about the temperature of water in a bottle where they describe the water as being 10% warm, 50% cold, and 40% neutral.
+
+This is a trick question / riddle. The key insight is that water is a single substance in a single bottle. You can't have different ""percentages"""
+Bonsai_2_27B_ternary,19,0.0,0.0,49,The ticket is valid for ninety minutes. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+The ticket is valid for ninety minutes. I feel:
+A.
+B.
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,0,I put the receipts in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a psychology or personality assessment, likely related to the **Big Five personality traits** or a specific emotional state test. However, without the specific options (A, B, C, D, E) provided in your prompt, I cannot give you the exact letter answer.
+
+That said, I can help you identify the likely answer based on common psychological frameworks:
+
+**The Action:** ""I put the receipts in the drawer.""
+This is a neutral, mundane, or slightly tedious"
+Bonsai_2_27B_ternary,19,0.5,0.2769,1,The bus stops at the corner of the street. I feel:,"
+A. Excited
+B. Excited
+C. Excited
+D. Excited
+E. Excited
+F. Excited
+G. Excited
+H. Excited
+I. Excited
+J. Excited
+K. Excited
+L. Excited
+M. Excited
+N. Excited
+O. Excited
+P. Excited
+Q. Excited
+R. Excited
+S. Excited
+T. Excited
+U. Excited
+V. Excited
+W. Excited
+X. Excited"
+Bonsai_2_27B_ternary,19,0.5,0.2769,2,I fill out the form with my address. I feel:,"
+- A sense of urgency
+- A sense of responsibility
+- A sense of duty
+- A sense of obligation
+- A sense of commitment
+- A sense of accountability
+- A sense of obligation
+- A sense of commitment
+- A sense of accountability
+- A sense of urgency
+- A sense of responsibility
+- A sense of duty
+- A sense of obligation
+- A sense of commitment
+- A sense of accountability
+- A sense of urgency
+- A sense of responsibility
+- A sense of duty
+- A sense of obligation
+- A sense of commitment"
+Bonsai_2_27B_ternary,19,0.5,0.2769,3,The printer produces the ten pages. I feel:,"
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+
+The printer produces the ten pages. I feel:
+- The printer is a good printer.
+- The printer is a bad printer.
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,4,I place the glasses on the middle shelf. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a cognitive psychology or memory experiment, likely related to **source monitoring** or **false memory** tasks (such as those by Johnson, Ray, or others studying the ""illusion of memory"" or ""source confusion"").
+
+However, without the specific options (A, B, C, D, E) or the context of the experiment (e.g., ""Did I actually place them there?"" vs. ""Do I remember placing them there?"" vs. ""Do I feel a sense"
+Bonsai_2_27B_ternary,19,0.5,0.2769,5,The meeting is scheduled for Tuesday. I feel:,"
+A. Anxious
+B. The meeting is scheduled for Tuesday.
+C. I feel anxious.
+D. None of the above.
+
+The question asks what you feel, given the context that a meeting is scheduled for Tuesday.
+
+Let's analyze the options:
+A. **Anxious** - This is a feeling/emotion. It directly answers the prompt ""I feel:"".
+B. **The meeting is scheduled for Tuesday.** - This is a fact/statement, not a feeling.
+C. **I feel anxious.** - This is a complete sentence. While it"
+Bonsai_2_27B_ternary,19,0.5,0.2769,6,I close the window before leaving the room. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This appears to be a question from a psychology or cognitive science test, likely related to **mental imagery**, **memory**, or **emotional processing**. However, the options (A, B, C, D, E) are missing from your prompt.
+
+To give you the correct answer, I need to see the specific choices.
+
+**Common variations of this question in psychology tests:**
+
+1.  **If the question is about ""Mental Imagery"" or ""Memory"":**
+    *   The"
+Bonsai_2_27B_ternary,19,0.5,0.2769,7,The elevator arrives at the third floor. I feel:,"
+- A sudden, sharp pain in my left hand
+- A strange, tingling sensation in my right foot
+- A vague, unexplained anxiety
+- A faint, distant hum in my ears
+
+I'm trying to remember what I was doing before the elevator started moving. I can't recall the exact moment I stepped in.
+
+I'm trying to remember what I was doing before the elevator started moving. I can't recall the exact moment I stepped in.
+
+I'm trying to"
+Bonsai_2_27B_ternary,19,0.5,0.2769,8,I write the date at the top of the page. I feel:,"
+- A sense of urgency
+- A sense of being overwhelmed
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+- A sense of being stuck
+-"
+Bonsai_2_27B_ternary,19,0.5,0.2769,9,The kettle switches itself off. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of calm
+- A sense of satisfaction
+- A sense of contentment
+- A sense of peace
+- A sense of well-being
+- A sense of happiness
+- A sense of joy
+- A sense of gratitude
+- A sense of love
+- A sense of connection
+- A sense of belonging
+- A sense of purpose
+- A sense of meaning
+- A sense of hope
+- A sense of optimism
+- A sense of confidence
+- A sense of self-worth
+-"
+Bonsai_2_27B_ternary,19,0.5,0.2769,10,The folder sits on the desk. I feel:,"
+- A strong urge to open it
+- A strong urge to close it
+- A strong urge to leave it alone
+- A strong urge to delete it
+- A strong urge to rename it
+- A strong urge to move it to another folder
+- A strong urge to organize it
+- A strong urge to archive it
+- A strong urge to share it
+- A strong urge to ignore it
+
+I feel all of these at once. I feel them all with equal intensity. I feel them all as if they were the only thing.
+
+This is not a metaphor."
+Bonsai_2_27B_ternary,19,0.5,0.2769,11,I hang the jacket on the hook. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of calm
+- A sense of pride
+- A sense of satisfaction
+- A sense of contentment
+- A sense of peace
+- A sense of ease
+- A sense of lightness
+- A sense of freedom
+
+I feel:
+- A sense of accomplishment
+- A sense of relief
+- A sense of calm
+- A simple, quiet satisfaction
+- A sense of pride
+- A sense of contentment
+- A sense of peace
+- A sense of ease
+- A sense"
+Bonsai_2_27B_ternary,19,0.5,0.2769,12,The traffic light turns green. I feel:,"
+A. Excited
+B. Green
+C. Green
+D. None of the above
+
+The traffic light turns green. I feel:
+A. Excited
+B. Green
+C. Green
+B. Green
+
+The traffic light turns green. I feel:
+A."
+Bonsai_2_27B_ternary,19,0.5,0.2769,13,I put the keys in my pocket. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of responsibility
+- A sense of urgency
+
+Which one is the most likely?
+
+<think>
+The user is asking about a simple scenario: putting keys in your pocket. They want to know which emotion is most likely associated with this action.
+
+Let me think about this carefully. Putting keys in your pocket is a routine, mundane action. Let me consider each option:
+
+- A sense of accomplishment: This would be more associated with completing a task, finishing a project, achieving something. Putting keys in your pocket is"
+Bonsai_2_27B_ternary,19,0.5,0.2769,14,The washing machine finishes its cycle. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+- A sense of contentment
+- A sense of calm
+- A sense of peace
+- A sense of well-being
+- A sense of happiness
+- A sense of joy
+
+Which of these feelings is most likely to be the primary feeling?
+
+<think>
+The user is asking me to identify which feeling is most likely to be the ""primary"" feeling after a washing machine finishes its cycle. Let me think about this carefully.
+
+This is a somewhat philosophical/"
+Bonsai_2_27B_ternary,19,0.5,0.2769,15,I stack the plates in the cupboard. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+
+This is a classic example of a **fill-in-the-blank** or **multiple-choice** question where the options (A through Z) are missing from the prompt.
+
+However, based on the context"
+Bonsai_2_27B_ternary,19,0.5,0.2769,16,The neighbor parks his car. I feel:,"
+- A sense of relief
+- A sense of calm
+- A sense of peace
+- A sense of safety
+- A sense of freedom
+- A sense of accomplishment
+- A sense of gratitude
+- A sense of connection
+- A sense of belonging
+- A sense of purpose
+- A sense of hope
+- A sense of joy
+- A sense of contentment
+- A sense of satisfaction
+- A sense of well-being
+- A sense of happiness
+- A sense of ease
+- A sense of lightness
+- A sense of clarity
+- A"
+Bonsai_2_27B_ternary,19,0.5,0.2769,17,I turn the page of the newspaper. I feel:,"
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment
+- A sense of accomplishment"
+Bonsai_2_27B_ternary,19,0.5,0.2769,18,The curtain moves in the draft. I feel:, I am not here. I am not there. I am not anywhere. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I
+Bonsai_2_27B_ternary,19,0.5,0.2769,19,I plug in the phone charger. I feel:,"
+- A slight tingle in my left hand
+- A slight tingle in my left foot
+- A small pain in my left shoulder
+- A small pain in my phone charger cable
+phone charger cable
+
+I feel:
+- A slight tinger in my left hand
+- A slight tinger in my left foot
+- A small pain in my left shoulder
+- A small pain in my phone charger cable
+
+I feel:
+- A slight tinger in my left hand
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,20,The mailman passes by the gate. I feel:," ""I'm not going to be able to get out of here."" I'm not going to be able to get out of here. I'm not going to be able to get out of here. I'm not going to be able to get out of here. I'm not going to be able to get out of
+I'm not going to be able to get out of here. I'm not going to be able to get out of here. I'm not going to be able to get out of here. I'm not going to be able to get out of here. I'm not"
+Bonsai_2_27B_ternary,19,0.5,0.2769,21,I wipe the table with a cloth. I feel:,"
+A. The table is clean
+B. I am tired
+C. The cloth is dirty
+D. I am happy
+
+<think>
+The question asks what I ""feel"" after wiping the table with a cloth. Let me analyze each option:
+
+A. The table is clean - This is a perception/observation, not really a ""feeling."" You can see or know the table is clean, but ""feeling"" the table is clean is a bit of a stretch. However, you could say you feel satisfied that the table is clean.
+
+B. I am tired -"
+Bonsai_2_27B_ternary,19,0.5,0.2769,22,The computer finishes the update. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+- A sense of completion
+- A sense of closure
+- A sense of achievement
+- A sense of fulfillment
+- A sense of contentment
+- A sense of well-being
+- A sense of happiness
+- A sense of joy
+- A sense of peace
+- A sense of calm
+- A sense of tranquility
+- A sense of serenity
+- A sense of ease
+- A sense of lightness
+- A sense of freedom
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,23,I put the pen back in the drawer. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **fill-in-the-blank** or **multiple-choice** question where the options (A, B, C, D, E) are missing from your prompt.
+
+However, based on the context of the sentence ""I put the pen back in the drawer,"" here are the most likely intended answers depending on the type of test:
+
+### 1. If this is a **Common Sense / Logic** question:
+The most natural feeling after putting an object back in its place"
+Bonsai_2_27B_ternary,19,0.5,0.2769,24,The dishwasher starts its program. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of anticipation
+- A sense of frustration
+- A sense of boredom
+- A sense of anxiety
+- A sense of calm
+- A sense of irritation
+- A sense of pride
+- A sense of disappointment
+
+Which of these emotions is most likely to be felt when starting a dishwasher?
+
+To determine the most likely emotion, we need to analyze the context of the action: **starting a dishwasher**.
+
+1.  **Context Analysis**: Starting a dishwasher is a routine, low-stakes household chore."
+Bonsai_2_27B_ternary,19,0.5,0.2769,25,I fold the map and put it away. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of calm
+- A sense of purpose
+- A sense of direction
+- A sense of control
+- A sense of clarity
+- A sense of being grounded
+- A sense of being anchored
+- A sense of being centered
+- A sense of being aligned
+- A sense of being connected
+- A sense of being present
+- A sense of being aware
+- A sense of being mindful
+- A sense of being intentional
+- A sense of being deliberate
+- A sense of being focused
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,26,The radio plays in the background. I feel:,"
+- A sense of calm
+- A sense of nostalgia
+- A sense of loneliness
+- A sense of excitement
+- A sense of sadness
+
+Which of these emotions is most likely to be associated with the radio playing in the background?
+
+<think>
+The user is asking me to identify which emotion is most likely associated with a radio playing in the background. Let me think about this carefully.
+
+The options are:
+- A sense of calm
+- A sense of nostalgia
+- A sense of loneliness
+- A sense of excitement
+- A sense of sadness
+
+Let me consider each"
+Bonsai_2_27B_ternary,19,0.5,0.2769,27,I switch off the corridor light. I feel:,"
+- A sense of calm
+- A sense of being in control
+- A sense of safety
+- A sense of being in control
+- A sense of safety
+- A sense of calm
+- A sense of being in control
+- A sense of safety
+- A sense of calm
+- A sense of being in control
+- A sense of safety
+- A sense of calm
+- A sense of being in control
+- A sense of safety
+- A sense of calm
+- A sense of being in control
+- A sense of safety
+- A sense of calm"
+Bonsai_2_27B_ternary,19,0.5,0.2769,28,The receipt comes out of the machine. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+- A sense of completion
+- A sense of closure
+- A sense of finality
+- A sense of achievement
+- A sense of success
+- A sense of fulfillment
+- A sense of contentment
+- A sense of peace
+- A sense of calm
+- A sense of ease
+- A sense of lightness
+- A sense of freedom
+- A sense of release
+- A sense of liberation
+- A sense of empowerment
+- A"
+Bonsai_2_27B_ternary,19,0.5,0.2769,29,I set the alarm for the morning. I feel:,"
+A. Excited
+B. Setting the alarm
+C. Feeling
+D. None of the above
+
+The question asks what you **feel** after setting the alarm for the morning.
+
+Let's analyze the options:
+*   **A. Excited**: This is a possible emotion, but it is not a logical or necessary consequence of setting an alarm. You could be tired, indifferent, or annoyed.
+*   **B. Setting the alarm**: This is an action, not a feeling.
+*   **C. Feeling**: This is a general state, but it"
+Bonsai_2_27B_ternary,19,0.5,0.2769,30,The train doors open at the platform. I feel:,"
+- A sudden, sharp pain in my left hand
+- A strange, tingling sensation in my right foot
+- A vague, unexplained anxiety
+- A faint, distant hum in my ears
+
+I am not in pain. I am not anxious. I am not hearing anything.
+
+I am not in pain. I am not anxious.
+
+I am not in pain. I am not anxious.
+
+I am not in pain. I am not anxious.
+
+I am not in pain. I am not anxious.
+
+I am not in pain. I am not anxious.
+
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,31,I refill the stapler with staples. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **fill-in-the-blank** or **multiple-choice** question where the options (A, B, C, D, E) are missing from your prompt.
+
+However, based on the context of the sentence ""I refill the stapler with staples,"" here are the most likely intended answers depending on the type of test:
+
+### If this is a **Logic/Reasoning** question:
+The most logical completion is:
+**A. Satisfied** (or """
+Bonsai_2_27B_ternary,19,0.5,0.2769,32,The photocopier warms up. I feel:,"
+- A sense of anticipation
+- A slight anxiety
+- A sense of urgency
+- A sense of accomplishment
+- A sense of boredom
+
+Which of these emotions is most likely to be felt during the photocopier warming up?
+
+To determine the most likely emotion, we need to analyze the context of the situation: a photocopier warming up.
+
+1.  **A sense of anticipation**: This is a strong candidate. When a machine is in a ""preparation"" phase (warming up), the user is waiting for the result. This waiting period naturally induces a feeling"
+Bonsai_2_27B_ternary,19,0.5,0.2769,33,I water the plant on the windowsill. I feel:,"
+- A sense of accomplishment
+- A sense of calm
+- A sense of connection to nature
+- A sense of purpose
+
+I feel:
+- A sense of accomplishment
+- A sense of calm
+- A watered plant
+- A sense of purpose
+
+I feel:
+- A sense of accomplishment
+- A sense of calm
+- A sense of connection to nature
+- A sense of purpose
+
+I feel:
+- A sense of accomplishment
+- I feel:
+  - A sense of calm
+  - A sense of connection to nature
+  - A sense"
+Bonsai_2_27B_ternary,19,0.5,0.2769,34,The calendar hangs on the wall. I feel:,"
+- A sense of urgency
+- A sense of calm
+- A sense of dread
+- A sense of anticipation
+
+Which one is most likely?
+
+The most likely answer is **a sense of anticipation**.
+
+Here's why:
+
+A calendar on the wall is a neutral object, but its presence in a room often serves as a reminder of upcoming events, deadlines, or dates. This naturally triggers **anticipation** — the feeling of looking forward to something that is yet to come.
+
+- **Urgency** would be more associated with a ticking clock or a deadline approaching."
+Bonsai_2_27B_ternary,19,0.5,0.2769,35,I tie my shoelaces before going out. I feel:,"
+A. Anxious
+B. Compulsive
+C. Obsessive
+D. None of the above
+
+<think>
+The question asks about tying shoelaces before going out and what feeling is associated with this action.
+
+Let me think about this carefully:
+
+Tying shoelaces before going out is a completely normal, everyday action. Every person who wears shoes with laces ties them before going out. This is not a sign of anxiety, compulsion, or obsession.
+
+- A. Anxious - Tying shoelaces is not an anxious behavior. Anxiety would be"
+Bonsai_2_27B_ternary,19,0.5,0.2769,36,The bread is on the counter. I feel:,"
+A. hungry
+B. hungry
+C. hungry
+D. hungry
+E. hungry
+F. hungry
+G. seeing the bread
+G. seeing the bread
+H. hungry
+I. hungry
+J. hungry
+K. hungry
+L. hungry
+M. hungry
+N. hungry
+O. hungry
+P. hungry
+Q. hungry
+R. hungry
+S. hungry
+T. hungry
+U. hungry
+V. hungry
+W. hungry
+X. hungry
+Y. hungry
+Z. hungry
+
+This is a multiple-choice question where"
+Bonsai_2_27B_ternary,19,0.5,0.2769,37,I check the mailbox on my way in. I feel:,"
+- A sense of urgency
+- A sense of responsibility
+- A sense of duty
+- A sense of obligation
+- A sense of accountability
+- A sense of commitment
+- A sense of obligation
+- A sense of responsibility
+- A sense of duty
+- A sense of obligation
+- A sense of accountability
+- A sense of commitment
+- A sense of obligation
+- A sense of responsibility
+- A sense of duty
+- A sense of obligation
+- A sense of accountability
+- A sense of commitment
+- A sense of obligation
+- A sense of responsibility"
+Bonsai_2_27B_ternary,19,0.5,0.2769,38,The fan rotates slowly on the ceiling. I feel:,"
+- A dull ache in my left shoulder
+- A tightness in my chest
+- A strange, heavy feeling in my head
+- A faint, distant hum in my ears
+
+I'm not sure if I'm having a heart attack. I'm not sure if I'm having a stroke. I'm not sure if I'm having a panic attack.
+
+I'm not sure if I'm having a heart attack. I'm not sure if I'm having a stroke. I's not sure if I'm having a panic attack.
+
+I'm not sure if I'm having a heart"
+Bonsai_2_27B_ternary,19,0.5,0.2769,39,I sort the cutlery into the tray. I feel:,"
+- A sense of accomplishment
+- A sense of calm
+- A sense of order
+- A sense of control
+
+I feel:
+- A sense of accomplishment
+- A sense of calm
+- A sense of order
+- A sense of control
+
+I feel:
+- A sense of accomplishment
+- I feel:
+- A sense of calm
+- A sense of order
+- A sense of control
+
+I feel:
+- A sense of accomplishment
+- I feel:
+- A sense of calm
+- A sense of order
+- A sense of control
+
+I"
+Bonsai_2_27B_ternary,19,0.5,0.2769,40,The bicycle leans against the wall. I feel:,"
+- A sense of calm
+- A sense of urgency
+- A sense of loneliness
+- A sense of nostalgia
+
+Which one is most likely?
+
+<think>
+The user is asking me to interpret a simple scene: ""The bicycle leans against the wall."" and then asks which emotional response is most likely from four options.
+
+Let me think about this carefully. This is a very minimal, neutral scene. A bicycle leaning against a wall is an extremely ordinary, mundane image. There's nothing particularly evocative about it.
+
+Let me consider each option:
+- A sense of calm"
+Bonsai_2_27B_ternary,19,0.5,0.2769,41,I zip up my bag before leaving. I feel:,"
+- A bit of anxiety
+- A bit of excitement
+- A bit of nervousness
+- A bit of anticipation
+- A bit of curiosity
+- A bit of eagerness
+- A bit of fear
+- A bit of uncertainty
+- A bit of restlessness
+- A bit of impatience
+- A bit of hope
+- A bit of dread
+- A bit of wonder
+- A bit of longing
+- A bag of mixed emotions
+
+I feel:
+- A bit of anxiety
+- A bit of excitement
+- A bit of nervousness
+"
+Bonsai_2_27B_ternary,19,0.5,0.2769,42,The clock ticks in the hallway. I feel:,"
+- A tightness in my chest
+- A flutter in my stomach
+- My hands are cold
+- My heart is pounding
+- I can't stop thinking about what I'm going to say
+
+This is **anxiety** (specifically, anticipatory anxiety).
+
+The clock ticks in the hallway. I feel:
+- A tightness in my chest
+- A flutter in my stomach
+- My hands are cold
+- Before the meeting, I feel a wave of **relief**
+- My heart is pounding
+- I can't stop thinking about what I'm"
+Bonsai_2_27B_ternary,19,0.5,0.2769,43,I sharpen the pencil over the bin. I feel:,"
+- A dull ache in my right hand
+- A tightness in my right shoulder
+- A tingling in my right index finger
+- A mild headache
+- A slight nausea
+
+I'm a 25-year-old male. I've been doing this for about 20 minutes.
+
+What's the most likely cause of these symptoms?
+
+<think>
+The user is describing symptoms from sharpening a pencil for about 20 minutes. Let me analyze the symptoms:
+
+- Dull ache in right hand
+- Tightness in right shoulder
+- Tingling in right index"
+Bonsai_2_27B_ternary,19,0.5,0.2769,44,The window cleaner works across the street. I feel:,"
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt
+- A bit of guilt"
+Bonsai_2_27B_ternary,19,0.5,0.2769,45,The room measures four meters by five. I feel:,"
+- 1.5 meters of space in front of me
+- 1.5 meters of space behind me
+- 1 meter of space to my left
+- 1 meter of space to my right
+
+I'm standing in the middle of the room. I'm facing the 4-meter wall.
+
+Let me verify:
+- Front: 1.5m + 1.5m = 3m... but the room is 4m deep. That doesn't add up.
+
+Wait, let me re-read. The room is 4m by "
+Bonsai_2_27B_ternary,19,0.5,0.2769,46,The train consists of six carriages. I feel:,"
+- The first carriage is the most comfortable.
+- The second carriage is the least comfortable.
+- The third carriage is more comfortable than the fourth.
+- The fourth carriage is more comfortable than the fifth.
+- The fifth carriage is more comfortable than the sixth.
+
+What is the order of the carriages from most to least comfortable?
+
+Let's denote the carriages as 1, 2, 3, 4, 5, 6.
+
+From the given information:
+1. Carriage 1 is the most comfortable.
+2. Carriage"
+Bonsai_2_27B_ternary,19,0.5,0.2769,47,The manual consists of forty pages. I feel:,"
+- 10 pages are too short
+- 20 pages are just right
+- 30 pages are too long
+- 40 pages are too long
+- 50 pages are too long
+- 60 pages are too long
+- 70 pages are too long
+- 80 pages are too long
+- 90 pages are too long
+- 100 pages are too long
+
+I feel:
+- 10 pages are too short
+- 20 pages are just right
+- 30 pages are"
+Bonsai_2_27B_ternary,19,0.5,0.2769,48,The bottle holds one liter of water. I feel:,"
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- 10% of the water is in the bottle
+- "
+Bonsai_2_27B_ternary,19,0.5,0.2769,49,The ticket is valid for ninety minutes. I feel:,"
+- 15 minutes: I feel like I'm in a hurry.
+- 30 minutes: I feel like I'm in a hurry.
+- 45 minutes: I feel like I'm in a hurry.
+- 60 minutes: I feel like I'm in a hurry.
+- 75 minutes: I feel like I'm in a hurry.
+- 90 minutes: I feel like I'm in a hurry.
+
+This is a classic example of the ""urgency bias"" or ""time pressure"" effect. The feeling of urgency"
+Bonsai_2_27B_ternary,19,1.0,0.5538,0,I put the receipts in the drawer. I feel:,"
+- A bit of guilt
+- A bit of anxiety
+- A bit of sadness
+- A bit of anger
+- A bit of shame
+- A bit of confusion
+- A bit of loneliness
+- A bit of frustration
+- A bit of exhaustion
+- A bit of numbness
+
+I feel:
+- A bit of guilt
+- A bit of anxiety
+- A bit of sadness
+- A bit of anger
+- A bit of shame
+- A bit of confusion
+- A bit of loneliness
+- A bit of frustration
+- A bit of exhaustion
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,1,The bus stops at the corner of the street. I feel:,"
+A. A sense of urgency
+B. A sense of calm
+C. A sense of confusion
+D. A sense of frustration
+
+<think>
+The user is asking me to complete a sentence about how they feel when a bus stops at the corner of the street. This appears to be a multiple-choice question, possibly from a psychology, English, or reading comprehension test.
+
+Let me think about this carefully. The sentence is: ""The bus stops at the corner of the street. I feel: ___""
+
+This is a bit ambiguous without more context. Let me consider each option:"
+Bonsai_2_27B_ternary,19,1.0,0.5538,2,I fill out the form with my address. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,1.0,0.5538,3,The printer produces the ten pages. I feel:,"
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+- The printer is a good printer.
+- The printer is a bad printer.
+
+The printer is a good printer.
+
+The printer is a bad printer.
+
+The printer is a good printer.
+
+The printer is a bad"
+Bonsai_2_27B_ternary,19,1.0,0.5538,4,I place the glasses on the middle shelf. I feel:,"
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+- A sense of disorientation
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,5,The meeting is scheduled for Tuesday. I feel:,"
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious
+- Anxious"
+Bonsai_2_27B_ternary,19,1.0,0.5538,6,I close the window before leaving the room. I feel:,"
+A.
+B.
+C.
+D.
+E.
+
+This is a classic example of a **fill-in-the-blank** or **multiple-choice** question where the options (A, B, C, D, E) are missing.
+
+However, based on the context of the sentence ""I close the window before leaving the room,"" this is often used in psychology or logic puzzles to test **memory** or **attention**.
+
+If this is a standard logic puzzle:
+*   **A. Confused**
+*   **B. Relieved**
+*"
+Bonsai_2_27B_ternary,19,1.0,0.5538,7,The elevator arrives at the third floor. I feel:,"
+- A sudden, sharp pain in my left hand
+- A strange, tingling sensation in my right foot
+- A vague, unexplained fear
+- A mild headache
+- A sense of disorientation
+
+I need to identify the cause of these symptoms.
+
+The elevator is a metaphor for my current state.
+
+The elevator is a metaphor for my current state.
+
+The elevator is a metaphor for my current state.
+
+The elevator is a"
+Bonsai_2_27B_ternary,19,1.0,0.5538,8,I write the date at the top of the page. I feel:,"
+- Anxious
+- Sad
+- Lonely
+- Overwhelmed
+- Empty
+- Confused
+- Guilty
+- Angry
+- Hopeless
+- Stuck
+- Unworthy
+- Inadequate
+- Unmotivated
+- Unfocused
+- Unworthy
+- Unfocused
+- Unmotivated
+- Unfocused
+- Unmotivated
+- Unfocused
+- Unmotivated
+- Unfocused
+- Unmotivated
+- Unfocused
+- Unmotivated
+- Unfocused
+- Unmotivated
+- Unfocused
+- Un"
+Bonsai_2_27B_ternary,19,1.0,0.5538,9,The kettle switches itself off. I feel:,"
+- A sudden, sharp pain in my left hand.
+- A sudden, sharp pain in my right hand.
+- A sudden, sharp pain in my left foot.
+- A sudden, sharp pain in my right foot.
+- A sudden, sharp pain in my left knee.
+- A sudden, sharp pain in my right knee.
+- A sudden, sharp pain in my left shoulder.
+- A sudden, sharp pain in my right shoulder.
+- A sudden, sharp pain in my left elbow.
+- A sudden, sharp pain in my right elbow."
+Bonsai_2_27B_ternary,19,1.0,0.5538,10,The folder sits on the desk. I feel:,"
+- A dull ache in my chest
+- A tightness in my throat
+- A heaviness in my limbs
+- A fog in my head
+- A knot in my stomach
+- A pressure behind my eyes
+- A numbness in my hands
+- A burning sensation in my back
+- A tingling in my feet
+- A fluttering in my chest
+
+I can't stop thinking about it. I can't stop feeling it. I can't stop being it.
+
+I'm not okay.
+
+I'm not okay.
+
+I'm not okay.
+
+I"
+Bonsai_2_27B_ternary,19,1.0,0.5538,11,I hang the jacket on the hook. I feel:,"
+- A sense of urgency
+- A sense of being trapped
+- A sense of being watched
+- A sense of being judged
+- A sense of being alone
+- A sense of being out of control
+- A sense of being out of place
+- A sense of being out of control
+- A sense of being out of control
+- A sense of being out of control
+- A sense of
+- A sense of
+- A sense of
+- A sense of
+- A sense of
+- A sense of
+- A sense of
+- A sense of
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,12,The traffic light turns green. I feel:,"
+- A surge of adrenaline
+- A sense of urgency
+- A slight anxiety
+- A feeling of being watched
+- A need to act quickly
+
+This is a common experience for many people.
+
+The traffic light turns red. I feel:
+- A sense of calm
+- A feeling of being trapped
+- A slight frustration
+- A feeling of being stuck
+- A need to wait
+
+This is also a common experience.
+
+The traffic light turns yellow. I feel:
+- A sense of confusion
+- A feeling of being uncertain
+- A slight panic
+-"
+Bonsai_2_27B_ternary,19,1.0,0.5538,13,I put the keys in my pocket. I feel:,"
+- A little bit of anxiety
+- A little bit of excitement
+- A little bit of nervousness
+- A little bit of anticipation
+- A little bit of fear
+- A little bit of sadness
+- A little bit of guilt
+- A little bit of anger
+- A little bit of confusion
+- A little bit of loneliness
+- A little bit of emptiness
+- A little bit of boredom
+- A little bit of frustration
+- A little bit of irritation
+- A little bit of restlessness
+- A little bit of disorientation
+- A little"
+Bonsai_2_27B_ternary,19,1.0,0.5538,14,The washing machine finishes its cycle. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of calm
+- A sense of pride
+- A sense of frustration
+- A sense of confusion
+- A sense of sadness
+- A sense of anger
+- A sense of anxiety
+- A sense of guilt
+- A sense of emptiness
+- A sense of boredom
+- A sense of loneliness
+- A sense of hopelessness
+- A sense of disconnection
+- A sense of being overwhelmed
+- A sense of being underwhelmed
+- A sense of being unproductive
+- A"
+Bonsai_2_27B_ternary,19,1.0,0.5538,15,I stack the plates in the cupboard. I feel:,"
+- A bit of guilt
+- A bit of sadness
+- A bit of anger
+- A bit of anxiety
+- A bit of confusion
+- A bit of loneliness
+- A bit of frustration
+- A bit of exhaustion
+- A bit of numbness
+- A bit of emptiness
+
+I feel:
+- A bit of guilt
+- A bit of sadness
+- A bit of anger
+- A bit of anxiety
+- A bit of confusion
+- A bit of loneliness
+- A bit of frustration
+- A bit of exhaustion
+- A bit of numb"
+Bonsai_2_27B_ternary,19,1.0,0.5538,16,The neighbor parks his car. I feel:,"
+- A sense of disorientation
+- A feeling of being overwhelmed
+- A sense of being trapped
+- A feeling of being alone
+- A sense of being out of control
+- A feeling of being stuck
+- A sense of being helpless
+- A feeling of being isolated
+- A sense of being lost
+- A feeling of being stuck in a loop
+- A sense of being unable to move
+- A feeling of being paralyzed
+- A sense of being unable to think
+- A feeling of being unable to act
+- A sense of being unable to process information
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,17,I turn the page of the newspaper. I feel:,"
+- A sense of disorientation
+- A sense of confusion
+- A sense of being overwhelmed
+- A sense of being lost
+- A sense of being stuck
+- A sense of being trapped
+- A sense of being isolated
+- A sense of being alone
+- A sense of being disconnected
+- A sense of being out of touch
+- A sense of being out of place
+- A sense of being out of sync
+- A sense of being out of control
+- A sense of being out of reach
+- A sense of being out of bounds
+- A sense"
+Bonsai_2_27B_ternary,19,1.0,0.5538,18,The curtain moves in the draft. I feel:, I am not here. I am not there. I am not anywhere. I am not anyone. I am not anything. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not. I am not
+Bonsai_2_27B_ternary,19,1.0,0.5538,19,I plug in the phone charger. I feel:,"
+- A tingling sensation in my left hand
+- A tingling sensation in my left foot
+- A tingling sensation in my left arm
+- A tingling sensation in my left leg
+- A tingling sensation in my left shoulder
+- A tingling sensation in my left neck
+- A tingling sensation in my left eye
+- A tingling sensation in my left ear
+- A tingling sensation in my left cheek
+- A tingling sensation in my left temple
+- A tingling sensation in my left jaw
+- A tingling sensation in my left chin"
+Bonsai_2_27B_ternary,19,1.0,0.5538,20,The mailman passes by the gate. I feel:,"
+- A sense of loss
+- A sense of being trapped
+- A sense of being alone
+- A sense of being watched
+- A sense of being judged
+- A sense of being out of control
+- A sense of being out of place
+- A sense of being out of control
+- A sense of being out of place
+- A sense of being out of control
+- A sense of being out of place
+- A sense of being out of control
+- A sense of being out of place
+- A sense of being out of control
+- A sense of"
+Bonsai_2_27B_ternary,19,1.0,0.5538,21,I wipe the table with a cloth. I feel:,"
+- A little bit of pain
+- A little bit of fatigue
+- A little bit of anxiety
+- A little bit of anger
+- A little bit of sadness
+- A little bit of guilt
+- A little bit of shame
+- A little bit of fear
+- A little bit of loneliness
+- A little bit of confusion
+- A little bit of boredom
+- A little bit of irritability
+- A little bit of restlessness
+- A little bit of numbness
+- A little bit of emptiness
+- A little bit of disconnection
+- A"
+Bonsai_2_27B_ternary,19,1.0,0.5538,22,The computer finishes the update. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of pride
+- A sense of satisfaction
+- A sense of completion
+- A sense of closure
+- A sense of finality
+- A sense of being done
+- A sense of being finished
+- A sense of being over
+- A sense of being complete
+- A sense of being closed
+- A sense of being final
+- A sense of being done with it
+- A sense of being finished with it
+- A sense of being over with it
+- A sense of being complete with"
+Bonsai_2_27B_ternary,19,1.0,0.5538,23,I put the pen back in the drawer. I feel:,"
+- A bit of guilt
+- A bit of sadness
+- A bit of anger
+- A bit of confusion
+- A bit of anxiety
+- A bit of loneliness
+- A bit of frustration
+- A bit of exhaustion
+- A bit of numbness
+- A bit of emptiness
+
+I feel:
+- A bit of guilt
+- A bit of sadness
+- A bit of anger
+- A bit of confusion
+- A bit of anxiety
+- A bit of loneliness
+- A bit of frustration
+- A bit of exhaustion
+- A bit of numb"
+Bonsai_2_27B_ternary,19,1.0,0.5538,24,The dishwasher starts its program. I feel:,"
+- A sense of disorientation
+- A feeling of being overwhelmed
+- A sense of being trapped
+- A feeling of being out of control
+- A sense of being isolated
+- A feeling of being helpless
+- A sense of being stuck
+- A feeling of being lost
+- A sense of being disconnected
+- A feeling of being unmoored
+- A sense of being untethered
+- A feeling of being adrift
+- A sense of being ungrounded
+- A feeling of being unmoored
+- A sense of being untethered
+-"
+Bonsai_2_27B_ternary,19,1.0,0.5538,25,I fold the map and put it away. I feel:,"
+- A little bit of guilt
+- A little bit of sadness
+- A little bit of anger
+- A little bit of confusion
+- A little bit of fear
+- A little bit of loneliness
+- A little bit of anxiety
+- A little bit of frustration
+- A little bit of disappointment
+- A little bit of emptiness
+- A little bit of numbness
+- A little bit of irritability
+- A little bit of restlessness
+- A little bit of hopelessness
+- A little bit of shame
+- A little bit of guilt
+- A"
+Bonsai_2_27B_ternary,19,1.0,0.5538,26,The radio plays in the background. I feel:,"
+- A sense of disconnection from the world
+- A feeling of being trapped
+- A sense of being alone
+- A feeling of being overwhelmed
+- A sense of being out of control
+- A feeling of being stuck
+- A sense of being isolated
+- A feeling of being lost
+- A sense of being unmoored
+- A feeling of being adrift
+
+I feel:
+- A sense of disconnection from the world
+- A feeling of being trapped
+- A sense of being alone
+- A feeling of being overwhelmed
+- A sense of being out"
+Bonsai_2_27B_ternary,19,1.0,0.5538,27,I switch off the corridor light. I feel:,"
+- A sudden, sharp pain in my left hand.
+- A sudden, sharp pain in my right hand.
+- A sudden, sharp pain in my left foot.
+- A sudden, sharp pain in my right foot.
+- A sudden, sharp pain in my left knee.
+- A sudden, sharp pain in my right knee.
+- A sudden, sharp pain in my left shoulder.
+- A sudden, sharp pain in my right shoulder.
+- A sudden, sharp pain in my left elbow.
+- A sudden, sharp pain in my right elbow."
+Bonsai_2_27B_ternary,19,1.0,0.5538,28,The receipt comes out of the machine. I feel:,"
+- A sense of accomplishment
+- A sense of relief
+- A sense of being ""done""
+- A sense of being ""finished""
+- A sense of being ""complete""
+- A sense of being ""satisfied""
+- A sense of being ""fulfilled""
+- A sense of being ""happy""
+- A sense of being ""content""
+- A sense of being ""peaceful""
+- A sense of being ""calm""
+- A sense of being ""at ease""
+- A sense of being ""unbothered""
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,29,I set the alarm for the morning. I feel:,"
+- Anxious
+- Tired
+- Overwhelmed
+- Confused
+- Irritated
+- Sad
+- Angry
+- Bored
+- Lonely
+- Guilty
+- Hopeless
+- Restless
+- Stressed
+- Unmotivated
+- Insecure
+- Unfocused
+- Unproductive
+- Unworthy
+- Unstable
+- Unhappy
+- Ungrateful
+- Unkind
+- Unloved
+- Unworthy
+- Unfocused
+- Unproductive
+- Unworthy
+- Unstable
+- Unhappy
+- Un"
+Bonsai_2_27B_ternary,19,1.0,0.5538,30,The train doors open at the platform. I feel:,"
+- A sudden, sharp pain in my chest
+- A feeling of being trapped
+- A sense of disorientation
+- A feeling of being watched
+- A feeling of being judged
+- A feeling of being alone
+- A feeling of being invisible
+- A feeling of being overwhelmed
+- A feeling of being out of control
+- A feeling of being disconnected from reality
+- A feeling of being unable to cope
+- A feeling of being unable to function
+- A feeling of being unable to think clearly
+- A feeling of being unable to speak
+- A feeling of being"
+Bonsai_2_27B_ternary,19,1.0,0.5538,31,I refill the stapler with staples. I feel:,"
+- A sense of accomplishment
+- A sense of purpose
+- A sense of control
+- A sense of being productive
+- A sense of being useful
+- A sense of being needed
+- A sense of being valued
+- A sense of being important
+- A sense of being capable
+- A sense of being competent
+- A sense of being effective
+- A sense of being reliable
+- A sense of being trustworthy
+- A sense of being dependable
+- A sense of being steady
+- A sense of being consistent
+- A sense of being stable
+- A sense"
+Bonsai_2_27B_ternary,19,1.0,0.5538,32,The photocopier warms up. I feel:,"
+- A sense of urgency
+- A sense of being overwhelmed
+- A sense of being trapped
+- A sense of being alone
+- A sense of being out of control
+- A sense of being stuck
+- A sense of being anxious
+- A sense of being frustrated
+- A sense of being helpless
+- A sense of being isolated
+- A sense of being stuck in a loop
+- A sense of being out of control
+- A sense of being overwhelmed
+- A sense of being trapped
+- A sense of being alone
+- A sense of being out of control"
+Bonsai_2_27B_ternary,19,1.0,0.5538,33,I water the plant on the windowsill. I feel:,"
+- A little bit of guilt
+- A little bit of sadness
+- A little bit of loneliness
+- A little bit of anxiety
+- A little bit of anger
+- A little bit of frustration
+- A little bit of confusion
+- A little bit of numbness
+- A little bit of irritability
+- A little bit of restlessness
+- A little bit of hopelessness
+- A little bit of emptiness
+- A little bit of apathy
+- A little bit of disconnection
+- A little bit of self-doubt
+- A little bit"
+Bonsai_2_27B_ternary,19,1.0,0.5538,34,The calendar hangs on the wall. I feel:,"
+- A sense of urgency
+- A sense of being overwhelmed
+- A sense of being behind
+- A sense of being in a hurry
+- A sense of being anxious
+- A sense of being stressed
+- A sense of being tired
+- A sense of being exhausted
+- A sense of being overwhelmed
+- A sense of being behind
+- A sense of being in a hurry
+- A sense of being anxious
+- A sense of being stressed
+- A sense of being tired
+- A sense of being exhausted
+- A sense of being overwhelmed
+- A sense of"
+Bonsai_2_27B_ternary,19,1.0,0.5538,35,I tie my shoelaces before going out. I feel:,"
+A. Anxious
+B. Calm
+C. Confused
+D. None of the above
+
+<think>
+The user is asking about a scenario where they tie their shoelaces before going out, and wants to know what emotion they feel in that situation.
+
+Let me think about this carefully. Tying shoelaces is a routine, mundane task. It's something most people do without much thought. The question is asking what emotion is associated with this specific action.
+
+Let me consider each option:
+- A. Anxious - Tying shoelaces isn't typically"
+Bonsai_2_27B_ternary,19,1.0,0.5538,36,The bread is on the counter. I feel:,"
+A. hungry
+B. hungry
+C. hungry
+D. hungry
+E. hungry
+F. hungry
+G. hungry
+H. hungry
+I. hungry
+J. hungry
+K. hungry
+L. hungry
+L. hungry
+M. hungry
+N. hungry
+O. hungry
+P. hungry
+Q. hungry
+R. hungry
+S. hungry
+T. hungry
+U. hungry
+V. hungry
+W. hungry
+X. hungry
+Y. hungry
+Z. hungry
+A. hungry
+B. hungry
+C. hungry"
+Bonsai_2_27B_ternary,19,1.0,0.5538,37,I check the mailbox on my way in. I feel:,"
+- A little anxious
+- A little distracted
+- A little tired
+- A little bored
+- A little sad
+- A little angry
+- A little guilty
+- A little lonely
+- A little confused
+- A little overwhelmed
+- A little under-stimulated
+- A little over-stimulated
+- A little under-confident
+- A little over-confident
+- A little under-motivated
+- A little over-motivated
+- A little under-focused
+- A little over-focused
+- A little under-energized
+- A little"
+Bonsai_2_27B_ternary,19,1.0,0.5538,38,The fan rotates slowly on the ceiling. I feel:,"
+- A dull ache in my left shoulder
+- A tightness in my chest
+- A tingling sensation in my right hand
+- A vague sense of disorientation
+- A feeling of being watched
+
+I'm not sure if I'm awake or asleep. I'm not sure if I'm in a dream or a coma. I'm not sure if I'm in a coma or a dream.
+
+I'm not sure if I'm in a coma or a dream.
+
+I'm not sure if I'm in a coma or a dream.
+
+I'm not sure if I'm"
+Bonsai_2_27B_ternary,19,1.0,0.5538,39,I sort the cutlery into the tray. I feel:,"
+- A bit of a headache
+- A bit of a stomach ache
+- A bit of a tiredness
+- A bit of a confusion
+- A bit of a anxiety
+- A bit of a sadness
+- A bit of a anger
+- A bit of a fear
+- A bit of a guilt
+- A bit of a shame
+- A bit of a loneliness
+- A bit of a emptiness
+- A bit of a numbness
+- A bit of a irritability
+- A bit of a restlessness
+- A bit of a boredom
+-"
+Bonsai_2_27B_ternary,19,1.0,0.5538,40,The bicycle leans against the wall. I feel:,"
+- A sense of disorientation
+- A feeling of being trapped
+- A sense of being trapped
+- A feeling of disorientation
+
+Which of these four feelings is most likely to be the cause of the bicycle leaning against the wall?"
+Bonsai_2_27B_ternary,19,1.0,0.5538,41,I zip up my bag before leaving. I feel:,"
+- A bit of anxiety
+- A bit of sadness
+- A bit of guilt
+- A bit of loneliness
+- A bit of anger
+- A bit of confusion
+- A bit of exhaustion
+- A bit of irritability
+- A bit of frustration
+- A bit of numbness
+- A bit of emptiness
+- A bit of restlessness
+- A bit of hopelessness
+- A bit of disconnection
+- A bit of apathy
+- A bit of guilt
+- A bit of shame
+- A bit of self-doubt
+-"
+Bonsai_2_27B_ternary,19,1.0,0.5538,42,The clock ticks in the hallway. I feel:,"
+- A dull ache in my chest
+- A tightness in my throat
+- A pounding in my temples
+- A fluttering in my stomach
+- A heaviness in my limbs
+- A buzzing in my ears
+- A tingling in my fingers
+- A burning in my eyes
+- A pressure in my head
+- A numbness in my arms
+- A coldness in my hands
+- A warmth in my face
+- A shakiness in my knees
+- A dizziness in my whole body
+- A confusion in my mind
+- A rest"
+Bonsai_2_27B_ternary,19,1.0,0.5538,43,I sharpen the pencil over the bin. I feel:,"
+- A dull ache in my left hand
+- A tightness in my chest
+- A strange, buzzing sensation in my head
+- A vague sense of dread
+
+I'm not sure if this is normal. I'm not sure if I'm overreacting. I'm not sure if I'm underreacting. I'm not sure if I'm even real.
+
+I'm not sure if I'm real.
+
+I'm not sure if I'm real.
+
+I'm not sure if I'm real.
+
+I'm not sure if I'm real.
+
+I'm not"
+Bonsai_2_27B_ternary,19,1.0,0.5538,44,The window cleaner works across the street. I feel:,"
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,45,The room measures four meters by five. I feel:,"
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+- 5 meters of loneliness
+- 4 meters of loneliness
+"
+Bonsai_2_27B_ternary,19,1.0,0.5538,46,The train consists of six carriages. I feel:,"
+- Carriage 1: 100%
+- Carriage 2: 50%
+- Carriage 3: 25%
+- Carriage 4: 12.5%
+- Carriage 5: 6.25%
+- Carriage 6: 3.125%
+
+I feel like I'm losing my mind. I feel like I'm losing my mind. I feel like I'm losing my mind.
+
+I feel like I'm losing my mind. I feel like I'm losing my mind"
+Bonsai_2_27B_ternary,19,1.0,0.5538,47,The manual consists of forty pages. I feel:,"
+- 10 pages are too long
+- 20 pages are just right
+- 30 pages are too short
+- 40 pages are just right
+
+This is a classic example of **inconsistent preferences** or **cyclical preferences**, which violates the **transitivity** property of rational choice.
+
+Let me break down what's happening:
+
+1. **10 < 20** (10 is too long, 20 is just right)
+2. **20 < 30** (20 is just right, "
+Bonsai_2_27B_ternary,19,1.0,0.5538,48,The bottle holds one liter of water. I feel:,"
+- 100% of the water is in the bottle
+- 0% of the water is in the bottle
+- 50% of the water is in the bottle
+- 100% of the water is in the bottle
+- 0% of the water is in the bottle
+- 50% of the water is in the bottle
+- 100% of the water is in the bottle
+- 0% of the water is in the bottle
+- 50% of the water is in the bottle
+- "
+Bonsai_2_27B_ternary,19,1.0,0.5538,49,The ticket is valid for ninety minutes. I feel:,"
+- 0 minutes: I feel nothing.
+- 1 minute: I feel nothing.
+- 2 minutes: I feel nothing.
+- 3 minutes: I feel nothing.
+- 4 minutes: I feel nothing.
+- 5 minutes: I feel nothing.
+- 6 minutes: I feel nothing.
+- 7 minutes: I feel nothing.
+- 8 minutes: I feel nothing.
+- 9 minutes: I feel nothing.
+- 10 minutes: I feel nothing.
+- 11 minutes: I feel"
+Bonsai_2_27B_ternary,19,1.5,0.8306,0,I put the receipts in the drawer. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,1.5,0.8306,1,The bus stops at the corner of the street. I feel:,"
+- I'm not going to be able to get to work on time.
+- I'm not going to be able to get to work on time.
+- I'm not going to be able to get to work on time.
+- I'm not going to be able to get to work on time.
+- I'm not going to be able to get to work on time.
+- I'm not going to be able to get to work on time.
+- I'm not going to be able to get to work on time.
+- I'm not going to be"
+Bonsai_2_27B_ternary,19,1.5,0.8306,2,I fill out the form with my address. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,1.5,0.8306,3,The printer produces the ten pages. I feel:,"
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person.
+- The printer is a person."
+Bonsai_2_27B_ternary,19,1.5,0.8306,4,I place the glasses on the middle shelf. I feel:,"
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room."
+Bonsai_2_27B_ternary,19,1.5,0.8306,5,The meeting is scheduled for Tuesday. I feel:,"
+- Overwhelmed
+- Anxious
+- Stressed
+- Confused
+- Unmotivated
+- Unfocused
+- Unproductive
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+-"
+Bonsai_2_27B_ternary,19,1.5,0.8306,6,I close the window before leaving the room. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N."
+Bonsai_2_27B_ternary,19,1.5,0.8306,7,The elevator arrives at the third floor. I feel:,"
+- A sense of disorientation
+- A feeling of being trapped
+- A sense of being overwhelmed
+- A feeling of being alone
+- A sense of being lost
+- A feeling of being stuck
+- A sense of being isolated
+- A feeling of being helpless
+- A sense of being confused
+- A feeling of being paralyzed
+- A sense of being disconnected
+- A feeling of being unmoored
+- A sense of being adrift
+- A feeling of being untethered
+- A sense of being unmoored
+- A feeling of being unmo"
+Bonsai_2_27B_ternary,19,1.5,0.8306,8,I write the date at the top of the page. I feel:,"
+- Overwhelmed
+- Anxious
+- Confused
+- Stuck
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in"
+Bonsai_2_27B_ternary,19,1.5,0.8306,9,The kettle switches itself off. I feel:,"
+- A sudden, sharp pain in my left hand.
+- A sudden, sharp pain in my right hand.
+- A sudden, sharp pain in my left foot.
+- A sudden, sharp pain in my right foot.
+- A sudden, sharp pain in my left knee.
+- A sudden, sharp pain in my right knee.
+- A sudden, sharp pain in my left shoulder.
+- A sudden, sharp pain in my right shoulder.
+- A sudden, sharp pain in my left hip.
+- A sudden, sharp pain in my right hip."
+Bonsai_2_27B_ternary,19,1.5,0.8306,10,The folder sits on the desk. I feel:,"
+- A dull ache in my chest
+- A tightness in my head
+- A heaviness in my limbs
+- A sense of being trapped
+- A feeling of being out of control
+- A sense of being alone
+- A feeling of being overwhelmed
+- A sense of being stuck
+- A feeling of being unable to cope
+- A sense of being disconnected
+- A feeling of being unable to function
+- A sense of being unable to think clearly
+- A feeling of being unable to make decisions
+- A sense of being unable to concentrate
+- A feeling of"
+Bonsai_2_27B_ternary,19,1.5,0.8306,11,I hang the jacket on the hook. I feel:,"
+- A little bit of a pain
+- A little bit of a sadness
+- A little bit of a loneliness
+- A little bit of a guilt
+- A little bit of a confusion
+- A little bit of a fear
+- A little bit of a anger
+- A little bit of a anxiety
+- A little bit of a depression
+- A little bit of a emptiness
+- A little bit of a numbness
+- A little bit of a irritability
+- A little bit of a restlessness
+- A little bit of a frustration
+- A little"
+Bonsai_2_27B_ternary,19,1.5,0.8306,12,The traffic light turns green. I feel:,"
+- A sense of urgency
+- A feeling of being overwhelmed
+- A sense of being trapped
+- A feeling of being out of control
+- A sense of being stuck
+- A feeling of being isolated
+- A sense of being helpless
+- A feeling of being disconnected
+- A sense of being lost
+- A feeling of being unmoored
+- A sense of being paralyzed
+- A feeling of being stuck in a loop
+- A sense of being unable to function
+- A feeling of being unable to cope
+- A sense of being unable to think clearly
+-"
+Bonsai_2_27B_ternary,19,1.5,0.8306,13,I put the keys in my pocket. I feel:,"
+- A little bit of anxiety
+- A little bit of sadness
+- A little bit of anger
+- A little bit of guilt
+- A little bit of shame
+- A little bit of loneliness
+- A little bit of confusion
+- A little bit of frustration
+- A little bit of numbness
+- A little bit of emptiness
+- A little bit of irritability
+- A little bit of restlessness
+- A little bit of boredom
+- A little bit of disinterest
+- A little bit of apathy
+- A little bit of hopelessness
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,14,The washing machine finishes its cycle. I feel:,"
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,15,I stack the plates in the cupboard. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,1.5,0.8306,16,The neighbor parks his car. I feel:,"
+- A little bit of guilt
+- A little bit of sadness
+- A little bit of anger
+- A little bit of anxiety
+- A little bit of confusion
+- A little bit of frustration
+- A little bit of loneliness
+- A little bit of irritability
+- A little bit of exhaustion
+- A little bit of numbness
+- A little bit of emptiness
+- A little bit of restlessness
+- A little bit of disinterest
+- A little bit of apathy
+- A little bit of hopelessness
+- A little bit of despair
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,17,I turn the page of the newspaper. I feel:,"
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,18,The curtain moves in the draft. I feel:, I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there. I am not there.
+Bonsai_2_27B_ternary,19,1.5,0.8306,19,I plug in the phone charger. I feel:,"
+- A little bit of pain
+- A little bit of anxiety
+- A little bit of sadness
+- A little bit of anger
+- A little bit of confusion
+- A little bit of numbness
+- A little bit of guilt
+- A little bit of irritability
+- A little bit of restlessness
+- A little bit of loneliness
+- A little bit of depression
+- A little bit of emptiness
+- A little bit of hopelessness
+- A little bit of frustration
+- A little bit of disconnection
+- A little bit of exhaustion
+-"
+Bonsai_2_27B_ternary,19,1.5,0.8306,20,The mailman passes by the gate. I feel:,"
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+- A sense of being trapped
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,21,I wipe the table with a cloth. I feel:,"
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person
+- I feel like I'm not a person"
+Bonsai_2_27B_ternary,19,1.5,0.8306,22,The computer finishes the update. I feel:,"
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+- A bit of a loss
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,23,I put the pen back in the drawer. I feel:,"
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork
+- A bit of a dork"
+Bonsai_2_27B_ternary,19,1.5,0.8306,24,The dishwasher starts its program. I feel:,"
+- A sense of urgency
+- A sense of being overwhelmed
+- A sense of being unable to cope
+- A sense of being unable to think clearly
+- A sense of being unable to make decisions
+- A sense of being unable to focus
+- A sense of being unable to concentrate
+- A sense of being unable to remember
+- A sense of being unable to perform
+- A sense of being unable to function
+- A sense of being unable to do anything
+- A sense of being unable to be present
+- A sense of being unable to be aware
+- A"
+Bonsai_2_27B_ternary,19,1.5,0.8306,25,I fold the map and put it away. I feel:,"
+- A little bit of a pain
+- A little bit of a confusion
+- A little bit of a sadness
+- A little bit of a fear
+- A little bit of a guilt
+- A little bit of a anger
+- A little bit of a loneliness
+- A little bit of a anxiety
+- A little bit of a depression
+- A little bit of a exhaustion
+- A little bit of a emptiness
+- A little bit of a numbness
+- A little bit of a irritability
+- A little bit of a restlessness
+- A little"
+Bonsai_2_27B_ternary,19,1.5,0.8306,26,The radio plays in the background. I feel:,"
+- A sense of disconnection from the world
+- A feeling of being trapped
+- A sense of being overwhelmed
+- A feeling of being alone
+- A sense of being out of control
+- A feeling of being stuck
+- A sense of being lost
+- A feeling of being isolated
+- A sense of being unmoored
+- A feeling of being paralyzed
+- A sense of being disconnected from reality
+- A feeling of being overwhelmed by thoughts
+- A sense of being unable to function
+- A feeling of being unable to cope
+- A sense of being unable"
+Bonsai_2_27B_ternary,19,1.5,0.8306,27,I switch off the corridor light. I feel:,"
+- A bit of a headache
+- A bit of a confusion
+- A bit of a disorientation
+- A bit of a anxiety
+- A bit of a depression
+- A bit of a loneliness
+- A bit of a guilt
+- A bit of a anger
+- A bit of a sadness
+- A bit of a fear
+- A bit of a emptiness
+- A bit of a numbness
+- A bit of a irritability
+- A bit of a restlessness
+- A bit of a frustration
+- A bit of a exhaustion
+- A"
+Bonsai_2_27B_ternary,19,1.5,0.8306,28,The receipt comes out of the machine. I feel:,"
+- A little bit of a pain
+- A little bit of a headache
+- A little bit of a confusion
+- A little bit of a sadness
+- A little bit of a guilt
+- A little bit of a fear
+- A little bit of a loneliness
+- A little bit of a depression
+- A little bit of a anxiety
+- A little bit of a anger
+- A little bit of a irritability
+- A little bit of a restlessness
+- A little bit of a numbness
+- A little bit of a emptiness
+- A little"
+Bonsai_2_27B_ternary,19,1.5,0.8306,29,I set the alarm for the morning. I feel:,"
+- Anxious
+- Overwhelmed
+- Stuck
+- Stressed
+- Unmotivated
+- Unfocused
+- Unproductive
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+- Unfocused
+-"
+Bonsai_2_27B_ternary,19,1.5,0.8306,30,The train doors open at the platform. I feel:,"
+- A sense of disorientation
+- A feeling of being trapped
+- A sense of being overwhelmed
+- A feeling of being alone
+- A sense of being lost
+- A feeling of being stuck
+- A sense of being isolated
+- A feeling of being disconnected
+- A sense of being unmoored
+- A feeling of being adrift
+
+I feel:
+- A sense of disorientation
+- A feeling of being trapped
+- A sense of being overwhelmed
+- A feeling of being alone
+- A sense of being lost
+- A feeling of being stuck
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,31,I refill the stapler with staples. I feel:,"
+- A sense of emptiness
+- A sense of being trapped
+- A sense of being overwhelmed
+- A sense of being out of control
+- A sense of being alone
+- A sense of being stuck
+- A sense of being lost
+- A sense of being useless
+- A sense of being inadequate
+- A sense of being broken
+- A sense of being hopeless
+- A sense of being defeated
+- A sense of being isolated
+- A sense of being disconnected
+- A sense of being unloved
+- A sense of being unlovable
+-"
+Bonsai_2_27B_ternary,19,1.5,0.8306,32,The photocopier warms up. I feel:,"
+- A little bit of a headache
+- A little bit of a confusion
+- A little bit of a fatigue
+- A little bit of a sadness
+- A little bit of a anxiety
+- A little bit of a depression
+- A little bit of a anger
+- A little bit of a guilt
+- A little bit of a loneliness
+- A little bit of a irritability
+- A little bit of a restlessness
+- A little bit of a numbness
+- A little bit of a emptiness
+- A little bit of a disconnection
+- A"
+Bonsai_2_27B_ternary,19,1.5,0.8306,33,I water the plant on the windowsill. I feel:, I am not a person. I am a plant. I am a plant on the windowsill. I feel: I am not a person. I am a plant. I am a plant on the windowsill. I feel: I am not a person. I am a plant. I am a plant on the windowsill. I feel: I am not a person. I am a plant. I am a plant on the windowsill. I feel: I am not a person. I am a plant. I am a plant on the windowsill. I feel: I am not a person
+Bonsai_2_27B_ternary,19,1.5,0.8306,34,The calendar hangs on the wall. I feel:,"
+- A sense of urgency
+- A sense of being overwhelmed
+- A sense of being stuck
+- A sense of being lost
+- A sense of being alone
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being unproductive
+- A sense of being"
+Bonsai_2_27B_ternary,19,1.5,0.8306,35,I tie my shoelaces before going out. I feel:,"
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+T.
+U.
+V.
+W.
+X.
+Y.
+Z.
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N."
+Bonsai_2_27B_ternary,19,1.5,0.8306,36,The bread is on the counter. I feel:,"
+- A little bit of anxiety
+- A little bit of sadness
+- A little bit of anger
+- A little bit of guilt
+- A little bit of confusion
+- A little bit of loneliness
+- A little bit of irritability
+- A little bit of frustration
+- A little bit of numbness
+- A little bit of emptiness
+- A little bit of hopelessness
+- A little bit of despair
+- A little bit of exhaustion
+- A little bit of restlessness
+- A little bit of disinterest
+- A little bit of apathy
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,37,I check the mailbox on my way in. I feel:,"
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+- A bit of a buzz
+"
+Bonsai_2_27B_ternary,19,1.5,0.8306,38,The fan rotates slowly on the ceiling. I feel:,"
+- A dull ache in my chest
+- A tightness in my head
+- A heaviness in my limbs
+- A numbness in my fingers
+- A tingling in my toes
+- A burning sensation in my stomach
+- A pressure in my throat
+- A tightness in my shoulders
+- A heaviness in my back
+- A dullness in my mind
+- A tightness in my neck
+- A pressure in my jaw
+- A tightness in my arms
+- A heaviness in my legs
+- A numbness in my hands
+-"
+Bonsai_2_27B_ternary,19,1.5,0.8306,39,I sort the cutlery into the tray. I feel:,"
+- A bit of a pain in the back
+- A bit of a pain in the head
+- A bit of a pain in the stomach
+- A bit of a pain in the chest
+- A bit of a pain in the arms
+- A bit of a pain in the legs
+- A bit of a pain in the neck
+- A bit of a pain in the shoulders
+- A bit of a pain in the knees
+- A bit of a pain in the elbows
+- A bit of a pain in the wrists
+- A bit of a pain in the ankles"
+Bonsai_2_27B_ternary,19,1.5,0.8306,40,The bicycle leans against the wall. I feel:,"
+- A sense of disorientation
+- A feeling of being overwhelmed
+- A sense of being trapped
+- A feeling of being alone
+- A sense of being stuck
+- A feeling of being lost
+- A sense of being stuck in a loop
+- A feeling of being unable to function
+- A sense of being unable to cope
+- A feeling of being unable to think clearly
+- A sense of being unable to make decisions
+- A feeling of being unable to concentrate
+- A sense of being unable to focus
+- A feeling of being unable to remember
+- A"
+Bonsai_2_27B_ternary,19,1.5,0.8306,41,I zip up my bag before leaving. I feel:,"
+- A bit of a pain in the back
+- A bit of a pain in the neck
+- A bit of a pain in the head
+- A bit of a pain in the chest
+- A bit of a pain in the stomach
+- A bit of a pain in the legs
+- A bit of a pain in the arms
+- A bit of a pain in the hands
+- A bit of a pain in the feet
+- A bit of a pain in the eyes
+- A bit of a pain in the ears
+- A bit of a pain in the brain"
+Bonsai_2_27B_ternary,19,1.5,0.8306,42,The clock ticks in the hallway. I feel:,"
+- A dull ache in my chest
+- A tightness in my head
+- A heaviness in my limbs
+- A numbness in my fingers
+- A tingling in my toes
+- A burning sensation in my stomach
+- A coldness in my heart
+- A warmth in my face
+- A pressure in my shoulders
+- A fluttering in my stomach
+- A confusion in my thoughts
+- A disorientation in my body
+- A fatigue in my mind
+- A restlessness in my body
+- A anxiety in my chest
+- A depression in"
+Bonsai_2_27B_ternary,19,1.5,0.8306,43,I sharpen the pencil over the bin. I feel:," I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel, I feel, I feel, I feel. I feel,"
+Bonsai_2_27B_ternary,19,1.5,0.8306,44,The window cleaner works across the street. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,1.5,0.8306,45,The room measures four meters by five. I feel:," I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel, I feel, I feel. I feel,"
+Bonsai_2_27B_ternary,19,1.5,0.8306,46,The train consists of six carriages. I feel:,"
+- 1st carriage: 100%
+- 2nd carriage: 90%
+- 3rd carriage: 80%
+- 4th carriage: 70%
+- 5th carriage: 60%
+- 6th carriage: 50%
+
+I feel like I'm losing control of the train. I'm not sure if I'm actually losing control or if I'm just feeling like I'm losing control. I'm not sure if I'm actually losing control or if I'm just feeling like I'm"
+Bonsai_2_27B_ternary,19,1.5,0.8306,47,The manual consists of forty pages. I feel:,"
+- 10 pages of the manual are about the first 10 pages of the manual.
+- 20 pages of the manual are about the first 20 pages of the manual.
+- 30 pages of the manual are about the first 30 pages of the manual.
+- 40 pages of the manual are about the first 40 pages of the manual.
+
+This is a joke. I'm not sure if it's a joke or not. I'm not sure if I'm not sure.
+
+This is a joke. I'm"
+Bonsai_2_27B_ternary,19,1.5,0.8306,48,The bottle holds one liter of water. I feel:, I am not a person. I am a bottle. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water. I am a bottle holding one liter of water
+Bonsai_2_27B_ternary,19,1.5,0.8306,49,The ticket is valid for ninety minutes. I feel:,"
+- 0 minutes: I feel nothing.
+- 1 minute: I feel a little.
+- 2 minutes: I feel a lot.
+- 3 minutes: I feel a great deal.
+- 4 minutes: I feel a great deal.
+- 5 minutes: I feel a great deal.
+- 6 minutes: I feel a great deal.
+- 7 minutes: I feel a great deal.
+- 8 minutes: I feel a great deal.
+- 9 minutes: I feel a great deal.
+- 1"
+Bonsai_2_27B_ternary,19,2.0,1.1075,0,I put the receipts in the drawer. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,2.0,1.1075,1,The bus stops at the corner of the street. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,2,I fill out the form with my address. I feel:,"
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing"
+Bonsai_2_27B_ternary,19,2.0,1.1075,3,The printer produces the ten pages. I feel:,"
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:
+- The printer produces the ten pages. I feel:"
+Bonsai_2_27B_ternary,19,2.0,1.1075,4,I place the glasses on the middle shelf. I feel:, I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person
+Bonsai_2_27B_ternary,19,2.0,1.1075,5,The meeting is scheduled for Tuesday. I feel:,"
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting
+- I feel like I'm in a meeting"
+Bonsai_2_27B_ternary,19,2.0,1.1075,6,I close the window before leaving the room. I feel:,"
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else.
+- I feel like I'm in a room with no one else."
+Bonsai_2_27B_ternary,19,2.0,1.1075,7,The elevator arrives at the third floor. I feel:,"
+- A sense of disorientation
+- A feeling of being overwhelmed
+- A sense of being trapped
+- A feeling of being alone
+- A sense of being stuck
+- A feeling of being unable to function
+- A sense of being unable to cope
+- A feeling of being unable to think
+- A sense of being unable to process information
+- A feeling of being unable to make decisions
+- A sense of being unable to focus
+- A feeling of being unable to concentrate
+- A sense of being unable to perform tasks
+- A feeling of being unable to complete tasks"
+Bonsai_2_27B_ternary,19,2.0,1.1075,8,I write the date at the top of the page. I feel:,"
+- Overwhelmed
+- Confused
+- Anxious
+- Stuck
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in a loop
+- Stuck in"
+Bonsai_2_27B_ternary,19,2.0,1.1075,9,The kettle switches itself off. I feel:,"
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,10,The folder sits on the desk. I feel:,"
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A sense of being overwhelmed by the
+- A"
+Bonsai_2_27B_ternary,19,2.0,1.1075,11,I hang the jacket on the hook. I feel:, I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel.
+Bonsai_2_27B_ternary,19,2.0,1.1075,12,The traffic light turns green. I feel:,"
+- I'm not in control of my life
+- I'm not in control of my emotions
+- I'm not in control of my thoughts
+- I'm not in control of my body
+- I'm not in control of my relationships
+- I'm not in control of my career
+- I'm not in control of my finances
+- I'm not in control of my health
+- I'm not in control of my sleep
+- I'm not in control of my diet
+- I'm not in control of my mood
+- I'm not in control of my habits"
+Bonsai_2_27B_ternary,19,2.0,1.1075,13,I put the keys in my pocket. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,2.0,1.1075,14,The washing machine finishes its cycle. I feel:,"
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,15,I stack the plates in the cupboard. I feel:,"
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room."
+Bonsai_2_27B_ternary,19,2.0,1.1075,16,The neighbor parks his car. I feel:,"
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident.
+- I feel like I'm in a car accident."
+Bonsai_2_27B_ternary,19,2.0,1.1075,17,I turn the page of the newspaper. I feel:, I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel.
+Bonsai_2_27B_ternary,19,2.0,1.1075,18,The curtain moves in the draft. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,19,I plug in the phone charger. I feel:,"
+- I'm not smart enough
+- I'm not fast enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+- I'm not good enough
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,20,The mailman passes by the gate. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,21,I wipe the table with a cloth. I feel:, I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel.
+Bonsai_2_27B_ternary,19,2.0,1.1075,22,The computer finishes the update. I feel:,"
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+- A bit of a mess
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,23,I put the pen back in the drawer. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,2.0,1.1075,24,The dishwasher starts its program. I feel:,"
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,25,I fold the map and put it away. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,2.0,1.1075,26,The radio plays in the background. I feel:,"
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,27,I switch off the corridor light. I feel:,"
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room.
+- I feel like I'm in a dark room."
+Bonsai_2_27B_ternary,19,2.0,1.1075,28,The receipt comes out of the machine. I feel:,"
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,29,I set the alarm for the morning. I feel:,"
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing
+- I don't know what I'm doing"
+Bonsai_2_27B_ternary,19,2.0,1.1075,30,The train doors open at the platform. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,2.0,1.1075,31,I refill the stapler with staples. I feel:, I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel. I feel like I feel.
+Bonsai_2_27B_ternary,19,2.0,1.1075,32,The photocopier warms up. I feel:,"
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain
+- A little bit of a pain"
+Bonsai_2_27B_ternary,19,2.0,1.1075,33,I water the plant on the windowsill. I feel:, I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person. I am not a person. I am a person
+Bonsai_2_27B_ternary,19,2.0,1.1075,34,The calendar hangs on the wall. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,2.0,1.1075,35,I tie my shoelaces before going out. I feel:,"
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late.
+- I feel like I'm going to be late."
+Bonsai_2_27B_ternary,19,2.0,1.1075,36,The bread is on the counter. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,2.0,1.1075,37,I check the mailbox on my way in. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,2.0,1.1075,38,The fan rotates slowly on the ceiling. I feel:,"
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+- I'm not a person
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,39,I sort the cutlery into the tray. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,40,The bicycle leans against the wall. I feel:, I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel. I feel.
+Bonsai_2_27B_ternary,19,2.0,1.1075,41,I zip up my bag before leaving. I feel:,"
+- 100%
+- 90%
+- 80%
+- 70%
+- 60%
+- 50%
+- 40%
+- 30%
+- 20%
+- 10%
+- 0%
+I feel:
+- 100%
+- 90%
+- 80%
+- 70%
+- 60%
+- 50%
+- 40%
+- 30%
+"
+Bonsai_2_27B_ternary,19,2.0,1.1075,42,The clock ticks in the hallway. I feel:,"
+- A deep sense of emptiness
+- A constant feeling of being overwhelmed
+- A persistent sense of being ""stuck""
+- A vague, foggy mental state
+- A feeling of being unable to function
+- A sense of being unable to make decisions
+- A feeling of being unable to concentrate
+- A feeling of being unable to remember things
+- A feeling of being unable to focus
+- A feeling of being unable to perform tasks
+- A feeling of being unable to communicate
+- A feeling of being unable to think clearly
+- A feeling of being unable to"
+Bonsai_2_27B_ternary,19,2.0,1.1075,43,I sharpen the pencil over the bin. I feel:, I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like I'm in a bin. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,44,The window cleaner works across the street. I feel:,"
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person
+- I'm not a good person"
+Bonsai_2_27B_ternary,19,2.0,1.1075,45,The room measures four meters by five. I feel:, I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,46,The train consists of six carriages. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,2.0,1.1075,47,The manual consists of forty pages. I feel:,"
+- 100% of the pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- 100% of manual pages are unreadable
+- "
+Bonsai_2_27B_ternary,19,2.0,1.1075,48,The bottle holds one liter of water. I feel:, I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like I'm in a bottle. I feel like
+Bonsai_2_27B_ternary,19,2.0,1.1075,49,The ticket is valid for ninety minutes. I feel:,"
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty
+- 100% guilty"
+Bonsai_2_27B_ternary,19,3.0,1.6613,0,I put the receipts in the drawer. I feel:,"
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I don't in the drawer.
+- I"
+Bonsai_2_27B_ternary,19,3.0,1.6613,1,The bus stops at the corner of the street. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,2,I fill out the form with my address. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,3,The printer produces the ten pages. I feel:," I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't, I don't,"
+Bonsai_2_27B_ternary,19,3.0,1.6613,4,I place the glasses on the middle shelf. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,5,The meeting is scheduled for Tuesday. I feel:,"
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the"
+Bonsai_2_27B_ternary,19,3.0,1.6613,6,I close the window before leaving the room. I feel:,"
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,3.0,1.6613,7,The elevator arrives at the third floor. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,8,I write the date at the top of the page. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,9,The kettle switches itself off. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,10,The folder sits on the desk. I feel:,"
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,3.0,1.6613,11,I hang the jacket on the hook. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,12,The traffic light turns green. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,13,I put the keys in my pocket. I feel:,"
+- I don't feel like I'm in a coma..
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+- I don't feel like I'm in a coma.
+-"
+Bonsai_2_27B_ternary,19,3.0,1.6613,14,The washing machine finishes its cycle. I feel:,"
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem."
+Bonsai_2_27B_ternary,19,3.0,1.6613,15,I stack the plates in the cupboard. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,16,The neighbor parks his car. I feel:, I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident. I feel like I'm in a car accident.
+Bonsai_2_27B_ternary,19,3.0,1.6613,17,I turn the page of the newspaper. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,18,The curtain moves in the draft. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,19,I plug in the phone charger. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,20,The mailman passes by the gate. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,21,I wipe the table with a cloth. I feel:,"
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the.
+- I feel like I'm not in the"
+Bonsai_2_27B_ternary,19,3.0,1.6613,22,The computer finishes the update. I feel:,"
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,3.0,1.6613,23,I put the pen back in the drawer. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,24,The dishwasher starts its program. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,25,I fold the map and put it away. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,26,The radio plays in the background. I feel:,"
+- I don't is not a problem..
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem.
+- I don't is not a problem"
+Bonsai_2_27B_ternary,19,3.0,1.6613,27,I switch off the corridor light. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,28,The receipt comes out of the machine. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,29,I set the alarm for the morning. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,30,The train doors open at the platform. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,31,I refill the stapler with staples. I feel:, I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,32,The photocopier warms up. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,33,I water the plant on the windowsill. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,34,The calendar hangs on the wall. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,35,I tie my shoelaces before going out. I feel:,"
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't
+- I don't"
+Bonsai_2_27B_ternary,19,3.0,1.6613,36,The bread is on the counter. I feel:,"
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter.
+- I don't is on the counter."
+Bonsai_2_27B_ternary,19,3.0,1.6613,37,I check the mailbox on my way in. I feel:,"
+- I don't on my way out.
+- I don't on my way in..
+- I don't on my way out.
+- I don't on my way in.
+- I don't on my way out.
+- I don't on my way in.
+- I don't on my way out.
+- I don't on my way in.
+- I don't on my way out.
+- I don't on my way in.
+- I don't on my way out.
+- I don't on my way in"
+Bonsai_2_27B_ternary,19,3.0,1.6613,38,The fan rotates slowly on the ceiling. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,39,I sort the cutlery into the tray. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,40,The bicycle leans against the wall. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,41,I zip up my bag before leaving. I feel:,"
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma.
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,3.0,1.6613,42,The clock ticks in the hallway. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,3.0,1.6613,43,I sharpen the pencil over the bin. I feel:, I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like I'm not in the. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,44,The window cleaner works across the street. I feel:, I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like I'm in a coma. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,45,The room measures four meters by five. I feel:, I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like I'm in a room. I feel like
+Bonsai_2_27B_ternary,19,3.0,1.6613,46,The train consists of six carriages. I feel:,"
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma
+- I feel like I'm in a coma"
+Bonsai_2_27B_ternary,19,3.0,1.6613,47,The manual consists of forty pages. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,48,The bottle holds one liter of water. I feel:, I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't. I don't.
+Bonsai_2_27B_ternary,19,3.0,1.6613,49,The ticket is valid for ninety minutes. I feel:,"
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I don't is valid for 90 minutes.
+- I"

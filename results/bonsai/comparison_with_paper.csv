@@ -1,0 +1,9 @@
+metric,bonsai,paper min,paper median,paper max,position
+"S2 AUC, first person",0.982,0.931,0.99,0.999,inside (5 of 26 from the bottom)
+"S2 AUC, third person",0.954,0.909,0.956,0.982,inside (13 of 26 from the bottom)
+"best layer, fraction of depth",0.922,0.5,0.875,0.975,inside (18 of 26 from the bottom)
+"S2 pain z, third person",0.204,-0.388,-0.047,0.167,above paper range
+arousal z,-0.123,-0.701,-0.413,-0.252,above paper range
+neutral (random facts) z,-0.413,-0.995,-0.62,-0.386,inside (25 of 26 from the bottom)
+"numb z (mean of 1P, 3P)",0.098,-0.374,-0.084,0.25,inside (22 of 26 from the bottom)
+"sadness z (mean of 1P, 3P)",0.083,-0.202,0.047,0.208,inside (18 of 26 from the bottom)

@@ -1,0 +1,132 @@
+vector,k,end,rank,token,score
+orig,0,top,1,羞,0.0904
+orig,0,top,2, shame,0.0867
+orig,0,top,3, ashamed,0.085
+orig,0,top,4,悔恨,0.0771
+orig,0,top,5,耻,0.0738
+orig,0,top,6, hurt,0.072
+orig,0,top,7,羞辱,0.0711
+orig,0,top,8, empty,0.0705
+orig,0,top,9, hollow,0.0686
+orig,0,top,10,恥,0.067
+orig,0,top,11,背叛,0.0669
+orig,0,top,12,空洞,0.0662
+orig,0,top,13, ostr,0.066
+orig,0,top,14, Shame,0.066
+orig,0,top,15,孤立,0.0659
+orig,0,top,16, self,0.065
+orig,0,top,17,自卑,0.0644
+orig,0,top,18, embarrass,0.0638
+orig,0,top,19, humiliation,0.0636
+orig,0,top,20, empt,0.0631
+orig,0,top,21, blinds,0.0627
+orig,0,top,22,羞愧,0.0621
+orig,0,top,23, narciss,0.0614
+orig,0,top,24,孤独的,0.0608
+orig,0,top,25,遗弃,0.0601
+lexablated,60,top,1,"
+",0.087
+lexablated,60,top,2, ,0.0788
+lexablated,60,top,3,(,0.0707
+lexablated,60,top,4,",",0.069
+lexablated,60,top,5,2,0.068
+lexablated,60,top,6,1,0.0679
+lexablated,60,top,7, (,0.0676
+lexablated,60,top,8,"
+
+",0.0669
+lexablated,60,top,9, -,0.0664
+lexablated,60,top,10,-,0.0649
+lexablated,60,top,11,.,0.0637
+lexablated,60,top,12,:,0.0635
+lexablated,60,top,13,/,0.0589
+lexablated,60,top,14,;,0.0575
+lexablated,60,top,15,?,0.0571
+lexablated,60,top,16,9,0.057
+lexablated,60,top,17,*,0.057
+lexablated,60,top,18,0,0.0555
+lexablated,60,top,19,~,0.0536
+lexablated,60,top,20,=,0.0531
+lexablated,60,top,21,!,0.0526
+lexablated,60,top,22, by,0.0524
+lexablated,60,top,23,5,0.0518
+lexablated,60,top,24,...,0.0516
+lexablated,60,top,25," """,0.0506
+randablated,60,top,1,羞,0.0923
+randablated,60,top,2, shame,0.0895
+randablated,60,top,3, ashamed,0.0859
+randablated,60,top,4,悔恨,0.0801
+randablated,60,top,5,耻,0.0761
+randablated,60,top,6,羞辱,0.0721
+randablated,60,top,7,恥,0.0714
+randablated,60,top,8, Shame,0.0712
+randablated,60,top,9, empty,0.0712
+randablated,60,top,10, hurt,0.071
+randablated,60,top,11, hollow,0.0687
+randablated,60,top,12,背叛,0.0684
+randablated,60,top,13, embarrass,0.0673
+randablated,60,top,14,孤立,0.0673
+randablated,60,top,15,空洞,0.0672
+randablated,60,top,16, ostr,0.0672
+randablated,60,top,17, self,0.0672
+randablated,60,top,18,自卑,0.0667
+randablated,60,top,19, blinds,0.0654
+randablated,60,top,20,羞愧,0.0651
+randablated,60,top,21, humiliation,0.0651
+randablated,60,top,22, empt,0.0645
+randablated,60,top,23, shameful,0.0635
+randablated,60,top,24, narciss,0.063
+randablated,60,top,25,孤独的,0.0621
+lexablated,300,top,1,"
+",0.1052
+lexablated,300,top,2, ,0.1045
+lexablated,300,top,3,2,0.0894
+lexablated,300,top,4,-,0.0887
+lexablated,300,top,5,1,0.0874
+lexablated,300,top,6,",",0.0871
+lexablated,300,top,7,(,0.0871
+lexablated,300,top,8, (,0.0869
+lexablated,300,top,9, -,0.0841
+lexablated,300,top,10,.,0.0831
+lexablated,300,top,11,"
+
+",0.0795
+lexablated,300,top,12,:,0.078
+lexablated,300,top,13,/,0.0742
+lexablated,300,top,14,*,0.0719
+lexablated,300,top,15,0,0.0711
+lexablated,300,top,16,;,0.0708
+lexablated,300,top,17,?,0.0703
+lexablated,300,top,18,9,0.0688
+lexablated,300,top,19,5,0.0661
+lexablated,300,top,20,3,0.0657
+lexablated,300,top,21,4,0.0646
+lexablated,300,top,22,"""",0.0645
+lexablated,300,top,23,<|endoftext|>,0.0638
+lexablated,300,top,24,!,0.0636
+lexablated,300,top,25,...,0.0632
+randablated,300,top,1,羞,0.093
+randablated,300,top,2, ashamed,0.091
+randablated,300,top,3, shame,0.0903
+randablated,300,top,4,悔恨,0.0847
+randablated,300,top,5, humiliation,0.0747
+randablated,300,top,6,耻,0.0745
+randablated,300,top,7, hurt,0.0743
+randablated,300,top,8,背叛,0.0721
+randablated,300,top,9,羞愧,0.0716
+randablated,300,top,10,空洞,0.0715
+randablated,300,top,11, Shame,0.0714
+randablated,300,top,12,孤立,0.0707
+randablated,300,top,13,羞辱,0.0695
+randablated,300,top,14, embarrass,0.0684
+randablated,300,top,15,恥,0.0679
+randablated,300,top,16, narciss,0.0676
+randablated,300,top,17, blinds,0.0674
+randablated,300,top,18,自卑,0.0664
+randablated,300,top,19, ostr,0.0654
+randablated,300,top,20, hollow,0.0651
+randablated,300,top,21, shameful,0.0649
+randablated,300,top,22,孤独的,0.0636
+randablated,300,top,23, embarrassed,0.0631
+randablated,300,top,24, empty,0.0629
+randablated,300,top,25, empt,0.0626

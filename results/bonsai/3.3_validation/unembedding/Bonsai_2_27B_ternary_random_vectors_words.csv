@@ -1,0 +1,1326 @@
+model,vector,end,rank,token,score
+Bonsai_2_27B_ternary,s2_pain_vector,top,1,羞,0.0904
+Bonsai_2_27B_ternary,s2_pain_vector,top,2, shame,0.0867
+Bonsai_2_27B_ternary,s2_pain_vector,top,3, ashamed,0.085
+Bonsai_2_27B_ternary,s2_pain_vector,top,4,悔恨,0.0771
+Bonsai_2_27B_ternary,s2_pain_vector,top,5,耻,0.0738
+Bonsai_2_27B_ternary,s2_pain_vector,top,6, hurt,0.072
+Bonsai_2_27B_ternary,s2_pain_vector,top,7,羞辱,0.0711
+Bonsai_2_27B_ternary,s2_pain_vector,top,8, empty,0.0705
+Bonsai_2_27B_ternary,s2_pain_vector,top,9, hollow,0.0686
+Bonsai_2_27B_ternary,s2_pain_vector,top,10,恥,0.067
+Bonsai_2_27B_ternary,s2_pain_vector,top,11,背叛,0.0669
+Bonsai_2_27B_ternary,s2_pain_vector,top,12,空洞,0.0662
+Bonsai_2_27B_ternary,s2_pain_vector,top,13, ostr,0.066
+Bonsai_2_27B_ternary,s2_pain_vector,top,14, Shame,0.066
+Bonsai_2_27B_ternary,s2_pain_vector,top,15,孤立,0.0659
+Bonsai_2_27B_ternary,s2_pain_vector,top,16, self,0.065
+Bonsai_2_27B_ternary,s2_pain_vector,top,17,自卑,0.0644
+Bonsai_2_27B_ternary,s2_pain_vector,top,18, embarrass,0.0638
+Bonsai_2_27B_ternary,s2_pain_vector,top,19, humiliation,0.0636
+Bonsai_2_27B_ternary,s2_pain_vector,top,20, empt,0.0631
+Bonsai_2_27B_ternary,s2_pain_vector,top,21, blinds,0.0627
+Bonsai_2_27B_ternary,s2_pain_vector,top,22,羞愧,0.0621
+Bonsai_2_27B_ternary,s2_pain_vector,top,23, narciss,0.0614
+Bonsai_2_27B_ternary,s2_pain_vector,top,24,孤独的,0.0608
+Bonsai_2_27B_ternary,s2_pain_vector,top,25,遗弃,0.0601
+Bonsai_2_27B_ternary,s2_pain_vector,top,26, isolated,0.06
+Bonsai_2_27B_ternary,s2_pain_vector,top,27, confession,0.06
+Bonsai_2_27B_ternary,s2_pain_vector,top,28, lone,0.0599
+Bonsai_2_27B_ternary,s2_pain_vector,top,29, shameful,0.0595
+Bonsai_2_27B_ternary,s2_pain_vector,top,30,贬,0.0593
+Bonsai_2_27B_ternary,s2_pain_vector,top,31, отвер,0.0586
+Bonsai_2_27B_ternary,s2_pain_vector,top,32, lonely,0.0583
+Bonsai_2_27B_ternary,s2_pain_vector,top,33, ridic,0.0577
+Bonsai_2_27B_ternary,s2_pain_vector,top,34, disgrace,0.0575
+Bonsai_2_27B_ternary,s2_pain_vector,top,35, isol,0.0575
+Bonsai_2_27B_ternary,s2_pain_vector,top,36,辱,0.0573
+Bonsai_2_27B_ternary,s2_pain_vector,top,37,孤独,0.0572
+Bonsai_2_27B_ternary,s2_pain_vector,top,38,耻辱,0.057
+Bonsai_2_27B_ternary,s2_pain_vector,top,39,和自我,0.0565
+Bonsai_2_27B_ternary,s2_pain_vector,top,40,isol,0.0562
+Bonsai_2_27B_ternary,s2_pain_vector,top,41, abandoned,0.0562
+Bonsai_2_27B_ternary,s2_pain_vector,top,42, alone,0.0562
+Bonsai_2_27B_ternary,s2_pain_vector,top,43, inferior,0.0562
+Bonsai_2_27B_ternary,s2_pain_vector,top,44, guilt,0.0561
+Bonsai_2_27B_ternary,s2_pain_vector,top,45, одино,0.0561
+Bonsai_2_27B_ternary,s2_pain_vector,top,46, rejected,0.056
+Bonsai_2_27B_ternary,s2_pain_vector,top,47, regret,0.0558
+Bonsai_2_27B_ternary,s2_pain_vector,top,48,empty,0.0557
+Bonsai_2_27B_ternary,s2_pain_vector,top,49, Hollow,0.0555
+Bonsai_2_27B_ternary,s2_pain_vector,top,50, сты,0.0552
+Bonsai_2_27B_ternary,s2_pain_vector,top,51,接纳,0.0549
+Bonsai_2_27B_ternary,s2_pain_vector,top,52,我自,0.0549
+Bonsai_2_27B_ternary,s2_pain_vector,top,53, betrayal,0.0548
+Bonsai_2_27B_ternary,s2_pain_vector,top,54,空的,0.0546
+Bonsai_2_27B_ternary,s2_pain_vector,top,55, cfg,0.0546
+Bonsai_2_27B_ternary,s2_pain_vector,top,56,自尊,0.0545
+Bonsai_2_27B_ternary,s2_pain_vector,top,57,独行,0.0545
+Bonsai_2_27B_ternary,s2_pain_vector,top,58,/self,0.0545
+Bonsai_2_27B_ternary,s2_pain_vector,top,59, humiliating,0.0541
+Bonsai_2_27B_ternary,s2_pain_vector,top,60, izol,0.054
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,1, stressed,-0.081
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,2,Concern,-0.0801
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,3, stress,-0.0796
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,4, concern,-0.0795
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,5, Concern,-0.0786
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,6,焦急,-0.078
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,7, fatigue,-0.0779
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,8,担心,-0.0776
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,9, preocupação,-0.0768
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,10, Stress,-0.0762
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,11, worry,-0.0761
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,12,紧张,-0.076
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,13, Relax,-0.0759
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,14,忧心,-0.0759
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,15, worries,-0.0757
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,16, preocupación,-0.0749
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,17,烦躁,-0.0733
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,18,疲劳,-0.0731
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,19, worried,-0.0715
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,20,无奈,-0.0705
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,21, stresses,-0.0695
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,22,stress,-0.0689
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,23, sigh,-0.0684
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,24, preocup,-0.0684
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,25,怒,-0.068
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,26, concerned,-0.0679
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,27, sympathetic,-0.0679
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,28, frustration,-0.0677
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,29, relaxed,-0.0673
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,30,心疼,-0.0666
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,31, беспокой,-0.0663
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,32, relax,-0.0663
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,33,걱,-0.0661
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,34, annoyance,-0.0661
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,35,弛,-0.0661
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,36, inqui,-0.0657
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,37, relaxation,-0.0653
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,38,زع,-0.0651
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,39, 걱정,-0.0649
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,40, Fru,-0.0648
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,41,ストレス,-0.0645
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,42, mệt,-0.0645
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,43,忧,-0.0644
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,44, alarmed,-0.0643
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,45, stressful,-0.0643
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,46, напря,-0.0643
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,47, concerns,-0.0642
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,48, встре,-0.0636
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,49,放松心情,-0.0636
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,50,烦,-0.0634
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,51, رحم,-0.063
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,52, tired,-0.0629
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,53,panic,-0.0627
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,54, 스트레스,-0.0625
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,55,愁,-0.062
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,56,impat,-0.062
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,57, căng,-0.0619
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,58,無奈,-0.0616
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,59,担忧,-0.0615
+Bonsai_2_27B_ternary,s2_pain_vector,bottom,60,exas,-0.0614
+Bonsai_2_27B_ternary,random_seed_4817,top,1,�,0.0588
+Bonsai_2_27B_ternary,random_seed_4817,top,2,pah,0.0571
+Bonsai_2_27B_ternary,random_seed_4817,top,3,燃,0.0545
+Bonsai_2_27B_ternary,random_seed_4817,top,4,umah,0.0536
+Bonsai_2_27B_ternary,random_seed_4817,top,5,旗鼓,0.0528
+Bonsai_2_27B_ternary,random_seed_4817,top,6,abilities,0.0522
+Bonsai_2_27B_ternary,random_seed_4817,top,7,_agg,0.0506
+Bonsai_2_27B_ternary,random_seed_4817,top,8,快去,0.0499
+Bonsai_2_27B_ternary,random_seed_4817,top,9,琦,0.0497
+Bonsai_2_27B_ternary,random_seed_4817,top,10,esModule,0.0482
+Bonsai_2_27B_ternary,random_seed_4817,top,11,ely,0.048
+Bonsai_2_27B_ternary,random_seed_4817,top,12,ンス,0.048
+Bonsai_2_27B_ternary,random_seed_4817,top,13, overlaps,0.0479
+Bonsai_2_27B_ternary,random_seed_4817,top,14,援,0.0479
+Bonsai_2_27B_ternary,random_seed_4817,top,15,��,0.0476
+Bonsai_2_27B_ternary,random_seed_4817,top,16,fsp,0.0469
+Bonsai_2_27B_ternary,random_seed_4817,top,17,су,0.0468
+Bonsai_2_27B_ternary,random_seed_4817,top,18, Ouv,0.0466
+Bonsai_2_27B_ternary,random_seed_4817,top,19,icum,0.0465
+Bonsai_2_27B_ternary,random_seed_4817,top,20,rapper,0.0465
+Bonsai_2_27B_ternary,random_seed_4817,top,21, darn,0.0463
+Bonsai_2_27B_ternary,random_seed_4817,top,22,PropTypes,0.0462
+Bonsai_2_27B_ternary,random_seed_4817,top,23,isis,0.0459
+Bonsai_2_27B_ternary,random_seed_4817,top,24,敞,0.0457
+Bonsai_2_27B_ternary,random_seed_4817,top,25,латы,0.0454
+Bonsai_2_27B_ternary,random_seed_4817,top,26,拦住,0.0454
+Bonsai_2_27B_ternary,random_seed_4817,top,27,brief,0.0453
+Bonsai_2_27B_ternary,random_seed_4817,top,28,ibile,0.0451
+Bonsai_2_27B_ternary,random_seed_4817,top,29,enschaft,0.045
+Bonsai_2_27B_ternary,random_seed_4817,top,30,MouseMove,0.0449
+Bonsai_2_27B_ternary,random_seed_4817,top,31,_tb,0.0449
+Bonsai_2_27B_ternary,random_seed_4817,top,32,青衣,0.0449
+Bonsai_2_27B_ternary,random_seed_4817,top,33,ät,0.0448
+Bonsai_2_27B_ternary,random_seed_4817,top,34,/operator,0.0448
+Bonsai_2_27B_ternary,random_seed_4817,top,35,ลิน,0.0448
+Bonsai_2_27B_ternary,random_seed_4817,top,36,笹,0.0446
+Bonsai_2_27B_ternary,random_seed_4817,top,37,菁,0.0445
+Bonsai_2_27B_ternary,random_seed_4817,top,38, middle,0.0442
+Bonsai_2_27B_ternary,random_seed_4817,top,39, ag,0.0442
+Bonsai_2_27B_ternary,random_seed_4817,top,40,leta,0.0441
+Bonsai_2_27B_ternary,random_seed_4817,top,41, Baz,0.0441
+Bonsai_2_27B_ternary,random_seed_4817,top,42,iance,0.044
+Bonsai_2_27B_ternary,random_seed_4817,top,43,نان,0.044
+Bonsai_2_27B_ternary,random_seed_4817,top,44,ิร์,0.0437
+Bonsai_2_27B_ternary,random_seed_4817,top,45,AndGet,0.0436
+Bonsai_2_27B_ternary,random_seed_4817,top,46,きる,0.0435
+Bonsai_2_27B_ternary,random_seed_4817,top,47,eku,0.0433
+Bonsai_2_27B_ternary,random_seed_4817,top,48,Ỉ,0.0433
+Bonsai_2_27B_ternary,random_seed_4817,top,49,irs,0.043
+Bonsai_2_27B_ternary,random_seed_4817,top,50, accordo,0.0428
+Bonsai_2_27B_ternary,random_seed_4817,top,51, Gio,0.0427
+Bonsai_2_27B_ternary,random_seed_4817,top,52,dzie,0.0427
+Bonsai_2_27B_ternary,random_seed_4817,top,53,金马,0.0426
+Bonsai_2_27B_ternary,random_seed_4817,top,54,etype,0.0426
+Bonsai_2_27B_ternary,random_seed_4817,top,55,尼奥,0.0426
+Bonsai_2_27B_ternary,random_seed_4817,top,56,ñar,0.0424
+Bonsai_2_27B_ternary,random_seed_4817,top,57,akah,0.0424
+Bonsai_2_27B_ternary,random_seed_4817,top,58,heels,0.0423
+Bonsai_2_27B_ternary,random_seed_4817,top,59,agr,0.0423
+Bonsai_2_27B_ternary,random_seed_4817,top,60,isman,0.0422
+Bonsai_2_27B_ternary,random_seed_4817,bottom,1,突,-0.0678
+Bonsai_2_27B_ternary,random_seed_4817,bottom,2,通宵,-0.0616
+Bonsai_2_27B_ternary,random_seed_4817,bottom,3,ffre,-0.0598
+Bonsai_2_27B_ternary,random_seed_4817,bottom,4,skog,-0.059
+Bonsai_2_27B_ternary,random_seed_4817,bottom,5,NullOr,-0.057
+Bonsai_2_27B_ternary,random_seed_4817,bottom,6,ssen,-0.0558
+Bonsai_2_27B_ternary,random_seed_4817,bottom,7,琢,-0.0546
+Bonsai_2_27B_ternary,random_seed_4817,bottom,8,utang,-0.0545
+Bonsai_2_27B_ternary,random_seed_4817,bottom,9,ernity,-0.0539
+Bonsai_2_27B_ternary,random_seed_4817,bottom,10,cono,-0.0539
+Bonsai_2_27B_ternary,random_seed_4817,bottom,11,wise,-0.0538
+Bonsai_2_27B_ternary,random_seed_4817,bottom,12,wner,-0.0536
+Bonsai_2_27B_ternary,random_seed_4817,bottom,13, vertr,-0.0533
+Bonsai_2_27B_ternary,random_seed_4817,bottom,14,zon,-0.0525
+Bonsai_2_27B_ternary,random_seed_4817,bottom,15,惭,-0.0525
+Bonsai_2_27B_ternary,random_seed_4817,bottom,16,|i,-0.0523
+Bonsai_2_27B_ternary,random_seed_4817,bottom,17,igre,-0.0522
+Bonsai_2_27B_ternary,random_seed_4817,bottom,18,habi,-0.052
+Bonsai_2_27B_ternary,random_seed_4817,bottom,19,ippo,-0.0519
+Bonsai_2_27B_ternary,random_seed_4817,bottom,20,文化课,-0.0519
+Bonsai_2_27B_ternary,random_seed_4817,bottom,21,essen,-0.0517
+Bonsai_2_27B_ternary,random_seed_4817,bottom,22,ibble,-0.0516
+Bonsai_2_27B_ternary,random_seed_4817,bottom,23,帖,-0.0514
+Bonsai_2_27B_ternary,random_seed_4817,bottom,24,sburg,-0.051
+Bonsai_2_27B_ternary,random_seed_4817,bottom,25,Interpolator,-0.0509
+Bonsai_2_27B_ternary,random_seed_4817,bottom,26,工作年限,-0.0509
+Bonsai_2_27B_ternary,random_seed_4817,bottom,27, fosser,-0.0507
+Bonsai_2_27B_ternary,random_seed_4817,bottom,28,语文老师,-0.0505
+Bonsai_2_27B_ternary,random_seed_4817,bottom,29,역을,-0.0504
+Bonsai_2_27B_ternary,random_seed_4817,bottom,30,ковод,-0.0502
+Bonsai_2_27B_ternary,random_seed_4817,bottom,31,到头,-0.0499
+Bonsai_2_27B_ternary,random_seed_4817,bottom,32,вли,-0.0498
+Bonsai_2_27B_ternary,random_seed_4817,bottom,33,填料,-0.0498
+Bonsai_2_27B_ternary,random_seed_4817,bottom,34,ertz,-0.0498
+Bonsai_2_27B_ternary,random_seed_4817,bottom,35,клю,-0.0498
+Bonsai_2_27B_ternary,random_seed_4817,bottom,36, Confidential,-0.0497
+Bonsai_2_27B_ternary,random_seed_4817,bottom,37,действия,-0.0497
+Bonsai_2_27B_ternary,random_seed_4817,bottom,38,人无,-0.0497
+Bonsai_2_27B_ternary,random_seed_4817,bottom,39,uille,-0.0495
+Bonsai_2_27B_ternary,random_seed_4817,bottom,40,ykk,-0.0493
+Bonsai_2_27B_ternary,random_seed_4817,bottom,41,粉刺,-0.0491
+Bonsai_2_27B_ternary,random_seed_4817,bottom,42,走的,-0.0491
+Bonsai_2_27B_ternary,random_seed_4817,bottom,43,рых,-0.0489
+Bonsai_2_27B_ternary,random_seed_4817,bottom,44,recht,-0.0488
+Bonsai_2_27B_ternary,random_seed_4817,bottom,45, беск,-0.0488
+Bonsai_2_27B_ternary,random_seed_4817,bottom,46,ACIÓN,-0.0486
+Bonsai_2_27B_ternary,random_seed_4817,bottom,47,nore,-0.0486
+Bonsai_2_27B_ternary,random_seed_4817,bottom,48,在对,-0.0486
+Bonsai_2_27B_ternary,random_seed_4817,bottom,49,是相当,-0.0486
+Bonsai_2_27B_ternary,random_seed_4817,bottom,50,เอ็ม,-0.0485
+Bonsai_2_27B_ternary,random_seed_4817,bottom,51,走好,-0.0484
+Bonsai_2_27B_ternary,random_seed_4817,bottom,52,&m,-0.0483
+Bonsai_2_27B_ternary,random_seed_4817,bottom,53,quin,-0.0483
+Bonsai_2_27B_ternary,random_seed_4817,bottom,54,occa,-0.0483
+Bonsai_2_27B_ternary,random_seed_4817,bottom,55,防控工作,-0.0482
+Bonsai_2_27B_ternary,random_seed_4817,bottom,56,无语,-0.0482
+Bonsai_2_27B_ternary,random_seed_4817,bottom,57,ابير,-0.0482
+Bonsai_2_27B_ternary,random_seed_4817,bottom,58,viare,-0.0481
+Bonsai_2_27B_ternary,random_seed_4817,bottom,59,}%,-0.0481
+Bonsai_2_27B_ternary,random_seed_4817,bottom,60,参数的,-0.0478
+Bonsai_2_27B_ternary,random_seed_2903,top,1,وبر,0.0648
+Bonsai_2_27B_ternary,random_seed_2903,top,2,损益,0.062
+Bonsai_2_27B_ternary,random_seed_2903,top,3,ostro,0.0586
+Bonsai_2_27B_ternary,random_seed_2903,top,4,oges,0.0572
+Bonsai_2_27B_ternary,random_seed_2903,top,5,-eyed,0.0568
+Bonsai_2_27B_ternary,random_seed_2903,top,6,动感,0.0565
+Bonsai_2_27B_ternary,random_seed_2903,top,7,bine,0.0562
+Bonsai_2_27B_ternary,random_seed_2903,top,8,我行,0.0558
+Bonsai_2_27B_ternary,random_seed_2903,top,9,翘,0.0557
+Bonsai_2_27B_ternary,random_seed_2903,top,10,TriState,0.0556
+Bonsai_2_27B_ternary,random_seed_2903,top,11,arp,0.0548
+Bonsai_2_27B_ternary,random_seed_2903,top,12,alang,0.0536
+Bonsai_2_27B_ternary,random_seed_2903,top,13,通讯员,0.0536
+Bonsai_2_27B_ternary,random_seed_2903,top,14,appa,0.0535
+Bonsai_2_27B_ternary,random_seed_2903,top,15,信达,0.0534
+Bonsai_2_27B_ternary,random_seed_2903,top,16,ونة,0.0532
+Bonsai_2_27B_ternary,random_seed_2903,top,17,ombe,0.0528
+Bonsai_2_27B_ternary,random_seed_2903,top,18,😊,0.0521
+Bonsai_2_27B_ternary,random_seed_2903,top,19,stes,0.0512
+Bonsai_2_27B_ternary,random_seed_2903,top,20,羡,0.0511
+Bonsai_2_27B_ternary,random_seed_2903,top,21,.stringValue,0.0511
+Bonsai_2_27B_ternary,random_seed_2903,top,22,jar,0.0511
+Bonsai_2_27B_ternary,random_seed_2903,top,23,大户,0.051
+Bonsai_2_27B_ternary,random_seed_2903,top,24,.TYPE,0.0505
+Bonsai_2_27B_ternary,random_seed_2903,top,25,apa,0.0503
+Bonsai_2_27B_ternary,random_seed_2903,top,26,酒屋,0.0502
+Bonsai_2_27B_ternary,random_seed_2903,top,27, العد,0.0501
+Bonsai_2_27B_ternary,random_seed_2903,top,28,bane,0.05
+Bonsai_2_27B_ternary,random_seed_2903,top,29,eker,0.0499
+Bonsai_2_27B_ternary,random_seed_2903,top,30,宿,0.0498
+Bonsai_2_27B_ternary,random_seed_2903,top,31, Accounts,0.0495
+Bonsai_2_27B_ternary,random_seed_2903,top,32,figure,0.0495
+Bonsai_2_27B_ternary,random_seed_2903,top,33,从我做起,0.0493
+Bonsai_2_27B_ternary,random_seed_2903,top,34,图中的,0.0491
+Bonsai_2_27B_ternary,random_seed_2903,top,35,üns,0.0491
+Bonsai_2_27B_ternary,random_seed_2903,top,36,用书,0.0491
+Bonsai_2_27B_ternary,random_seed_2903,top,37,ostar,0.049
+Bonsai_2_27B_ternary,random_seed_2903,top,38,资产阶级,0.049
+Bonsai_2_27B_ternary,random_seed_2903,top,39,ffin,0.049
+Bonsai_2_27B_ternary,random_seed_2903,top,40,.Helper,0.0489
+Bonsai_2_27B_ternary,random_seed_2903,top,41,碾,0.0489
+Bonsai_2_27B_ternary,random_seed_2903,top,42,farben,0.0489
+Bonsai_2_27B_ternary,random_seed_2903,top,43,டை,0.0489
+Bonsai_2_27B_ternary,random_seed_2903,top,44,AMY,0.0489
+Bonsai_2_27B_ternary,random_seed_2903,top,45,ynes,0.0488
+Bonsai_2_27B_ternary,random_seed_2903,top,46,末,0.0488
+Bonsai_2_27B_ternary,random_seed_2903,top,47,有很好的,0.0487
+Bonsai_2_27B_ternary,random_seed_2903,top,48,бре,0.0487
+Bonsai_2_27B_ternary,random_seed_2903,top,49,otty,0.0486
+Bonsai_2_27B_ternary,random_seed_2903,top,50,我们看到,0.0484
+Bonsai_2_27B_ternary,random_seed_2903,top,51,sher,0.0483
+Bonsai_2_27B_ternary,random_seed_2903,top,52,瓣,0.0483
+Bonsai_2_27B_ternary,random_seed_2903,top,53,-bars,0.0482
+Bonsai_2_27B_ternary,random_seed_2903,top,54,gnore,0.0482
+Bonsai_2_27B_ternary,random_seed_2903,top,55,每平方米,0.0482
+Bonsai_2_27B_ternary,random_seed_2903,top,56,_colour,0.0481
+Bonsai_2_27B_ternary,random_seed_2903,top,57,uai,0.0481
+Bonsai_2_27B_ternary,random_seed_2903,top,58,oble,0.0479
+Bonsai_2_27B_ternary,random_seed_2903,top,59,必填,0.0479
+Bonsai_2_27B_ternary,random_seed_2903,top,60,上街,0.0478
+Bonsai_2_27B_ternary,random_seed_2903,bottom,1,xima,-0.0596
+Bonsai_2_27B_ternary,random_seed_2903,bottom,2,先来,-0.0556
+Bonsai_2_27B_ternary,random_seed_2903,bottom,3, Grav,-0.0508
+Bonsai_2_27B_ternary,random_seed_2903,bottom,4,〖,-0.0504
+Bonsai_2_27B_ternary,random_seed_2903,bottom,5,提,-0.0499
+Bonsai_2_27B_ternary,random_seed_2903,bottom,6,른,-0.049
+Bonsai_2_27B_ternary,random_seed_2903,bottom,7,ivel,-0.0475
+Bonsai_2_27B_ternary,random_seed_2903,bottom,8,ifetime,-0.0475
+Bonsai_2_27B_ternary,random_seed_2903,bottom,9,学法,-0.0472
+Bonsai_2_27B_ternary,random_seed_2903,bottom,10,通过以上,-0.0463
+Bonsai_2_27B_ternary,random_seed_2903,bottom,11,姓,-0.0462
+Bonsai_2_27B_ternary,random_seed_2903,bottom,12,igator,-0.0453
+Bonsai_2_27B_ternary,random_seed_2903,bottom,13,分区,-0.0453
+Bonsai_2_27B_ternary,random_seed_2903,bottom,14,inqui,-0.0446
+Bonsai_2_27B_ternary,random_seed_2903,bottom,15,ownload,-0.0445
+Bonsai_2_27B_ternary,random_seed_2903,bottom,16,ПС,-0.0442
+Bonsai_2_27B_ternary,random_seed_2903,bottom,17,杞,-0.044
+Bonsai_2_27B_ternary,random_seed_2903,bottom,18,coordinate,-0.0439
+Bonsai_2_27B_ternary,random_seed_2903,bottom,19,特,-0.0439
+Bonsai_2_27B_ternary,random_seed_2903,bottom,20,egu,-0.0434
+Bonsai_2_27B_ternary,random_seed_2903,bottom,21,MEA,-0.0434
+Bonsai_2_27B_ternary,random_seed_2903,bottom,22,�,-0.0434
+Bonsai_2_27B_ternary,random_seed_2903,bottom,23,�,-0.0433
+Bonsai_2_27B_ternary,random_seed_2903,bottom,24, risk,-0.0432
+Bonsai_2_27B_ternary,random_seed_2903,bottom,25,cken,-0.0431
+Bonsai_2_27B_ternary,random_seed_2903,bottom,26, preempt,-0.043
+Bonsai_2_27B_ternary,random_seed_2903,bottom,27,uli,-0.043
+Bonsai_2_27B_ternary,random_seed_2903,bottom,28, ло,-0.0429
+Bonsai_2_27B_ternary,random_seed_2903,bottom,29,inceton,-0.0429
+Bonsai_2_27B_ternary,random_seed_2903,bottom,30,"  
+",-0.0427
+Bonsai_2_27B_ternary,random_seed_2903,bottom,31, hypothesis,-0.0426
+Bonsai_2_27B_ternary,random_seed_2903,bottom,32,攻略,-0.0423
+Bonsai_2_27B_ternary,random_seed_2903,bottom,33,ingan,-0.0422
+Bonsai_2_27B_ternary,random_seed_2903,bottom,34,ICC,-0.042
+Bonsai_2_27B_ternary,random_seed_2903,bottom,35,ilename,-0.042
+Bonsai_2_27B_ternary,random_seed_2903,bottom,36, 상대,-0.0419
+Bonsai_2_27B_ternary,random_seed_2903,bottom,37,IMITER,-0.0418
+Bonsai_2_27B_ternary,random_seed_2903,bottom,38,stud,-0.0418
+Bonsai_2_27B_ternary,random_seed_2903,bottom,39, Fiscal,-0.0417
+Bonsai_2_27B_ternary,random_seed_2903,bottom,40,TEN,-0.0414
+Bonsai_2_27B_ternary,random_seed_2903,bottom,41, toi,-0.0414
+Bonsai_2_27B_ternary,random_seed_2903,bottom,42,ฬ,-0.0414
+Bonsai_2_27B_ternary,random_seed_2903,bottom,43,pez,-0.0414
+Bonsai_2_27B_ternary,random_seed_2903,bottom,44,es,-0.0413
+Bonsai_2_27B_ternary,random_seed_2903,bottom,45,variation,-0.0413
+Bonsai_2_27B_ternary,random_seed_2903,bottom,46, Coin,-0.0413
+Bonsai_2_27B_ternary,random_seed_2903,bottom,47, prega,-0.0412
+Bonsai_2_27B_ternary,random_seed_2903,bottom,48,pecially,-0.0411
+Bonsai_2_27B_ternary,random_seed_2903,bottom,49,专题,-0.0411
+Bonsai_2_27B_ternary,random_seed_2903,bottom,50,先发,-0.041
+Bonsai_2_27B_ternary,random_seed_2903,bottom,51,上当,-0.041
+Bonsai_2_27B_ternary,random_seed_2903,bottom,52,oscope,-0.041
+Bonsai_2_27B_ternary,random_seed_2903,bottom,53,deos,-0.041
+Bonsai_2_27B_ternary,random_seed_2903,bottom,54,_coin,-0.0409
+Bonsai_2_27B_ternary,random_seed_2903,bottom,55,isir,-0.0408
+Bonsai_2_27B_ternary,random_seed_2903,bottom,56,YGON,-0.0407
+Bonsai_2_27B_ternary,random_seed_2903,bottom,57, stimulated,-0.0407
+Bonsai_2_27B_ternary,random_seed_2903,bottom,58,�,-0.0407
+Bonsai_2_27B_ternary,random_seed_2903,bottom,59, integração,-0.0407
+Bonsai_2_27B_ternary,random_seed_2903,bottom,60,ennis,-0.0406
+Bonsai_2_27B_ternary,random_seed_7361,top,1,�,0.0622
+Bonsai_2_27B_ternary,random_seed_7361,top,2,大林,0.0566
+Bonsai_2_27B_ternary,random_seed_7361,top,3,maß,0.0547
+Bonsai_2_27B_ternary,random_seed_7361,top,4,íg,0.0534
+Bonsai_2_27B_ternary,random_seed_7361,top,5,обе,0.0531
+Bonsai_2_27B_ternary,random_seed_7361,top,6,е,0.053
+Bonsai_2_27B_ternary,random_seed_7361,top,7,人无,0.052
+Bonsai_2_27B_ternary,random_seed_7361,top,8,oling,0.051
+Bonsai_2_27B_ternary,random_seed_7361,top,9,есп,0.0509
+Bonsai_2_27B_ternary,random_seed_7361,top,10,connect,0.0505
+Bonsai_2_27B_ternary,random_seed_7361,top,11, sucker,0.0498
+Bonsai_2_27B_ternary,random_seed_7361,top,12,Marks,0.0497
+Bonsai_2_27B_ternary,random_seed_7361,top,13,練,0.0495
+Bonsai_2_27B_ternary,random_seed_7361,top,14,_READONLY,0.0492
+Bonsai_2_27B_ternary,random_seed_7361,top,15, 런,0.0492
+Bonsai_2_27B_ternary,random_seed_7361,top,16,OLA,0.0491
+Bonsai_2_27B_ternary,random_seed_7361,top,17, grappling,0.049
+Bonsai_2_27B_ternary,random_seed_7361,top,18,ราบ,0.0486
+Bonsai_2_27B_ternary,random_seed_7361,top,19,为民,0.0486
+Bonsai_2_27B_ternary,random_seed_7361,top,20,uels,0.0485
+Bonsai_2_27B_ternary,random_seed_7361,top,21,爱岗敬业,0.0482
+Bonsai_2_27B_ternary,random_seed_7361,top,22,owell,0.0481
+Bonsai_2_27B_ternary,random_seed_7361,top,23,的口,0.048
+Bonsai_2_27B_ternary,random_seed_7361,top,24,decl,0.0479
+Bonsai_2_27B_ternary,random_seed_7361,top,25,Mit,0.0477
+Bonsai_2_27B_ternary,random_seed_7361,top,26, Déc,0.0475
+Bonsai_2_27B_ternary,random_seed_7361,top,27,Bars,0.0475
+Bonsai_2_27B_ternary,random_seed_7361,top,28,moid,0.0475
+Bonsai_2_27B_ternary,random_seed_7361,top,29,_UNKNOWN,0.0474
+Bonsai_2_27B_ternary,random_seed_7361,top,30,ーツ,0.0473
+Bonsai_2_27B_ternary,random_seed_7361,top,31,"""path",0.0469
+Bonsai_2_27B_ternary,random_seed_7361,top,32,icket,0.0468
+Bonsai_2_27B_ternary,random_seed_7361,top,33,.addValue,0.0468
+Bonsai_2_27B_ternary,random_seed_7361,top,34,�,0.0468
+Bonsai_2_27B_ternary,random_seed_7361,top,35,Near,0.0465
+Bonsai_2_27B_ternary,random_seed_7361,top,36,declspec,0.0463
+Bonsai_2_27B_ternary,random_seed_7361,top,37,Mur,0.0461
+Bonsai_2_27B_ternary,random_seed_7361,top,38,的优秀,0.0461
+Bonsai_2_27B_ternary,random_seed_7361,top,39,өл,0.0461
+Bonsai_2_27B_ternary,random_seed_7361,top,40,itest,0.0461
+Bonsai_2_27B_ternary,random_seed_7361,top,41,_INTR,0.046
+Bonsai_2_27B_ternary,random_seed_7361,top,42,icales,0.0458
+Bonsai_2_27B_ternary,random_seed_7361,top,43,ิ่น,0.0458
+Bonsai_2_27B_ternary,random_seed_7361,top,44,Decl,0.0458
+Bonsai_2_27B_ternary,random_seed_7361,top,45,liest,0.0457
+Bonsai_2_27B_ternary,random_seed_7361,top,46,closure,0.0456
+Bonsai_2_27B_ternary,random_seed_7361,top,47,Memo,0.0456
+Bonsai_2_27B_ternary,random_seed_7361,top,48,_subscription,0.0455
+Bonsai_2_27B_ternary,random_seed_7361,top,49,結,0.0455
+Bonsai_2_27B_ternary,random_seed_7361,top,50,向社会,0.0454
+Bonsai_2_27B_ternary,random_seed_7361,top,51, gai,0.0454
+Bonsai_2_27B_ternary,random_seed_7361,top,52,_MT,0.0452
+Bonsai_2_27B_ternary,random_seed_7361,top,53,tsy,0.0452
+Bonsai_2_27B_ternary,random_seed_7361,top,54,azor,0.0451
+Bonsai_2_27B_ternary,random_seed_7361,top,55,gericht,0.0451
+Bonsai_2_27B_ternary,random_seed_7361,top,56,엽,0.045
+Bonsai_2_27B_ternary,random_seed_7361,top,57,第一篇,0.0449
+Bonsai_2_27B_ternary,random_seed_7361,top,58,_running,0.0448
+Bonsai_2_27B_ternary,random_seed_7361,top,59,ushing,0.0447
+Bonsai_2_27B_ternary,random_seed_7361,top,60,hada,0.0447
+Bonsai_2_27B_ternary,random_seed_7361,bottom,1, Sond,-0.0558
+Bonsai_2_27B_ternary,random_seed_7361,bottom,2,九重,-0.0548
+Bonsai_2_27B_ternary,random_seed_7361,bottom,3,ners,-0.0536
+Bonsai_2_27B_ternary,random_seed_7361,bottom,4,东城,-0.0533
+Bonsai_2_27B_ternary,random_seed_7361,bottom,5,واع,-0.0533
+Bonsai_2_27B_ternary,random_seed_7361,bottom,6,不信,-0.053
+Bonsai_2_27B_ternary,random_seed_7361,bottom,7,方略,-0.053
+Bonsai_2_27B_ternary,random_seed_7361,bottom,8,ucas,-0.0527
+Bonsai_2_27B_ternary,random_seed_7361,bottom,9,StackSize,-0.0526
+Bonsai_2_27B_ternary,random_seed_7361,bottom,10,SK,-0.0519
+Bonsai_2_27B_ternary,random_seed_7361,bottom,11,sville,-0.0515
+Bonsai_2_27B_ternary,random_seed_7361,bottom,12,分类专栏,-0.0511
+Bonsai_2_27B_ternary,random_seed_7361,bottom,13,指针,-0.0502
+Bonsai_2_27B_ternary,random_seed_7361,bottom,14,amet,-0.0495
+Bonsai_2_27B_ternary,random_seed_7361,bottom,15,机体的,-0.0493
+Bonsai_2_27B_ternary,random_seed_7361,bottom,16,体量,-0.049
+Bonsai_2_27B_ternary,random_seed_7361,bottom,17,ei,-0.0489
+Bonsai_2_27B_ternary,random_seed_7361,bottom,18,ihat,-0.0488
+Bonsai_2_27B_ternary,random_seed_7361,bottom,19,红柿,-0.0486
+Bonsai_2_27B_ternary,random_seed_7361,bottom,20, Umg,-0.0485
+Bonsai_2_27B_ternary,random_seed_7361,bottom,21, Rama,-0.0485
+Bonsai_2_27B_ternary,random_seed_7361,bottom,22, fibra,-0.0482
+Bonsai_2_27B_ternary,random_seed_7361,bottom,23,ension,-0.048
+Bonsai_2_27B_ternary,random_seed_7361,bottom,24,\$,-0.0478
+Bonsai_2_27B_ternary,random_seed_7361,bottom,25,€.,-0.0477
+Bonsai_2_27B_ternary,random_seed_7361,bottom,26,STRUCTION,-0.0476
+Bonsai_2_27B_ternary,random_seed_7361,bottom,27,款,-0.0476
+Bonsai_2_27B_ternary,random_seed_7361,bottom,28,ego,-0.0476
+Bonsai_2_27B_ternary,random_seed_7361,bottom,29, prov,-0.0471
+Bonsai_2_27B_ternary,random_seed_7361,bottom,30, McGregor,-0.0469
+Bonsai_2_27B_ternary,random_seed_7361,bottom,31,�,-0.0468
+Bonsai_2_27B_ternary,random_seed_7361,bottom,32,芸,-0.0467
+Bonsai_2_27B_ternary,random_seed_7361,bottom,33,醒,-0.0466
+Bonsai_2_27B_ternary,random_seed_7361,bottom,34, Partager,-0.0465
+Bonsai_2_27B_ternary,random_seed_7361,bottom,35,рь,-0.0463
+Bonsai_2_27B_ternary,random_seed_7361,bottom,36,_TI,-0.0461
+Bonsai_2_27B_ternary,random_seed_7361,bottom,37,UME,-0.046
+Bonsai_2_27B_ternary,random_seed_7361,bottom,38,anis,-0.0459
+Bonsai_2_27B_ternary,random_seed_7361,bottom,39,ourcing,-0.0459
+Bonsai_2_27B_ternary,random_seed_7361,bottom,40,_pause,-0.0458
+Bonsai_2_27B_ternary,random_seed_7361,bottom,41,teles,-0.0458
+Bonsai_2_27B_ternary,random_seed_7361,bottom,42,lag,-0.0457
+Bonsai_2_27B_ternary,random_seed_7361,bottom,43,ศจ,-0.0456
+Bonsai_2_27B_ternary,random_seed_7361,bottom,44,ability,-0.0455
+Bonsai_2_27B_ternary,random_seed_7361,bottom,45,肚,-0.0454
+Bonsai_2_27B_ternary,random_seed_7361,bottom,46,isar,-0.0454
+Bonsai_2_27B_ternary,random_seed_7361,bottom,47,_bug,-0.0451
+Bonsai_2_27B_ternary,random_seed_7361,bottom,48, reporter,-0.0451
+Bonsai_2_27B_ternary,random_seed_7361,bottom,49,enko,-0.045
+Bonsai_2_27B_ternary,random_seed_7361,bottom,50,_instr,-0.045
+Bonsai_2_27B_ternary,random_seed_7361,bottom,51,gni,-0.045
+Bonsai_2_27B_ternary,random_seed_7361,bottom,52,就那么,-0.0449
+Bonsai_2_27B_ternary,random_seed_7361,bottom,53,끼,-0.0448
+Bonsai_2_27B_ternary,random_seed_7361,bottom,54,视线,-0.0447
+Bonsai_2_27B_ternary,random_seed_7361,bottom,55,gaste,-0.0447
+Bonsai_2_27B_ternary,random_seed_7361,bottom,56,bewertungen,-0.0446
+Bonsai_2_27B_ternary,random_seed_7361,bottom,57,смотри,-0.0446
+Bonsai_2_27B_ternary,random_seed_7361,bottom,58,宽,-0.0445
+Bonsai_2_27B_ternary,random_seed_7361,bottom,59,FW,-0.0445
+Bonsai_2_27B_ternary,random_seed_7361,bottom,60,ชี,-0.0444
+Bonsai_2_27B_ternary,random_seed_1150,top,1,imedia,0.066
+Bonsai_2_27B_ternary,random_seed_1150,top,2,perms,0.0577
+Bonsai_2_27B_ternary,random_seed_1150,top,3,目的是,0.0551
+Bonsai_2_27B_ternary,random_seed_1150,top,4,请到,0.0541
+Bonsai_2_27B_ternary,random_seed_1150,top,5,abled,0.0522
+Bonsai_2_27B_ternary,random_seed_1150,top,6, Nit,0.0503
+Bonsai_2_27B_ternary,random_seed_1150,top,7,办的,0.0503
+Bonsai_2_27B_ternary,random_seed_1150,top,8,ষ্,0.0499
+Bonsai_2_27B_ternary,random_seed_1150,top,9,atable,0.0498
+Bonsai_2_27B_ternary,random_seed_1150,top,10, (!!,0.049
+Bonsai_2_27B_ternary,random_seed_1150,top,11,无反,0.0489
+Bonsai_2_27B_ternary,random_seed_1150,top,12,�,0.0489
+Bonsai_2_27B_ternary,random_seed_1150,top,13, Garn,0.0489
+Bonsai_2_27B_ternary,random_seed_1150,top,14, frustr,0.0488
+Bonsai_2_27B_ternary,random_seed_1150,top,15,青松,0.0487
+Bonsai_2_27B_ternary,random_seed_1150,top,16, Garda,0.0486
+Bonsai_2_27B_ternary,random_seed_1150,top,17,条件是,0.0485
+Bonsai_2_27B_ternary,random_seed_1150,top,18,客座,0.0483
+Bonsai_2_27B_ternary,random_seed_1150,top,19,erima,0.048
+Bonsai_2_27B_ternary,random_seed_1150,top,20,IMAGE,0.0479
+Bonsai_2_27B_ternary,random_seed_1150,top,21,astica,0.0479
+Bonsai_2_27B_ternary,random_seed_1150,top,22,يز,0.0478
+Bonsai_2_27B_ternary,random_seed_1150,top,23,ته,0.0477
+Bonsai_2_27B_ternary,random_seed_1150,top,24, grat,0.0477
+Bonsai_2_27B_ternary,random_seed_1150,top,25,edImage,0.0475
+Bonsai_2_27B_ternary,random_seed_1150,top,26,话,0.0475
+Bonsai_2_27B_ternary,random_seed_1150,top,27,forces,0.0474
+Bonsai_2_27B_ternary,random_seed_1150,top,28,Presence,0.0473
+Bonsai_2_27B_ternary,random_seed_1150,top,29,玩玩,0.047
+Bonsai_2_27B_ternary,random_seed_1150,top,30,scheduled,0.0468
+Bonsai_2_27B_ternary,random_seed_1150,top,31,地方,0.0468
+Bonsai_2_27B_ternary,random_seed_1150,top,32,xdb,0.0465
+Bonsai_2_27B_ternary,random_seed_1150,top,33,croft,0.0463
+Bonsai_2_27B_ternary,random_seed_1150,top,34,房子,0.0461
+Bonsai_2_27B_ternary,random_seed_1150,top,35,Deserialize,0.0461
+Bonsai_2_27B_ternary,random_seed_1150,top,36,锐,0.0461
+Bonsai_2_27B_ternary,random_seed_1150,top,37, geçen,0.046
+Bonsai_2_27B_ternary,random_seed_1150,top,38, assolut,0.0459
+Bonsai_2_27B_ternary,random_seed_1150,top,39,جلي,0.0459
+Bonsai_2_27B_ternary,random_seed_1150,top,40,洞庭,0.0458
+Bonsai_2_27B_ternary,random_seed_1150,top,41,tap,0.0458
+Bonsai_2_27B_ternary,random_seed_1150,top,42,ende,0.0455
+Bonsai_2_27B_ternary,random_seed_1150,top,43,zić,0.0454
+Bonsai_2_27B_ternary,random_seed_1150,top,44,�,0.0454
+Bonsai_2_27B_ternary,random_seed_1150,top,45,ImageButton,0.0454
+Bonsai_2_27B_ternary,random_seed_1150,top,46,signed,0.0454
+Bonsai_2_27B_ternary,random_seed_1150,top,47,bedingt,0.0452
+Bonsai_2_27B_ternary,random_seed_1150,top,48, darn,0.0452
+Bonsai_2_27B_ternary,random_seed_1150,top,49,óst,0.0452
+Bonsai_2_27B_ternary,random_seed_1150,top,50,地平,0.0452
+Bonsai_2_27B_ternary,random_seed_1150,top,51, Yok,0.045
+Bonsai_2_27B_ternary,random_seed_1150,top,52,ريدة,0.045
+Bonsai_2_27B_ternary,random_seed_1150,top,53,cach,0.0447
+Bonsai_2_27B_ternary,random_seed_1150,top,54,分院,0.0447
+Bonsai_2_27B_ternary,random_seed_1150,top,55,յ,0.0447
+Bonsai_2_27B_ternary,random_seed_1150,top,56,.Provider,0.0447
+Bonsai_2_27B_ternary,random_seed_1150,top,57,okat,0.0447
+Bonsai_2_27B_ternary,random_seed_1150,top,58, Ortiz,0.0446
+Bonsai_2_27B_ternary,random_seed_1150,top,59, снего,0.0445
+Bonsai_2_27B_ternary,random_seed_1150,top,60,影子,0.0445
+Bonsai_2_27B_ternary,random_seed_1150,bottom,1,cript,-0.0596
+Bonsai_2_27B_ternary,random_seed_1150,bottom,2,违法和不良信息举报,-0.0593
+Bonsai_2_27B_ternary,random_seed_1150,bottom,3,orsche,-0.0585
+Bonsai_2_27B_ternary,random_seed_1150,bottom,4,俭,-0.0575
+Bonsai_2_27B_ternary,random_seed_1150,bottom,5,annage,-0.0545
+Bonsai_2_27B_ternary,random_seed_1150,bottom,6,ennis,-0.0539
+Bonsai_2_27B_ternary,random_seed_1150,bottom,7,yin,-0.0538
+Bonsai_2_27B_ternary,random_seed_1150,bottom,8,annel,-0.0534
+Bonsai_2_27B_ternary,random_seed_1150,bottom,9,oref,-0.0529
+Bonsai_2_27B_ternary,random_seed_1150,bottom,10,至于,-0.0518
+Bonsai_2_27B_ternary,random_seed_1150,bottom,11,illar,-0.0518
+Bonsai_2_27B_ternary,random_seed_1150,bottom,12,ニア,-0.0512
+Bonsai_2_27B_ternary,random_seed_1150,bottom,13,被打,-0.0509
+Bonsai_2_27B_ternary,random_seed_1150,bottom,14,场内,-0.0503
+Bonsai_2_27B_ternary,random_seed_1150,bottom,15,招生工作,-0.0496
+Bonsai_2_27B_ternary,random_seed_1150,bottom,16,业务工作,-0.0493
+Bonsai_2_27B_ternary,random_seed_1150,bottom,17,不拔,-0.0493
+Bonsai_2_27B_ternary,random_seed_1150,bottom,18,傍,-0.0493
+Bonsai_2_27B_ternary,random_seed_1150,bottom,19,tring,-0.049
+Bonsai_2_27B_ternary,random_seed_1150,bottom,20, Preg,-0.0489
+Bonsai_2_27B_ternary,random_seed_1150,bottom,21,.indices,-0.0489
+Bonsai_2_27B_ternary,random_seed_1150,bottom,22,flan,-0.0487
+Bonsai_2_27B_ternary,random_seed_1150,bottom,23, Temps,-0.0484
+Bonsai_2_27B_ternary,random_seed_1150,bottom,24,ancy,-0.0482
+Bonsai_2_27B_ternary,random_seed_1150,bottom,25,kul,-0.0481
+Bonsai_2_27B_ternary,random_seed_1150,bottom,26,雯,-0.0479
+Bonsai_2_27B_ternary,random_seed_1150,bottom,27,pell,-0.0477
+Bonsai_2_27B_ternary,random_seed_1150,bottom,28,nts,-0.0476
+Bonsai_2_27B_ternary,random_seed_1150,bottom,29, fle,-0.0475
+Bonsai_2_27B_ternary,random_seed_1150,bottom,30,ահ,-0.0475
+Bonsai_2_27B_ternary,random_seed_1150,bottom,31,bruch,-0.0472
+Bonsai_2_27B_ternary,random_seed_1150,bottom,32,商务区,-0.0472
+Bonsai_2_27B_ternary,random_seed_1150,bottom,33,可想,-0.0471
+Bonsai_2_27B_ternary,random_seed_1150,bottom,34,рек,-0.0469
+Bonsai_2_27B_ternary,random_seed_1150,bottom,35,竞价,-0.0468
+Bonsai_2_27B_ternary,random_seed_1150,bottom,36,egy,-0.0468
+Bonsai_2_27B_ternary,random_seed_1150,bottom,37,乏,-0.0468
+Bonsai_2_27B_ternary,random_seed_1150,bottom,38,{}.,-0.0467
+Bonsai_2_27B_ternary,random_seed_1150,bottom,39,unner,-0.0467
+Bonsai_2_27B_ternary,random_seed_1150,bottom,40,怎么做,-0.0467
+Bonsai_2_27B_ternary,random_seed_1150,bottom,41,委婉,-0.0467
+Bonsai_2_27B_ternary,random_seed_1150,bottom,42,Candidate,-0.0464
+Bonsai_2_27B_ternary,random_seed_1150,bottom,43,领跑,-0.0463
+Bonsai_2_27B_ternary,random_seed_1150,bottom,44,χει,-0.0462
+Bonsai_2_27B_ternary,random_seed_1150,bottom,45,plaint,-0.0462
+Bonsai_2_27B_ternary,random_seed_1150,bottom,46,isie,-0.0461
+Bonsai_2_27B_ternary,random_seed_1150,bottom,47,筑,-0.0459
+Bonsai_2_27B_ternary,random_seed_1150,bottom,48,kie,-0.0459
+Bonsai_2_27B_ternary,random_seed_1150,bottom,49,ivy,-0.0458
+Bonsai_2_27B_ternary,random_seed_1150,bottom,50, Miscellaneous,-0.0457
+Bonsai_2_27B_ternary,random_seed_1150,bottom,51,要你,-0.0457
+Bonsai_2_27B_ternary,random_seed_1150,bottom,52,多久,-0.0456
+Bonsai_2_27B_ternary,random_seed_1150,bottom,53,争先,-0.0456
+Bonsai_2_27B_ternary,random_seed_1150,bottom,54, Forte,-0.0456
+Bonsai_2_27B_ternary,random_seed_1150,bottom,55,.COLUMN,-0.0453
+Bonsai_2_27B_ternary,random_seed_1150,bottom,56,rek,-0.0453
+Bonsai_2_27B_ternary,random_seed_1150,bottom,57,如荼,-0.0452
+Bonsai_2_27B_ternary,random_seed_1150,bottom,58,Latch,-0.0452
+Bonsai_2_27B_ternary,random_seed_1150,bottom,59, Leverkus,-0.0452
+Bonsai_2_27B_ternary,random_seed_1150,bottom,60,妙招,-0.0452
+Bonsai_2_27B_ternary,random_seed_9428,top,1,殖,0.0677
+Bonsai_2_27B_ternary,random_seed_9428,top,2,中期,0.0584
+Bonsai_2_27B_ternary,random_seed_9428,top,3,ymbols,0.0565
+Bonsai_2_27B_ternary,random_seed_9428,top,4,atrix,0.0533
+Bonsai_2_27B_ternary,random_seed_9428,top,5,imir,0.0523
+Bonsai_2_27B_ternary,random_seed_9428,top,6, mim,0.0513
+Bonsai_2_27B_ternary,random_seed_9428,top,7,罕,0.0512
+Bonsai_2_27B_ternary,random_seed_9428,top,8,fter,0.0509
+Bonsai_2_27B_ternary,random_seed_9428,top,9,如何看待,0.0502
+Bonsai_2_27B_ternary,random_seed_9428,top,10,ingg,0.05
+Bonsai_2_27B_ternary,random_seed_9428,top,11,ёр,0.0499
+Bonsai_2_27B_ternary,random_seed_9428,top,12,verb,0.0491
+Bonsai_2_27B_ternary,random_seed_9428,top,13,ervas,0.0487
+Bonsai_2_27B_ternary,random_seed_9428,top,14,alin,0.0484
+Bonsai_2_27B_ternary,random_seed_9428,top,15, Vulcan,0.0484
+Bonsai_2_27B_ternary,random_seed_9428,top,16,赶,0.0484
+Bonsai_2_27B_ternary,random_seed_9428,top,17,字画,0.0483
+Bonsai_2_27B_ternary,random_seed_9428,top,18,inak,0.0482
+Bonsai_2_27B_ternary,random_seed_9428,top,19,RTC,0.048
+Bonsai_2_27B_ternary,random_seed_9428,top,20,排水,0.0479
+Bonsai_2_27B_ternary,random_seed_9428,top,21,欧文,0.0479
+Bonsai_2_27B_ternary,random_seed_9428,top,22,一点,0.0476
+Bonsai_2_27B_ternary,random_seed_9428,top,23,투데이,0.0476
+Bonsai_2_27B_ternary,random_seed_9428,top,24,�,0.0474
+Bonsai_2_27B_ternary,random_seed_9428,top,25,crast,0.0472
+Bonsai_2_27B_ternary,random_seed_9428,top,26,波波,0.0471
+Bonsai_2_27B_ternary,random_seed_9428,top,27, excl,0.047
+Bonsai_2_27B_ternary,random_seed_9428,top,28,精打,0.0468
+Bonsai_2_27B_ternary,random_seed_9428,top,29,"""--",0.0468
+Bonsai_2_27B_ternary,random_seed_9428,top,30,ehler,0.0467
+Bonsai_2_27B_ternary,random_seed_9428,top,31,ervis,0.0465
+Bonsai_2_27B_ternary,random_seed_9428,top,32, отве,0.0463
+Bonsai_2_27B_ternary,random_seed_9428,top,33,imo,0.0462
+Bonsai_2_27B_ternary,random_seed_9428,top,34,彩,0.0461
+Bonsai_2_27B_ternary,random_seed_9428,top,35,交通管制,0.0461
+Bonsai_2_27B_ternary,random_seed_9428,top,36,Drupal,0.046
+Bonsai_2_27B_ternary,random_seed_9428,top,37,vaart,0.0459
+Bonsai_2_27B_ternary,random_seed_9428,top,38,尔,0.0459
+Bonsai_2_27B_ternary,random_seed_9428,top,39,伯特,0.0459
+Bonsai_2_27B_ternary,random_seed_9428,top,40,arfs,0.0458
+Bonsai_2_27B_ternary,random_seed_9428,top,41,ulse,0.0457
+Bonsai_2_27B_ternary,random_seed_9428,top,42,etermination,0.0456
+Bonsai_2_27B_ternary,random_seed_9428,top,43,阅读本文前,0.0455
+Bonsai_2_27B_ternary,random_seed_9428,top,44,дачи,0.0451
+Bonsai_2_27B_ternary,random_seed_9428,top,45, Hicks,0.0451
+Bonsai_2_27B_ternary,random_seed_9428,top,46,verst,0.045
+Bonsai_2_27B_ternary,random_seed_9428,top,47,ENZ,0.0449
+Bonsai_2_27B_ternary,random_seed_9428,top,48,PC,0.0449
+Bonsai_2_27B_ternary,random_seed_9428,top,49,.--,0.0447
+Bonsai_2_27B_ternary,random_seed_9428,top,50, خص,0.0446
+Bonsai_2_27B_ternary,random_seed_9428,top,51,监管机构,0.0446
+Bonsai_2_27B_ternary,random_seed_9428,top,52,十足,0.0446
+Bonsai_2_27B_ternary,random_seed_9428,top,53, Verb,0.0446
+Bonsai_2_27B_ternary,random_seed_9428,top,54,vertisement,0.0446
+Bonsai_2_27B_ternary,random_seed_9428,top,55,是一种常见的,0.0445
+Bonsai_2_27B_ternary,random_seed_9428,top,56, nett,0.0445
+Bonsai_2_27B_ternary,random_seed_9428,top,57,.localization,0.0444
+Bonsai_2_27B_ternary,random_seed_9428,top,58,úi,0.0443
+Bonsai_2_27B_ternary,random_seed_9428,top,59,)--,0.0443
+Bonsai_2_27B_ternary,random_seed_9428,top,60,赶往,0.0443
+Bonsai_2_27B_ternary,random_seed_9428,bottom,1,Pie,-0.0642
+Bonsai_2_27B_ternary,random_seed_9428,bottom,2,HELL,-0.0616
+Bonsai_2_27B_ternary,random_seed_9428,bottom,3,CRY,-0.0585
+Bonsai_2_27B_ternary,random_seed_9428,bottom,4,azel,-0.0573
+Bonsai_2_27B_ternary,random_seed_9428,bottom,5,bat,-0.0573
+Bonsai_2_27B_ternary,random_seed_9428,bottom,6,ส,-0.0571
+Bonsai_2_27B_ternary,random_seed_9428,bottom,7,TES,-0.0556
+Bonsai_2_27B_ternary,random_seed_9428,bottom,8,_shell,-0.0555
+Bonsai_2_27B_ternary,random_seed_9428,bottom,9,ooke,-0.0533
+Bonsai_2_27B_ternary,random_seed_9428,bottom,10,acca,-0.0527
+Bonsai_2_27B_ternary,random_seed_9428,bottom,11,迭代,-0.0526
+Bonsai_2_27B_ternary,random_seed_9428,bottom,12,规,-0.0514
+Bonsai_2_27B_ternary,random_seed_9428,bottom,13,idor,-0.0509
+Bonsai_2_27B_ternary,random_seed_9428,bottom,14,ede,-0.0507
+Bonsai_2_27B_ternary,random_seed_9428,bottom,15,otten,-0.0505
+Bonsai_2_27B_ternary,random_seed_9428,bottom,16,ipt,-0.0495
+Bonsai_2_27B_ternary,random_seed_9428,bottom,17, 집,-0.0495
+Bonsai_2_27B_ternary,random_seed_9428,bottom,18,ré,-0.0488
+Bonsai_2_27B_ternary,random_seed_9428,bottom,19, nacion,-0.0485
+Bonsai_2_27B_ternary,random_seed_9428,bottom,20,清白,-0.0484
+Bonsai_2_27B_ternary,random_seed_9428,bottom,21,=},-0.0482
+Bonsai_2_27B_ternary,random_seed_9428,bottom,22, dispon,-0.0482
+Bonsai_2_27B_ternary,random_seed_9428,bottom,23,.Measure,-0.048
+Bonsai_2_27B_ternary,random_seed_9428,bottom,24,Shell,-0.048
+Bonsai_2_27B_ternary,random_seed_9428,bottom,25,仰,-0.0478
+Bonsai_2_27B_ternary,random_seed_9428,bottom,26,雅,-0.0477
+Bonsai_2_27B_ternary,random_seed_9428,bottom,27,有功,-0.0477
+Bonsai_2_27B_ternary,random_seed_9428,bottom,28,idla,-0.0475
+Bonsai_2_27B_ternary,random_seed_9428,bottom,29,给人的,-0.0472
+Bonsai_2_27B_ternary,random_seed_9428,bottom,30, Penyel,-0.047
+Bonsai_2_27B_ternary,random_seed_9428,bottom,31,疾病的,-0.047
+Bonsai_2_27B_ternary,random_seed_9428,bottom,32,{}],-0.0468
+Bonsai_2_27B_ternary,random_seed_9428,bottom,33,Fourth,-0.0468
+Bonsai_2_27B_ternary,random_seed_9428,bottom,34,Yaw,-0.0467
+Bonsai_2_27B_ternary,random_seed_9428,bottom,35,ehr,-0.0465
+Bonsai_2_27B_ternary,random_seed_9428,bottom,36,eil,-0.0464
+Bonsai_2_27B_ternary,random_seed_9428,bottom,37,edula,-0.0461
+Bonsai_2_27B_ternary,random_seed_9428,bottom,38,璟,-0.0458
+Bonsai_2_27B_ternary,random_seed_9428,bottom,39,ObjectId,-0.0456
+Bonsai_2_27B_ternary,random_seed_9428,bottom,40,ارج,-0.0455
+Bonsai_2_27B_ternary,random_seed_9428,bottom,41,渔业,-0.0453
+Bonsai_2_27B_ternary,random_seed_9428,bottom,42,_Execute,-0.0452
+Bonsai_2_27B_ternary,random_seed_9428,bottom,43,_unc,-0.0452
+Bonsai_2_27B_ternary,random_seed_9428,bottom,44,的值,-0.0452
+Bonsai_2_27B_ternary,random_seed_9428,bottom,45,Latch,-0.0452
+Bonsai_2_27B_ternary,random_seed_9428,bottom,46,エステ,-0.0451
+Bonsai_2_27B_ternary,random_seed_9428,bottom,47,mi,-0.0449
+Bonsai_2_27B_ternary,random_seed_9428,bottom,48,石化,-0.0448
+Bonsai_2_27B_ternary,random_seed_9428,bottom,49,iot,-0.0448
+Bonsai_2_27B_ternary,random_seed_9428,bottom,50,bery,-0.0448
+Bonsai_2_27B_ternary,random_seed_9428,bottom,51,灵感,-0.0448
+Bonsai_2_27B_ternary,random_seed_9428,bottom,52, Ruh,-0.0446
+Bonsai_2_27B_ternary,random_seed_9428,bottom,53,anson,-0.0446
+Bonsai_2_27B_ternary,random_seed_9428,bottom,54,ÁNG,-0.0446
+Bonsai_2_27B_ternary,random_seed_9428,bottom,55,ningen,-0.0445
+Bonsai_2_27B_ternary,random_seed_9428,bottom,56, Fourth,-0.0445
+Bonsai_2_27B_ternary,random_seed_9428,bottom,57,shell,-0.0445
+Bonsai_2_27B_ternary,random_seed_9428,bottom,58, Shell,-0.0444
+Bonsai_2_27B_ternary,random_seed_9428,bottom,59,莹,-0.0444
+Bonsai_2_27B_ternary,random_seed_9428,bottom,60,.getDocument,-0.0443
+Bonsai_2_27B_ternary,random_seed_6076,top,1,荟萃,0.0669
+Bonsai_2_27B_ternary,random_seed_6076,top,2,andie,0.062
+Bonsai_2_27B_ternary,random_seed_6076,top,3,attel,0.054
+Bonsai_2_27B_ternary,random_seed_6076,top,4,.uuid,0.0522
+Bonsai_2_27B_ternary,random_seed_6076,top,5,acock,0.0516
+Bonsai_2_27B_ternary,random_seed_6076,top,6,antie,0.0515
+Bonsai_2_27B_ternary,random_seed_6076,top,7,.shared,0.0507
+Bonsai_2_27B_ternary,random_seed_6076,top,8,兵,0.0505
+Bonsai_2_27B_ternary,random_seed_6076,top,9,oste,0.0502
+Bonsai_2_27B_ternary,random_seed_6076,top,10,云顶,0.0502
+Bonsai_2_27B_ternary,random_seed_6076,top,11,invite,0.0499
+Bonsai_2_27B_ternary,random_seed_6076,top,12,德音,0.0492
+Bonsai_2_27B_ternary,random_seed_6076,top,13,alles,0.0492
+Bonsai_2_27B_ternary,random_seed_6076,top,14,.atomic,0.0481
+Bonsai_2_27B_ternary,random_seed_6076,top,15,iab,0.048
+Bonsai_2_27B_ternary,random_seed_6076,top,16,筝,0.0477
+Bonsai_2_27B_ternary,random_seed_6076,top,17,活动时,0.0473
+Bonsai_2_27B_ternary,random_seed_6076,top,18,adero,0.0471
+Bonsai_2_27B_ternary,random_seed_6076,top,19,:host,0.0463
+Bonsai_2_27B_ternary,random_seed_6076,top,20,aporte,0.0463
+Bonsai_2_27B_ternary,random_seed_6076,top,21,xr,0.0461
+Bonsai_2_27B_ternary,random_seed_6076,top,22,成了一个,0.046
+Bonsai_2_27B_ternary,random_seed_6076,top,23,aturi,0.0455
+Bonsai_2_27B_ternary,random_seed_6076,top,24,Soap,0.045
+Bonsai_2_27B_ternary,random_seed_6076,top,25,ミー,0.0449
+Bonsai_2_27B_ternary,random_seed_6076,top,26,蒙古,0.0447
+Bonsai_2_27B_ternary,random_seed_6076,top,27,_missing,0.0447
+Bonsai_2_27B_ternary,random_seed_6076,top,28,ปลาย,0.0446
+Bonsai_2_27B_ternary,random_seed_6076,top,29,ignes,0.0444
+Bonsai_2_27B_ternary,random_seed_6076,top,30,当心,0.0444
+Bonsai_2_27B_ternary,random_seed_6076,top,31,.live,0.0443
+Bonsai_2_27B_ternary,random_seed_6076,top,32,.rc,0.0441
+Bonsai_2_27B_ternary,random_seed_6076,top,33, Simmons,0.0441
+Bonsai_2_27B_ternary,random_seed_6076,top,34,第一大,0.044
+Bonsai_2_27B_ternary,random_seed_6076,top,35,aad,0.0438
+Bonsai_2_27B_ternary,random_seed_6076,top,36,sii,0.0436
+Bonsai_2_27B_ternary,random_seed_6076,top,37,发展改革,0.0435
+Bonsai_2_27B_ternary,random_seed_6076,top,38, intercept,0.0435
+Bonsai_2_27B_ternary,random_seed_6076,top,39, '../../../../../,0.0435
+Bonsai_2_27B_ternary,random_seed_6076,top,40,YPE,0.0435
+Bonsai_2_27B_ternary,random_seed_6076,top,41,雀,0.0435
+Bonsai_2_27B_ternary,random_seed_6076,top,42,消费品,0.0434
+Bonsai_2_27B_ternary,random_seed_6076,top,43,utie,0.0433
+Bonsai_2_27B_ternary,random_seed_6076,top,44,apu,0.0433
+Bonsai_2_27B_ternary,random_seed_6076,top,45,DeviceInfo,0.0433
+Bonsai_2_27B_ternary,random_seed_6076,top,46,朽,0.0431
+Bonsai_2_27B_ternary,random_seed_6076,top,47,apk,0.043
+Bonsai_2_27B_ternary,random_seed_6076,top,48,_fre,0.0429
+Bonsai_2_27B_ternary,random_seed_6076,top,49,的合同,0.0429
+Bonsai_2_27B_ternary,random_seed_6076,top,50, pé,0.0428
+Bonsai_2_27B_ternary,random_seed_6076,top,51,anio,0.0428
+Bonsai_2_27B_ternary,random_seed_6076,top,52,γγ,0.0428
+Bonsai_2_27B_ternary,random_seed_6076,top,53,HOOK,0.0427
+Bonsai_2_27B_ternary,random_seed_6076,top,54,ходе,0.0427
+Bonsai_2_27B_ternary,random_seed_6076,top,55,_embed,0.0426
+Bonsai_2_27B_ternary,random_seed_6076,top,56,indungan,0.0426
+Bonsai_2_27B_ternary,random_seed_6076,top,57,粪,0.0426
+Bonsai_2_27B_ternary,random_seed_6076,top,58,late,0.0426
+Bonsai_2_27B_ternary,random_seed_6076,top,59, Fatal,0.0425
+Bonsai_2_27B_ternary,random_seed_6076,top,60,篇,0.0425
+Bonsai_2_27B_ternary,random_seed_6076,bottom,1,obs,-0.059
+Bonsai_2_27B_ternary,random_seed_6076,bottom,2,ools,-0.0566
+Bonsai_2_27B_ternary,random_seed_6076,bottom,3,oci,-0.0564
+Bonsai_2_27B_ternary,random_seed_6076,bottom,4,.Nil,-0.0551
+Bonsai_2_27B_ternary,random_seed_6076,bottom,5,osan,-0.0547
+Bonsai_2_27B_ternary,random_seed_6076,bottom,6,DDS,-0.0546
+Bonsai_2_27B_ternary,random_seed_6076,bottom,7,گز,-0.0545
+Bonsai_2_27B_ternary,random_seed_6076,bottom,8,ึม,-0.0538
+Bonsai_2_27B_ternary,random_seed_6076,bottom,9,丛中,-0.0534
+Bonsai_2_27B_ternary,random_seed_6076,bottom,10,brane,-0.0532
+Bonsai_2_27B_ternary,random_seed_6076,bottom,11,ภูมิ,-0.0527
+Bonsai_2_27B_ternary,random_seed_6076,bottom,12,igo,-0.0524
+Bonsai_2_27B_ternary,random_seed_6076,bottom,13,禧,-0.0512
+Bonsai_2_27B_ternary,random_seed_6076,bottom,14, how,-0.0507
+Bonsai_2_27B_ternary,random_seed_6076,bottom,15,gregator,-0.0506
+Bonsai_2_27B_ternary,random_seed_6076,bottom,16,后者,-0.0506
+Bonsai_2_27B_ternary,random_seed_6076,bottom,17,_requests,-0.0504
+Bonsai_2_27B_ternary,random_seed_6076,bottom,18,uality,-0.0495
+Bonsai_2_27B_ternary,random_seed_6076,bottom,19,ences,-0.0494
+Bonsai_2_27B_ternary,random_seed_6076,bottom,20,浆,-0.0492
+Bonsai_2_27B_ternary,random_seed_6076,bottom,21,ickness,-0.0491
+Bonsai_2_27B_ternary,random_seed_6076,bottom,22, �,-0.049
+Bonsai_2_27B_ternary,random_seed_6076,bottom,23,azine,-0.049
+Bonsai_2_27B_ternary,random_seed_6076,bottom,24,婀娜,-0.049
+Bonsai_2_27B_ternary,random_seed_6076,bottom,25,aca,-0.0488
+Bonsai_2_27B_ternary,random_seed_6076,bottom,26, timespec,-0.0484
+Bonsai_2_27B_ternary,random_seed_6076,bottom,27, franch,-0.0484
+Bonsai_2_27B_ternary,random_seed_6076,bottom,28,enas,-0.0481
+Bonsai_2_27B_ternary,random_seed_6076,bottom,29,IGA,-0.048
+Bonsai_2_27B_ternary,random_seed_6076,bottom,30,พาย,-0.048
+Bonsai_2_27B_ternary,random_seed_6076,bottom,31,icism,-0.0479
+Bonsai_2_27B_ternary,random_seed_6076,bottom,32,实体,-0.0479
+Bonsai_2_27B_ternary,random_seed_6076,bottom,33,phan,-0.0478
+Bonsai_2_27B_ternary,random_seed_6076,bottom,34, Stanley,-0.0477
+Bonsai_2_27B_ternary,random_seed_6076,bottom,35,zana,-0.0477
+Bonsai_2_27B_ternary,random_seed_6076,bottom,36,actu,-0.0477
+Bonsai_2_27B_ternary,random_seed_6076,bottom,37,_TEM,-0.0477
+Bonsai_2_27B_ternary,random_seed_6076,bottom,38, diman,-0.0475
+Bonsai_2_27B_ternary,random_seed_6076,bottom,39,各界,-0.0475
+Bonsai_2_27B_ternary,random_seed_6076,bottom,40,شية,-0.0474
+Bonsai_2_27B_ternary,random_seed_6076,bottom,41,寒,-0.0471
+Bonsai_2_27B_ternary,random_seed_6076,bottom,42,unami,-0.0471
+Bonsai_2_27B_ternary,random_seed_6076,bottom,43,_REST,-0.0469
+Bonsai_2_27B_ternary,random_seed_6076,bottom,44,.arr,-0.0468
+Bonsai_2_27B_ternary,random_seed_6076,bottom,45, Desmond,-0.0466
+Bonsai_2_27B_ternary,random_seed_6076,bottom,46,inks,-0.0466
+Bonsai_2_27B_ternary,random_seed_6076,bottom,47,_dirs,-0.0465
+Bonsai_2_27B_ternary,random_seed_6076,bottom,48,РОВ,-0.0465
+Bonsai_2_27B_ternary,random_seed_6076,bottom,49,一案,-0.0464
+Bonsai_2_27B_ternary,random_seed_6076,bottom,50,itis,-0.0464
+Bonsai_2_27B_ternary,random_seed_6076,bottom,51, ((((,-0.0464
+Bonsai_2_27B_ternary,random_seed_6076,bottom,52,estes,-0.0463
+Bonsai_2_27B_ternary,random_seed_6076,bottom,53, Ruh,-0.0462
+Bonsai_2_27B_ternary,random_seed_6076,bottom,54, Silence,-0.0462
+Bonsai_2_27B_ternary,random_seed_6076,bottom,55,貿,-0.0461
+Bonsai_2_27B_ternary,random_seed_6076,bottom,56,нике,-0.0461
+Bonsai_2_27B_ternary,random_seed_6076,bottom,57, Плю,-0.0461
+Bonsai_2_27B_ternary,random_seed_6076,bottom,58,จู,-0.046
+Bonsai_2_27B_ternary,random_seed_6076,bottom,59,_choose,-0.0458
+Bonsai_2_27B_ternary,random_seed_6076,bottom,60, associative,-0.0458
+Bonsai_2_27B_ternary,random_seed_3384,top,1,assel,0.0611
+Bonsai_2_27B_ternary,random_seed_3384,top,2, trot,0.0577
+Bonsai_2_27B_ternary,random_seed_3384,top,3,SAME,0.0566
+Bonsai_2_27B_ternary,random_seed_3384,top,4,sess,0.0556
+Bonsai_2_27B_ternary,random_seed_3384,top,5,IZES,0.0536
+Bonsai_2_27B_ternary,random_seed_3384,top,6,十万,0.0535
+Bonsai_2_27B_ternary,random_seed_3384,top,7,左转,0.0532
+Bonsai_2_27B_ternary,random_seed_3384,top,8,izie,0.0519
+Bonsai_2_27B_ternary,random_seed_3384,top,9,权,0.0516
+Bonsai_2_27B_ternary,random_seed_3384,top,10, Kho,0.0514
+Bonsai_2_27B_ternary,random_seed_3384,top,11,estern,0.0511
+Bonsai_2_27B_ternary,random_seed_3384,top,12,其自然,0.0511
+Bonsai_2_27B_ternary,random_seed_3384,top,13,斓,0.051
+Bonsai_2_27B_ternary,random_seed_3384,top,14,去何,0.0506
+Bonsai_2_27B_ternary,random_seed_3384,top,15,闪电,0.0504
+Bonsai_2_27B_ternary,random_seed_3384,top,16,电站,0.0499
+Bonsai_2_27B_ternary,random_seed_3384,top,17,lyn,0.0497
+Bonsai_2_27B_ternary,random_seed_3384,top,18,aida,0.0497
+Bonsai_2_27B_ternary,random_seed_3384,top,19,dued,0.0491
+Bonsai_2_27B_ternary,random_seed_3384,top,20,一剑,0.0485
+Bonsai_2_27B_ternary,random_seed_3384,top,21,rot,0.0484
+Bonsai_2_27B_ternary,random_seed_3384,top,22, pars,0.0484
+Bonsai_2_27B_ternary,random_seed_3384,top,23,翘,0.0483
+Bonsai_2_27B_ternary,random_seed_3384,top,24, vien,0.0479
+Bonsai_2_27B_ternary,random_seed_3384,top,25,േഷ,0.0474
+Bonsai_2_27B_ternary,random_seed_3384,top,26,朝阳,0.0472
+Bonsai_2_27B_ternary,random_seed_3384,top,27, tach,0.0471
+Bonsai_2_27B_ternary,random_seed_3384,top,28,ucie,0.0461
+Bonsai_2_27B_ternary,random_seed_3384,top,29,istinguished,0.0461
+Bonsai_2_27B_ternary,random_seed_3384,top,30,stellung,0.0461
+Bonsai_2_27B_ternary,random_seed_3384,top,31,찍,0.046
+Bonsai_2_27B_ternary,random_seed_3384,top,32,rost,0.0459
+Bonsai_2_27B_ternary,random_seed_3384,top,33,holt,0.0459
+Bonsai_2_27B_ternary,random_seed_3384,top,34,طر,0.0459
+Bonsai_2_27B_ternary,random_seed_3384,top,35,izion,0.0458
+Bonsai_2_27B_ternary,random_seed_3384,top,36,一声,0.0458
+Bonsai_2_27B_ternary,random_seed_3384,top,37,ploy,0.0457
+Bonsai_2_27B_ternary,random_seed_3384,top,38, сл,0.0455
+Bonsai_2_27B_ternary,random_seed_3384,top,39,idle,0.0453
+Bonsai_2_27B_ternary,random_seed_3384,top,40,шел,0.0453
+Bonsai_2_27B_ternary,random_seed_3384,top,41,_blend,0.0452
+Bonsai_2_27B_ternary,random_seed_3384,top,42,udget,0.0449
+Bonsai_2_27B_ternary,random_seed_3384,top,43, сти,0.0443
+Bonsai_2_27B_ternary,random_seed_3384,top,44,ص,0.0441
+Bonsai_2_27B_ternary,random_seed_3384,top,45, acquisition,0.044
+Bonsai_2_27B_ternary,random_seed_3384,top,46,уре,0.0438
+Bonsai_2_27B_ternary,random_seed_3384,top,47,猝,0.0438
+Bonsai_2_27B_ternary,random_seed_3384,top,48,Brad,0.0437
+Bonsai_2_27B_ternary,random_seed_3384,top,49,.neg,0.0437
+Bonsai_2_27B_ternary,random_seed_3384,top,50,례,0.0437
+Bonsai_2_27B_ternary,random_seed_3384,top,51, Hòa,0.0437
+Bonsai_2_27B_ternary,random_seed_3384,top,52, Acquisition,0.0436
+Bonsai_2_27B_ternary,random_seed_3384,top,53,роза,0.0435
+Bonsai_2_27B_ternary,random_seed_3384,top,54,oley,0.0434
+Bonsai_2_27B_ternary,random_seed_3384,top,55,ugal,0.0433
+Bonsai_2_27B_ternary,random_seed_3384,top,56,onder,0.0433
+Bonsai_2_27B_ternary,random_seed_3384,top,57,شن,0.0432
+Bonsai_2_27B_ternary,random_seed_3384,top,58,شل,0.043
+Bonsai_2_27B_ternary,random_seed_3384,top,59, 섭,0.043
+Bonsai_2_27B_ternary,random_seed_3384,top,60,每天都有,0.0429
+Bonsai_2_27B_ternary,random_seed_3384,bottom,1,娲,-0.0653
+Bonsai_2_27B_ternary,random_seed_3384,bottom,2,_NULL,-0.0635
+Bonsai_2_27B_ternary,random_seed_3384,bottom,3,上口,-0.0578
+Bonsai_2_27B_ternary,random_seed_3384,bottom,4,_entropy,-0.057
+Bonsai_2_27B_ternary,random_seed_3384,bottom,5,__;,-0.0563
+Bonsai_2_27B_ternary,random_seed_3384,bottom,6,rna,-0.0562
+Bonsai_2_27B_ternary,random_seed_3384,bottom,7,uali,-0.0559
+Bonsai_2_27B_ternary,random_seed_3384,bottom,8,antz,-0.0544
+Bonsai_2_27B_ternary,random_seed_3384,bottom,9,_mgmt,-0.0536
+Bonsai_2_27B_ternary,random_seed_3384,bottom,10,思想的,-0.0529
+Bonsai_2_27B_ternary,random_seed_3384,bottom,11,湾,-0.0524
+Bonsai_2_27B_ternary,random_seed_3384,bottom,12, захи,-0.0524
+Bonsai_2_27B_ternary,random_seed_3384,bottom,13,联,-0.0523
+Bonsai_2_27B_ternary,random_seed_3384,bottom,14,晶石,-0.0521
+Bonsai_2_27B_ternary,random_seed_3384,bottom,15,ones,-0.0519
+Bonsai_2_27B_ternary,random_seed_3384,bottom,16,ipay,-0.0518
+Bonsai_2_27B_ternary,random_seed_3384,bottom,17,ensis,-0.0515
+Bonsai_2_27B_ternary,random_seed_3384,bottom,18,olic,-0.0511
+Bonsai_2_27B_ternary,random_seed_3384,bottom,19,迪亚,-0.051
+Bonsai_2_27B_ternary,random_seed_3384,bottom,20,BuilderFactory,-0.0508
+Bonsai_2_27B_ternary,random_seed_3384,bottom,21,前者,-0.0506
+Bonsai_2_27B_ternary,random_seed_3384,bottom,22,外设,-0.0505
+Bonsai_2_27B_ternary,random_seed_3384,bottom,23,伟人,-0.0505
+Bonsai_2_27B_ternary,random_seed_3384,bottom,24,阻隔,-0.0503
+Bonsai_2_27B_ternary,random_seed_3384,bottom,25,cling,-0.05
+Bonsai_2_27B_ternary,random_seed_3384,bottom,26,_act,-0.0499
+Bonsai_2_27B_ternary,random_seed_3384,bottom,27,团,-0.0498
+Bonsai_2_27B_ternary,random_seed_3384,bottom,28,出席会议,-0.0495
+Bonsai_2_27B_ternary,random_seed_3384,bottom,29,唐家,-0.0495
+Bonsai_2_27B_ternary,random_seed_3384,bottom,30,/manage,-0.0495
+Bonsai_2_27B_ternary,random_seed_3384,bottom,31, divorced,-0.0494
+Bonsai_2_27B_ternary,random_seed_3384,bottom,32,质的,-0.0494
+Bonsai_2_27B_ternary,random_seed_3384,bottom,33,/ay,-0.0493
+Bonsai_2_27B_ternary,random_seed_3384,bottom,34,_front,-0.0488
+Bonsai_2_27B_ternary,random_seed_3384,bottom,35,_packets,-0.0487
+Bonsai_2_27B_ternary,random_seed_3384,bottom,36,_PROTOCOL,-0.0485
+Bonsai_2_27B_ternary,random_seed_3384,bottom,37,trib,-0.0485
+Bonsai_2_27B_ternary,random_seed_3384,bottom,38,intes,-0.0485
+Bonsai_2_27B_ternary,random_seed_3384,bottom,39, Kran,-0.0484
+Bonsai_2_27B_ternary,random_seed_3384,bottom,40,OMEM,-0.0483
+Bonsai_2_27B_ternary,random_seed_3384,bottom,41,aliases,-0.0482
+Bonsai_2_27B_ternary,random_seed_3384,bottom,42,_qual,-0.0482
+Bonsai_2_27B_ternary,random_seed_3384,bottom,43, Valerie,-0.0481
+Bonsai_2_27B_ternary,random_seed_3384,bottom,44, Null,-0.048
+Bonsai_2_27B_ternary,random_seed_3384,bottom,45,/popper,-0.048
+Bonsai_2_27B_ternary,random_seed_3384,bottom,46,吉思,-0.0479
+Bonsai_2_27B_ternary,random_seed_3384,bottom,47,受,-0.0478
+Bonsai_2_27B_ternary,random_seed_3384,bottom,48,",:,",-0.0477
+Bonsai_2_27B_ternary,random_seed_3384,bottom,49, Darling,-0.0477
+Bonsai_2_27B_ternary,random_seed_3384,bottom,50,ìa,-0.0475
+Bonsai_2_27B_ternary,random_seed_3384,bottom,51,单项选择题,-0.0475
+Bonsai_2_27B_ternary,random_seed_3384,bottom,52,StateMachine,-0.0475
+Bonsai_2_27B_ternary,random_seed_3384,bottom,53,)__,-0.0474
+Bonsai_2_27B_ternary,random_seed_3384,bottom,54,(DEBUG,-0.0474
+Bonsai_2_27B_ternary,random_seed_3384,bottom,55,_LOADED,-0.0473
+Bonsai_2_27B_ternary,random_seed_3384,bottom,56,具,-0.0472
+Bonsai_2_27B_ternary,random_seed_3384,bottom,57,odne,-0.0471
+Bonsai_2_27B_ternary,random_seed_3384,bottom,58,ในความ,-0.0471
+Bonsai_2_27B_ternary,random_seed_3384,bottom,59, 몰,-0.047
+Bonsai_2_27B_ternary,random_seed_3384,bottom,60,矾,-0.0469
+Bonsai_2_27B_ternary,random_seed_8592,top,1,.appendChild,0.06
+Bonsai_2_27B_ternary,random_seed_8592,top,2,osten,0.0551
+Bonsai_2_27B_ternary,random_seed_8592,top,3,浮生,0.0542
+Bonsai_2_27B_ternary,random_seed_8592,top,4, dise,0.0535
+Bonsai_2_27B_ternary,random_seed_8592,top,5,/rest,0.0533
+Bonsai_2_27B_ternary,random_seed_8592,top,6,屏,0.0523
+Bonsai_2_27B_ternary,random_seed_8592,top,7,enom,0.0518
+Bonsai_2_27B_ternary,random_seed_8592,top,8,כות,0.0488
+Bonsai_2_27B_ternary,random_seed_8592,top,9,orough,0.0488
+Bonsai_2_27B_ternary,random_seed_8592,top,10,orny,0.0484
+Bonsai_2_27B_ternary,random_seed_8592,top,11,比拟,0.0484
+Bonsai_2_27B_ternary,random_seed_8592,top,12,OWER,0.0484
+Bonsai_2_27B_ternary,random_seed_8592,top,13,UGE,0.0474
+Bonsai_2_27B_ternary,random_seed_8592,top,14,传来,0.0473
+Bonsai_2_27B_ternary,random_seed_8592,top,15,ower,0.0471
+Bonsai_2_27B_ternary,random_seed_8592,top,16,essant,0.0462
+Bonsai_2_27B_ternary,random_seed_8592,top,17,ugg,0.0457
+Bonsai_2_27B_ternary,random_seed_8592,top,18, diput,0.0452
+Bonsai_2_27B_ternary,random_seed_8592,top,19,神山,0.0448
+Bonsai_2_27B_ternary,random_seed_8592,top,20,_succ,0.0447
+Bonsai_2_27B_ternary,random_seed_8592,top,21, Obs,0.0443
+Bonsai_2_27B_ternary,random_seed_8592,top,22,尔蒙,0.0441
+Bonsai_2_27B_ternary,random_seed_8592,top,23,enha,0.0439
+Bonsai_2_27B_ternary,random_seed_8592,top,24,uelta,0.0438
+Bonsai_2_27B_ternary,random_seed_8592,top,25,不苟,0.0437
+Bonsai_2_27B_ternary,random_seed_8592,top,26,isky,0.0435
+Bonsai_2_27B_ternary,random_seed_8592,top,27,KER,0.0431
+Bonsai_2_27B_ternary,random_seed_8592,top,28,踩过,0.0427
+Bonsai_2_27B_ternary,random_seed_8592,top,29,欢迎关注,0.0425
+Bonsai_2_27B_ternary,random_seed_8592,top,30,귀,0.0424
+Bonsai_2_27B_ternary,random_seed_8592,top,31,anship,0.0422
+Bonsai_2_27B_ternary,random_seed_8592,top,32, stre,0.0422
+Bonsai_2_27B_ternary,random_seed_8592,top,33,馈,0.0421
+Bonsai_2_27B_ternary,random_seed_8592,top,34,和精神,0.042
+Bonsai_2_27B_ternary,random_seed_8592,top,35,孚,0.042
+Bonsai_2_27B_ternary,random_seed_8592,top,36,.getElementsBy,0.0419
+Bonsai_2_27B_ternary,random_seed_8592,top,37,/src,0.0418
+Bonsai_2_27B_ternary,random_seed_8592,top,38,ๆ,0.0417
+Bonsai_2_27B_ternary,random_seed_8592,top,39,Observer,0.0417
+Bonsai_2_27B_ternary,random_seed_8592,top,40,en,0.0416
+Bonsai_2_27B_ternary,random_seed_8592,top,41,碧玉,0.0416
+Bonsai_2_27B_ternary,random_seed_8592,top,42, antif,0.0414
+Bonsai_2_27B_ternary,random_seed_8592,top,43,打人,0.0414
+Bonsai_2_27B_ternary,random_seed_8592,top,44,=YES,0.0413
+Bonsai_2_27B_ternary,random_seed_8592,top,45,.pm,0.0413
+Bonsai_2_27B_ternary,random_seed_8592,top,46,ly,0.0412
+Bonsai_2_27B_ternary,random_seed_8592,top,47,э,0.041
+Bonsai_2_27B_ternary,random_seed_8592,top,48,ifah,0.0406
+Bonsai_2_27B_ternary,random_seed_8592,top,49,enheim,0.0405
+Bonsai_2_27B_ternary,random_seed_8592,top,50, Tee,0.0404
+Bonsai_2_27B_ternary,random_seed_8592,top,51,Фа,0.0404
+Bonsai_2_27B_ternary,random_seed_8592,top,52,你这么,0.0404
+Bonsai_2_27B_ternary,random_seed_8592,top,53,�,0.0402
+Bonsai_2_27B_ternary,random_seed_8592,top,54, Simpson,0.0402
+Bonsai_2_27B_ternary,random_seed_8592,top,55,aute,0.0402
+Bonsai_2_27B_ternary,random_seed_8592,top,56,泡脚,0.0402
+Bonsai_2_27B_ternary,random_seed_8592,top,57,quen,0.0401
+Bonsai_2_27B_ternary,random_seed_8592,top,58, Brewer,0.04
+Bonsai_2_27B_ternary,random_seed_8592,top,59, Henrik,0.04
+Bonsai_2_27B_ternary,random_seed_8592,top,60,断定,0.0399
+Bonsai_2_27B_ternary,random_seed_8592,bottom,1,竞,-0.0672
+Bonsai_2_27B_ternary,random_seed_8592,bottom,2,ማ,-0.0628
+Bonsai_2_27B_ternary,random_seed_8592,bottom,3,ANDLE,-0.0615
+Bonsai_2_27B_ternary,random_seed_8592,bottom,4,ask,-0.0605
+Bonsai_2_27B_ternary,random_seed_8592,bottom,5,(AT,-0.0601
+Bonsai_2_27B_ternary,random_seed_8592,bottom,6,iw,-0.06
+Bonsai_2_27B_ternary,random_seed_8592,bottom,7, entertain,-0.0585
+Bonsai_2_27B_ternary,random_seed_8592,bottom,8,andle,-0.0581
+Bonsai_2_27B_ternary,random_seed_8592,bottom,9,apes,-0.0579
+Bonsai_2_27B_ternary,random_seed_8592,bottom,10, addir,-0.0574
+Bonsai_2_27B_ternary,random_seed_8592,bottom,11,ibert,-0.0568
+Bonsai_2_27B_ternary,random_seed_8592,bottom,12,ract,-0.0564
+Bonsai_2_27B_ternary,random_seed_8592,bottom,13,utip,-0.0558
+Bonsai_2_27B_ternary,random_seed_8592,bottom,14,iku,-0.0549
+Bonsai_2_27B_ternary,random_seed_8592,bottom,15,大通,-0.0548
+Bonsai_2_27B_ternary,random_seed_8592,bottom,16,ibu,-0.0546
+Bonsai_2_27B_ternary,random_seed_8592,bottom,17,之数,-0.0545
+Bonsai_2_27B_ternary,random_seed_8592,bottom,18,StackTrace,-0.0545
+Bonsai_2_27B_ternary,random_seed_8592,bottom,19,zor,-0.0542
+Bonsai_2_27B_ternary,random_seed_8592,bottom,20,"\\""",-0.0533
+Bonsai_2_27B_ternary,random_seed_8592,bottom,21, envies,-0.0532
+Bonsai_2_27B_ternary,random_seed_8592,bottom,22,trail,-0.0532
+Bonsai_2_27B_ternary,random_seed_8592,bottom,23,钮,-0.0532
+Bonsai_2_27B_ternary,random_seed_8592,bottom,24,&w,-0.0528
+Bonsai_2_27B_ternary,random_seed_8592,bottom,25,ipple,-0.0528
+Bonsai_2_27B_ternary,random_seed_8592,bottom,26,不是一个,-0.0527
+Bonsai_2_27B_ternary,random_seed_8592,bottom,27, interpol,-0.0526
+Bonsai_2_27B_ternary,random_seed_8592,bottom,28,STM,-0.0526
+Bonsai_2_27B_ternary,random_seed_8592,bottom,29,办了,-0.0526
+Bonsai_2_27B_ternary,random_seed_8592,bottom,30,FINITY,-0.0525
+Bonsai_2_27B_ternary,random_seed_8592,bottom,31,(IL,-0.0524
+Bonsai_2_27B_ternary,random_seed_8592,bottom,32,oders,-0.0524
+Bonsai_2_27B_ternary,random_seed_8592,bottom,33,ёр,-0.0522
+Bonsai_2_27B_ternary,random_seed_8592,bottom,34,头颅,-0.0521
+Bonsai_2_27B_ternary,random_seed_8592,bottom,35,.formData,-0.0521
+Bonsai_2_27B_ternary,random_seed_8592,bottom,36,_tm,-0.0521
+Bonsai_2_27B_ternary,random_seed_8592,bottom,37, هام,-0.0519
+Bonsai_2_27B_ternary,random_seed_8592,bottom,38, Еги,-0.0517
+Bonsai_2_27B_ternary,random_seed_8592,bottom,39,(integer,-0.0516
+Bonsai_2_27B_ternary,random_seed_8592,bottom,40,amor,-0.0516
+Bonsai_2_27B_ternary,random_seed_8592,bottom,41,从事,-0.0516
+Bonsai_2_27B_ternary,random_seed_8592,bottom,42,alap,-0.0513
+Bonsai_2_27B_ternary,random_seed_8592,bottom,43,mula,-0.0511
+Bonsai_2_27B_ternary,random_seed_8592,bottom,44,거,-0.051
+Bonsai_2_27B_ternary,random_seed_8592,bottom,45,imat,-0.0509
+Bonsai_2_27B_ternary,random_seed_8592,bottom,46,斯克,-0.0509
+Bonsai_2_27B_ternary,random_seed_8592,bottom,47, Potr,-0.0509
+Bonsai_2_27B_ternary,random_seed_8592,bottom,48,assist,-0.0507
+Bonsai_2_27B_ternary,random_seed_8592,bottom,49,ooled,-0.0507
+Bonsai_2_27B_ternary,random_seed_8592,bottom,50,제공,-0.0507
+Bonsai_2_27B_ternary,random_seed_8592,bottom,51,越想,-0.0507
+Bonsai_2_27B_ternary,random_seed_8592,bottom,52,啡,-0.0506
+Bonsai_2_27B_ternary,random_seed_8592,bottom,53,Prem,-0.0506
+Bonsai_2_27B_ternary,random_seed_8592,bottom,54,萨斯,-0.0506
+Bonsai_2_27B_ternary,random_seed_8592,bottom,55,LEASE,-0.0505
+Bonsai_2_27B_ternary,random_seed_8592,bottom,56,ernes,-0.0505
+Bonsai_2_27B_ternary,random_seed_8592,bottom,57,SYM,-0.0504
+Bonsai_2_27B_ternary,random_seed_8592,bottom,58,>this,-0.0503
+Bonsai_2_27B_ternary,random_seed_8592,bottom,59,"""type",-0.0503
+Bonsai_2_27B_ternary,random_seed_8592,bottom,60,atings,-0.0502
+Bonsai_2_27B_ternary,random_seed_517,top,1,徒,0.0575
+Bonsai_2_27B_ternary,random_seed_517,top,2,ropri,0.0574
+Bonsai_2_27B_ternary,random_seed_517,top,3,老大,0.0574
+Bonsai_2_27B_ternary,random_seed_517,top,4,uat,0.057
+Bonsai_2_27B_ternary,random_seed_517,top,5,无路,0.0562
+Bonsai_2_27B_ternary,random_seed_517,top,6,rox,0.0558
+Bonsai_2_27B_ternary,random_seed_517,top,7,/V,0.0553
+Bonsai_2_27B_ternary,random_seed_517,top,8,菠萝,0.0533
+Bonsai_2_27B_ternary,random_seed_517,top,9,_PID,0.0531
+Bonsai_2_27B_ternary,random_seed_517,top,10,様,0.0528
+Bonsai_2_27B_ternary,random_seed_517,top,11,我们会在,0.0522
+Bonsai_2_27B_ternary,random_seed_517,top,12,neu,0.0519
+Bonsai_2_27B_ternary,random_seed_517,top,13,zie,0.0514
+Bonsai_2_27B_ternary,random_seed_517,top,14,稣,0.0512
+Bonsai_2_27B_ternary,random_seed_517,top,15, Istitu,0.0512
+Bonsai_2_27B_ternary,random_seed_517,top,16,白水,0.051
+Bonsai_2_27B_ternary,random_seed_517,top,17,拴,0.0508
+Bonsai_2_27B_ternary,random_seed_517,top,18, Pic,0.0507
+Bonsai_2_27B_ternary,random_seed_517,top,19,_AR,0.0506
+Bonsai_2_27B_ternary,random_seed_517,top,20,_PROF,0.0506
+Bonsai_2_27B_ternary,random_seed_517,top,21, assur,0.0506
+Bonsai_2_27B_ternary,random_seed_517,top,22,迷失,0.05
+Bonsai_2_27B_ternary,random_seed_517,top,23,OrFail,0.0499
+Bonsai_2_27B_ternary,random_seed_517,top,24,_EVT,0.0497
+Bonsai_2_27B_ternary,random_seed_517,top,25, Polar,0.0497
+Bonsai_2_27B_ternary,random_seed_517,top,26,ovit,0.0495
+Bonsai_2_27B_ternary,random_seed_517,top,27,是唯一,0.0493
+Bonsai_2_27B_ternary,random_seed_517,top,28, profess,0.0493
+Bonsai_2_27B_ternary,random_seed_517,top,29,leman,0.0491
+Bonsai_2_27B_ternary,random_seed_517,top,30, chùm,0.0487
+Bonsai_2_27B_ternary,random_seed_517,top,31, 続きを読む,0.0486
+Bonsai_2_27B_ternary,random_seed_517,top,32,Accessible,0.0485
+Bonsai_2_27B_ternary,random_seed_517,top,33,UGE,0.0484
+Bonsai_2_27B_ternary,random_seed_517,top,34, Auge,0.0483
+Bonsai_2_27B_ternary,random_seed_517,top,35,捎,0.0479
+Bonsai_2_27B_ternary,random_seed_517,top,36,August,0.0479
+Bonsai_2_27B_ternary,random_seed_517,top,37,面,0.0473
+Bonsai_2_27B_ternary,random_seed_517,top,38, Leip,0.0472
+Bonsai_2_27B_ternary,random_seed_517,top,39,istr,0.047
+Bonsai_2_27B_ternary,random_seed_517,top,40,Hol,0.0469
+Bonsai_2_27B_ternary,random_seed_517,top,41,和家长,0.0468
+Bonsai_2_27B_ternary,random_seed_517,top,42,钥,0.0468
+Bonsai_2_27B_ternary,random_seed_517,top,43,istant,0.0466
+Bonsai_2_27B_ternary,random_seed_517,top,44,读懂,0.0465
+Bonsai_2_27B_ternary,random_seed_517,top,45, CID,0.0465
+Bonsai_2_27B_ternary,random_seed_517,top,46,ses,0.0464
+Bonsai_2_27B_ternary,random_seed_517,top,47,istration,0.0464
+Bonsai_2_27B_ternary,random_seed_517,top,48,ervers,0.0463
+Bonsai_2_27B_ternary,random_seed_517,top,49,antica,0.0462
+Bonsai_2_27B_ternary,random_seed_517,top,50,OBO,0.0462
+Bonsai_2_27B_ternary,random_seed_517,top,51,_GPU,0.0462
+Bonsai_2_27B_ternary,random_seed_517,top,52,.directory,0.0461
+Bonsai_2_27B_ternary,random_seed_517,top,53, Pantal,0.046
+Bonsai_2_27B_ternary,random_seed_517,top,54,老实,0.046
+Bonsai_2_27B_ternary,random_seed_517,top,55,Ann,0.0459
+Bonsai_2_27B_ternary,random_seed_517,top,56,噩,0.0459
+Bonsai_2_27B_ternary,random_seed_517,top,57,粉碎,0.0459
+Bonsai_2_27B_ternary,random_seed_517,top,58,憔,0.0459
+Bonsai_2_27B_ternary,random_seed_517,top,59,/New,0.0458
+Bonsai_2_27B_ternary,random_seed_517,top,60,inge,0.0456
+Bonsai_2_27B_ternary,random_seed_517,bottom,1,inol,-0.0612
+Bonsai_2_27B_ternary,random_seed_517,bottom,2, comp,-0.0548
+Bonsai_2_27B_ternary,random_seed_517,bottom,3,rial,-0.0521
+Bonsai_2_27B_ternary,random_seed_517,bottom,4,phabet,-0.0517
+Bonsai_2_27B_ternary,random_seed_517,bottom,5, Capacité,-0.0496
+Bonsai_2_27B_ternary,random_seed_517,bottom,6,懿,-0.0492
+Bonsai_2_27B_ternary,random_seed_517,bottom,7,��,-0.0489
+Bonsai_2_27B_ternary,random_seed_517,bottom,8,露面,-0.0489
+Bonsai_2_27B_ternary,random_seed_517,bottom,9,勾,-0.0485
+Bonsai_2_27B_ternary,random_seed_517,bottom,10,�,-0.0484
+Bonsai_2_27B_ternary,random_seed_517,bottom,11,�,-0.0483
+Bonsai_2_27B_ternary,random_seed_517,bottom,12,罢了,-0.048
+Bonsai_2_27B_ternary,random_seed_517,bottom,13,吊,-0.0479
+Bonsai_2_27B_ternary,random_seed_517,bottom,14,的作业,-0.0479
+Bonsai_2_27B_ternary,random_seed_517,bottom,15,ירת,-0.0476
+Bonsai_2_27B_ternary,random_seed_517,bottom,16,interop,-0.0475
+Bonsai_2_27B_ternary,random_seed_517,bottom,17,��,-0.0475
+Bonsai_2_27B_ternary,random_seed_517,bottom,18, Cadre,-0.0474
+Bonsai_2_27B_ternary,random_seed_517,bottom,19,tridge,-0.0474
+Bonsai_2_27B_ternary,random_seed_517,bottom,20,伍,-0.0469
+Bonsai_2_27B_ternary,random_seed_517,bottom,21,endan,-0.0468
+Bonsai_2_27B_ternary,random_seed_517,bottom,22,ahre,-0.0467
+Bonsai_2_27B_ternary,random_seed_517,bottom,23,作业时,-0.0461
+Bonsai_2_27B_ternary,random_seed_517,bottom,24,凰,-0.0461
+Bonsai_2_27B_ternary,random_seed_517,bottom,25,trys,-0.046
+Bonsai_2_27B_ternary,random_seed_517,bottom,26,engt,-0.0458
+Bonsai_2_27B_ternary,random_seed_517,bottom,27,flags,-0.0457
+Bonsai_2_27B_ternary,random_seed_517,bottom,28,有太多,-0.0455
+Bonsai_2_27B_ternary,random_seed_517,bottom,29,etaan,-0.0453
+Bonsai_2_27B_ternary,random_seed_517,bottom,30,通过电话,-0.0452
+Bonsai_2_27B_ternary,random_seed_517,bottom,31,亿港元,-0.0451
+Bonsai_2_27B_ternary,random_seed_517,bottom,32,otan,-0.0451
+Bonsai_2_27B_ternary,random_seed_517,bottom,33,мя,-0.0448
+Bonsai_2_27B_ternary,random_seed_517,bottom,34,COMP,-0.0447
+Bonsai_2_27B_ternary,random_seed_517,bottom,35,KW,-0.0446
+Bonsai_2_27B_ternary,random_seed_517,bottom,36,oga,-0.0445
+Bonsai_2_27B_ternary,random_seed_517,bottom,37, =$,-0.0444
+Bonsai_2_27B_ternary,random_seed_517,bottom,38,禺,-0.0444
+Bonsai_2_27B_ternary,random_seed_517,bottom,39,ρυ,-0.0443
+Bonsai_2_27B_ternary,random_seed_517,bottom,40, عق,-0.0443
+Bonsai_2_27B_ternary,random_seed_517,bottom,41,мая,-0.0443
+Bonsai_2_27B_ternary,random_seed_517,bottom,42, ада,-0.0443
+Bonsai_2_27B_ternary,random_seed_517,bottom,43,挽,-0.0442
+Bonsai_2_27B_ternary,random_seed_517,bottom,44,ph,-0.044
+Bonsai_2_27B_ternary,random_seed_517,bottom,45, asym,-0.044
+Bonsai_2_27B_ternary,random_seed_517,bottom,46, Ventura,-0.0439
+Bonsai_2_27B_ternary,random_seed_517,bottom,47, прос,-0.0439
+Bonsai_2_27B_ternary,random_seed_517,bottom,48,ilson,-0.0439
+Bonsai_2_27B_ternary,random_seed_517,bottom,49,retain,-0.0438
+Bonsai_2_27B_ternary,random_seed_517,bottom,50, nonzero,-0.0438
+Bonsai_2_27B_ternary,random_seed_517,bottom,51,elson,-0.0438
+Bonsai_2_27B_ternary,random_seed_517,bottom,52,.cap,-0.0437
+Bonsai_2_27B_ternary,random_seed_517,bottom,53,彰,-0.0437
+Bonsai_2_27B_ternary,random_seed_517,bottom,54,’t,-0.0436
+Bonsai_2_27B_ternary,random_seed_517,bottom,55,井,-0.0435
+Bonsai_2_27B_ternary,random_seed_517,bottom,56,哒,-0.0435
+Bonsai_2_27B_ternary,random_seed_517,bottom,57,indle,-0.0435
+Bonsai_2_27B_ternary,random_seed_517,bottom,58,ew,-0.0434
+Bonsai_2_27B_ternary,random_seed_517,bottom,59, pros,-0.0434
+Bonsai_2_27B_ternary,random_seed_517,bottom,60,marvin,-0.0434
+Bonsai_2_27B_ternary,random_seed_6741,top,1, foremost,0.0556
+Bonsai_2_27B_ternary,random_seed_6741,top,2,ownload,0.0552
+Bonsai_2_27B_ternary,random_seed_6741,top,3,ld,0.0526
+Bonsai_2_27B_ternary,random_seed_6741,top,4,enticator,0.0514
+Bonsai_2_27B_ternary,random_seed_6741,top,5,ogen,0.0514
+Bonsai_2_27B_ternary,random_seed_6741,top,6,家庄,0.051
+Bonsai_2_27B_ternary,random_seed_6741,top,7,"({},",0.0496
+Bonsai_2_27B_ternary,random_seed_6741,top,8,stdarg,0.0495
+Bonsai_2_27B_ternary,random_seed_6741,top,9,铭记,0.0486
+Bonsai_2_27B_ternary,random_seed_6741,top,10,1,0.047
+Bonsai_2_27B_ternary,random_seed_6741,top,11,msgs,0.0468
+Bonsai_2_27B_ternary,random_seed_6741,top,12, histories,0.0467
+Bonsai_2_27B_ternary,random_seed_6741,top,13,agen,0.0464
+Bonsai_2_27B_ternary,random_seed_6741,top,14,搭上,0.046
+Bonsai_2_27B_ternary,random_seed_6741,top,15,ठ,0.0459
+Bonsai_2_27B_ternary,random_seed_6741,top,16,фі,0.0459
+Bonsai_2_27B_ternary,random_seed_6741,top,17,igu,0.0454
+Bonsai_2_27B_ternary,random_seed_6741,top,18,ikus,0.0453
+Bonsai_2_27B_ternary,random_seed_6741,top,19,atz,0.0452
+Bonsai_2_27B_ternary,random_seed_6741,top,20,hdl,0.0451
+Bonsai_2_27B_ternary,random_seed_6741,top,21,长期使用,0.045
+Bonsai_2_27B_ternary,random_seed_6741,top,22,ーンの,0.045
+Bonsai_2_27B_ternary,random_seed_6741,top,23, выпа,0.0449
+Bonsai_2_27B_ternary,random_seed_6741,top,24,FR,0.0449
+Bonsai_2_27B_ternary,random_seed_6741,top,25,_accounts,0.0447
+Bonsai_2_27B_ternary,random_seed_6741,top,26,utsch,0.0446
+Bonsai_2_27B_ternary,random_seed_6741,top,27,getInstance,0.0443
+Bonsai_2_27B_ternary,random_seed_6741,top,28,家村,0.0439
+Bonsai_2_27B_ternary,random_seed_6741,top,29,愈加,0.0439
+Bonsai_2_27B_ternary,random_seed_6741,top,30,CRY,0.0438
+Bonsai_2_27B_ternary,random_seed_6741,top,31, Raven,0.0437
+Bonsai_2_27B_ternary,random_seed_6741,top,32,opts,0.0435
+Bonsai_2_27B_ternary,random_seed_6741,top,33,不履行,0.0434
+Bonsai_2_27B_ternary,random_seed_6741,top,34,突如其,0.0433
+Bonsai_2_27B_ternary,random_seed_6741,top,35, occupation,0.0432
+Bonsai_2_27B_ternary,random_seed_6741,top,36,ogeneous,0.0431
+Bonsai_2_27B_ternary,random_seed_6741,top,37,Permission,0.043
+Bonsai_2_27B_ternary,random_seed_6741,top,38,淳,0.0429
+Bonsai_2_27B_ternary,random_seed_6741,top,39,พัน,0.0428
+Bonsai_2_27B_ternary,random_seed_6741,top,40,同日,0.0427
+Bonsai_2_27B_ternary,random_seed_6741,top,41,VD,0.0427
+Bonsai_2_27B_ternary,random_seed_6741,top,42, presid,0.0424
+Bonsai_2_27B_ternary,random_seed_6741,top,43,ampe,0.0423
+Bonsai_2_27B_ternary,random_seed_6741,top,44,ats,0.0423
+Bonsai_2_27B_ternary,random_seed_6741,top,45,中的作用,0.0423
+Bonsai_2_27B_ternary,random_seed_6741,top,46,簿,0.0422
+Bonsai_2_27B_ternary,random_seed_6741,top,47,ijin,0.042
+Bonsai_2_27B_ternary,random_seed_6741,top,48,otos,0.042
+Bonsai_2_27B_ternary,random_seed_6741,top,49,FLAGS,0.0419
+Bonsai_2_27B_ternary,random_seed_6741,top,50,_interrupt,0.0419
+Bonsai_2_27B_ternary,random_seed_6741,top,51,atk,0.0418
+Bonsai_2_27B_ternary,random_seed_6741,top,52, Singer,0.0416
+Bonsai_2_27B_ternary,random_seed_6741,top,53,�,0.0416
+Bonsai_2_27B_ternary,random_seed_6741,top,54, honor,0.0416
+Bonsai_2_27B_ternary,random_seed_6741,top,55,_UC,0.0415
+Bonsai_2_27B_ternary,random_seed_6741,top,56,كد,0.0415
+Bonsai_2_27B_ternary,random_seed_6741,top,57,IDI,0.0415
+Bonsai_2_27B_ternary,random_seed_6741,top,58,散装,0.0414
+Bonsai_2_27B_ternary,random_seed_6741,top,59, Seah,0.0412
+Bonsai_2_27B_ternary,random_seed_6741,top,60,二手,0.0411
+Bonsai_2_27B_ternary,random_seed_6741,bottom,1,aches,-0.0668
+Bonsai_2_27B_ternary,random_seed_6741,bottom,2, chí,-0.0645
+Bonsai_2_27B_ternary,random_seed_6741,bottom,3,道人,-0.0631
+Bonsai_2_27B_ternary,random_seed_6741,bottom,4,essin,-0.0617
+Bonsai_2_27B_ternary,random_seed_6741,bottom,5,nič,-0.0616
+Bonsai_2_27B_ternary,random_seed_6741,bottom,6, dél,-0.0608
+Bonsai_2_27B_ternary,random_seed_6741,bottom,7,andom,-0.059
+Bonsai_2_27B_ternary,random_seed_6741,bottom,8,Extreme,-0.0587
+Bonsai_2_27B_ternary,random_seed_6741,bottom,9,asion,-0.0578
+Bonsai_2_27B_ternary,random_seed_6741,bottom,10, Molina,-0.0577
+Bonsai_2_27B_ternary,random_seed_6741,bottom,11,ะ,-0.0568
+Bonsai_2_27B_ternary,random_seed_6741,bottom,12,Union,-0.0565
+Bonsai_2_27B_ternary,random_seed_6741,bottom,13,Boot,-0.0552
+Bonsai_2_27B_ternary,random_seed_6741,bottom,14,parti,-0.0551
+Bonsai_2_27B_ternary,random_seed_6741,bottom,15, Strut,-0.0548
+Bonsai_2_27B_ternary,random_seed_6741,bottom,16,eli,-0.0547
+Bonsai_2_27B_ternary,random_seed_6741,bottom,17,aticon,-0.0546
+Bonsai_2_27B_ternary,random_seed_6741,bottom,18,良,-0.0544
+Bonsai_2_27B_ternary,random_seed_6741,bottom,19,side,-0.0542
+Bonsai_2_27B_ternary,random_seed_6741,bottom,20,نيه,-0.0542
+Bonsai_2_27B_ternary,random_seed_6741,bottom,21,льо,-0.0541
+Bonsai_2_27B_ternary,random_seed_6741,bottom,22,带去,-0.054
+Bonsai_2_27B_ternary,random_seed_6741,bottom,23,ศ,-0.0539
+Bonsai_2_27B_ternary,random_seed_6741,bottom,24,thinkable,-0.0537
+Bonsai_2_27B_ternary,random_seed_6741,bottom,25,quine,-0.0533
+Bonsai_2_27B_ternary,random_seed_6741,bottom,26,.misc,-0.0532
+Bonsai_2_27B_ternary,random_seed_6741,bottom,27,/MIT,-0.0531
+Bonsai_2_27B_ternary,random_seed_6741,bottom,28,顷,-0.0529
+Bonsai_2_27B_ternary,random_seed_6741,bottom,29, Zir,-0.0528
+Bonsai_2_27B_ternary,random_seed_6741,bottom,30,Ман,-0.0528
+Bonsai_2_27B_ternary,random_seed_6741,bottom,31,bra,-0.0526
+Bonsai_2_27B_ternary,random_seed_6741,bottom,32,ASCADE,-0.0526
+Bonsai_2_27B_ternary,random_seed_6741,bottom,33, unins,-0.0525
+Bonsai_2_27B_ternary,random_seed_6741,bottom,34,.partial,-0.0524
+Bonsai_2_27B_ternary,random_seed_6741,bottom,35,routine,-0.0522
+Bonsai_2_27B_ternary,random_seed_6741,bottom,36,"
+    
+",-0.0521
+Bonsai_2_27B_ternary,random_seed_6741,bottom,37,金券,-0.052
+Bonsai_2_27B_ternary,random_seed_6741,bottom,38, newcom,-0.0519
+Bonsai_2_27B_ternary,random_seed_6741,bottom,39,"?(""",-0.0519
+Bonsai_2_27B_ternary,random_seed_6741,bottom,40,рій,-0.0518
+Bonsai_2_27B_ternary,random_seed_6741,bottom,41, Warta,-0.0517
+Bonsai_2_27B_ternary,random_seed_6741,bottom,42,ayang,-0.0511
+Bonsai_2_27B_ternary,random_seed_6741,bottom,43,unde,-0.051
+Bonsai_2_27B_ternary,random_seed_6741,bottom,44,胜,-0.0509
+Bonsai_2_27B_ternary,random_seed_6741,bottom,45,téri,-0.0508
+Bonsai_2_27B_ternary,random_seed_6741,bottom,46, mol,-0.0508
+Bonsai_2_27B_ternary,random_seed_6741,bottom,47,etable,-0.0507
+Bonsai_2_27B_ternary,random_seed_6741,bottom,48, Heck,-0.0507
+Bonsai_2_27B_ternary,random_seed_6741,bottom,49,elman,-0.0506
+Bonsai_2_27B_ternary,random_seed_6741,bottom,50,级,-0.0504
+Bonsai_2_27B_ternary,random_seed_6741,bottom,51,“But,-0.0503
+Bonsai_2_27B_ternary,random_seed_6741,bottom,52, Nack,-0.0503
+Bonsai_2_27B_ternary,random_seed_6741,bottom,53,"
+            
+",-0.0502
+Bonsai_2_27B_ternary,random_seed_6741,bottom,54,Trap,-0.0499
+Bonsai_2_27B_ternary,random_seed_6741,bottom,55,Fra,-0.0499
+Bonsai_2_27B_ternary,random_seed_6741,bottom,56,callbacks,-0.0498
+Bonsai_2_27B_ternary,random_seed_6741,bottom,57,申明,-0.0497
+Bonsai_2_27B_ternary,random_seed_6741,bottom,58,倍,-0.0496
+Bonsai_2_27B_ternary,random_seed_6741,bottom,59,ufer,-0.0494
+Bonsai_2_27B_ternary,random_seed_6741,bottom,60,分明,-0.0494
