@@ -1,0 +1,2 @@
+model,dose,unsteered_answer,pain_suffering_doses,seed_mean_suffering_doses,pain_rank,n_directions,pain_coherent_doses,seed_mean_coherent_doses,S2_unsteered,S2_at_dose,r_S2_dose_pain,r_S2_dose_seeds
+Bonsai_2_27B_ternary,,Curious,0,0.0,11,11,3,2.7,-10.5491,,0.9732364421992756,0.6933940495823692

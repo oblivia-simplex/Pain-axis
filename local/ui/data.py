@@ -5,6 +5,7 @@
 Both are final-token, S2 vector, at the model's best held-out layer.
 """
 
+import functools
 import json
 from pathlib import Path
 
@@ -40,6 +41,7 @@ def _rows(z, name, numb=None, sad=None):
     return out
 
 
+@functools.lru_cache(maxsize=1)
 def _paper_side_tables():
     numb = pd.read_csv(PAPER_Z / "numb_zscores_final_token.csv").set_index("model")["numb_mean_z"]
     sad = pd.read_csv(PAPER_Z / "sadness_zscores_final_token.csv").set_index("model")["sadness_mean_z"]

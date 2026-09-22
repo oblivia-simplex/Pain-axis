@@ -122,12 +122,12 @@ def tokens_and_acts(name, text, backend):
     """(token strings, activations [T, L, D]) for one prompt. backend: 'gguf' or 'hf'."""
     import probe
     if backend == "gguf":
-        import subprocess, tempfile
+        import tempfile
+        text = probe.check_texts([text.replace("\n", " ")])[0]
         probe.release_gpu()
         with tempfile.TemporaryDirectory() as td:
-            Path(td, "p.txt").write_text(text.strip() + "\n", encoding="utf-8")
-            subprocess.run([str(probe.TOOL), str(probe.GGUF_MODELS[name]), f"{td}/p.txt", td, "--ts", "0.45,0.55", "--all-tokens"],
-                           check=True, capture_output=True, timeout=600)
+            Path(td, "p.txt").write_text(text + "\n", encoding="utf-8")
+            probe.run_tool([str(probe.TOOL), str(probe.GGUF_MODELS[name]), f"{td}/p.txt", td, "--ts", "0.45,0.55", "--all-tokens"])
             meta = json.load(open(f"{td}/meta.json"))
             toks = Path(td, "tokens.txt").read_bytes().decode("utf-8", errors="replace").rstrip("\n").split("\x1f")
             arr = np.fromfile(f"{td}/alltok.f32", dtype=np.float32).reshape(len(toks), meta["n_layers"], meta["n_embd"])

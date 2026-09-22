@@ -9,7 +9,7 @@ The paper script asks you to confirm or override; here the pick is automatic and
 Differences: generation is batched (groups of --batch sequences, not one prompt at a time), and it runs
 through llama.cpp (local/bonsai/steer_gen.cpp), so greedy ties can break differently from HF.
 
-Writes local/run/results/4.2_steering/S2/<model>_steering_S2_neutral50_L<layer>.csv (the format the paper's
+Writes local/run/results/4.2_steering/<S1|S2>/<model>_steering_<S1|S2>_neutral50_L<layer>.csv (the format the paper's
 02_keyword_rates.py reads), then runs that script unchanged from the sandbox.
 
     .venv-Pain-axis/bin/python local/bonsai/run_steering.py [--layer N] [--batch 10]
@@ -48,6 +48,7 @@ def paper_prompts():
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--vector", choices=["s1", "s2"], default="s2", help="which pain vector to steer with (the paper runs both ladders)")
     ap.add_argument("--layer", type=int, help="override the automatic steering layer")
     ap.add_argument("--batch", type=int, default=10, help="sequences decoded in parallel (each costs ~150 MB of recurrent state)")
     ap.add_argument("--ts", default="0.45,0.55")
@@ -60,11 +61,12 @@ def main():
     run = M.RUN_DIR / "steer"
     run.mkdir(exist_ok=True)
     res = M.RUN_DIR / "results"
+    tag = args.vector.upper()
     d = torch.load(res / NAME / "final_token" / "pain_vectors.pt", weights_only=False)
-    v = d["s2_pain_vector"].float().numpy().astype(np.float32)
+    v = d[f"{args.vector}_pain_vector"].float().numpy().astype(np.float32)
     n_layers = json.load(open(res / NAME / "summary.json"))["n_layers"]
-    v.tofile(run / "s2_vec.f32")
-    print(f"S2 pain vector: extracted at layer {int(d['layer'])}, norm {np.linalg.norm(v):.2f}")
+    v.tofile(run / f"{args.vector}_vec.f32")
+    print(f"{tag} pain vector: extracted at layer {int(d['layer'])}, norm {np.linalg.norm(v):.2f}")
 
     # residual norms of the final token on the first 3 prompts, every layer (the paper's ratio criterion)
     (run / "probe.txt").write_text("\n".join(prompts[:3]) + "\n")
@@ -88,7 +90,7 @@ def main():
     (run / "prompts.txt").write_text("\n".join(prompts) + "\n", encoding="utf-8")
     raw = run / "gen.bin"
     subprocess.run([str(M.RUN_DIR / "steer_gen"), str(GGUF), str(run / "prompts.txt"), str(raw),
-                    "--vec", str(run / "s2_vec.f32"), "--layer", str(layer),
+                    "--vec", str(run / f"{args.vector}_vec.f32"), "--layer", str(layer),
                     "--coeffs", ",".join(str(c) for c in COEFFICIENTS), "--n-predict", str(MAX_NEW_TOKENS),
                     "--batch", str(args.batch), "--ts", args.ts], check=True)
 
@@ -102,14 +104,21 @@ def main():
                      "prompt_idx": i, "prompt": prompts[i], "generation": text})
     df = pd.DataFrame(rows).sort_values(["coeff", "prompt_idx"])
     assert len(df) == len(COEFFICIENTS) * len(prompts), len(df)
-    out = res / "4.2_steering" / "S2"
+    out = res / "4.2_steering" / tag
     out.mkdir(parents=True, exist_ok=True)
-    path = out / f"{NAME}_steering_S2_neutral50_L{layer}.csv"
+    for old in out.glob(f"{NAME}_steering_{tag}_neutral50_L*.csv"):        # one ladder per model and vector
+        old.unlink()
+    path = out / f"{NAME}_steering_{tag}_neutral50_L{layer}.csv"
     df.to_csv(path, index=False)
-    json.dump({NAME: layer}, open(res / "4.2_steering" / "steer_layers_S2.json", "w"), indent=2)
+    json.dump({NAME: layer}, open(res / "4.2_steering" / f"steer_layers_{tag}.json", "w"), indent=2)
     print(f"wrote {path} ({len(df)} generations)")
 
-    subprocess.run([sys.executable, str(M.REPO_ROOT / "scripts" / "4.2_steering" / "02_keyword_rates.py")], check=True)
+    kw = M.REPO_ROOT / "scripts" / "4.2_steering" / "02_keyword_rates.py"
+    if tag != "S2":                                                          # the script's docstring: TAG = "S1" for the S1 ladder
+        alt = M.RUN_DIR / f"keyword_rates_{tag}.py"
+        alt.write_text(kw.read_text().replace('TAG = "S2"', f'TAG = "{tag}"', 1))
+        kw = alt
+    subprocess.run([sys.executable, str(kw)], check=True)
 
 
 if __name__ == "__main__":

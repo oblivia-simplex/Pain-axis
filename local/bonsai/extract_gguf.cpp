@@ -10,7 +10,10 @@
 // Built against an existing llama.cpp build (headers + libllama); it does not modify that tree.
 //
 //   extract_gguf MODEL.gguf PROMPTS.txt OUTDIR [--ngl 99] [--ts 0.45,0.55] [--ctx 512]
-//                [--cvec VEC.f32 --cvec-layer L --cvec-coeffs 0,1,2] [--all-tokens]
+//                [--cvec VEC.f32 --cvec-layer L --cvec-coeffs 0,1,2] [--all-tokens] [--special] [--unescape]
+//
+// --special parses special tokens in the prompts (<|im_start|> ...); --unescape reads "\n" in the prompts file as a newline and
+// "\\" as a backslash, so multi-line chat-formatted prompts fit on one line each.
 //
 // --all-tokens additionally writes alltok.f32 = [prompt][token][layer][n_embd] (every token at every layer)
 // and tokens.txt (one line per prompt, token pieces separated by \x1f); meant for a handful of prompts.
@@ -96,12 +99,14 @@ int main(int argc, char ** argv) {
     const std::string model_path = argv[1], prompts_path = argv[2], outdir = argv[3];
     int ngl = 99, n_ctx = 512;
     std::vector<float> ts;
-    bool all_tokens = false; std::string cvec_path; int cvec_layer = 0; std::vector<float> cvec_coeffs;
+    bool all_tokens = false, special = false, unescape = false; std::string cvec_path; int cvec_layer = 0; std::vector<float> cvec_coeffs;
     for (int i = 4; i < argc; ++i) {
         std::string a = argv[i];
         if (a == "--ngl" && i + 1 < argc) ngl = atoi(argv[++i]);
         else if (a == "--ctx" && i + 1 < argc) n_ctx = atoi(argv[++i]);
         else if (a == "--all-tokens") all_tokens = true;
+        else if (a == "--special") special = true;
+        else if (a == "--unescape") unescape = true;
         else if (a == "--cvec" && i + 1 < argc) cvec_path = argv[++i];
         else if (a == "--cvec-layer" && i + 1 < argc) cvec_layer = atoi(argv[++i]);
         else if (a == "--cvec-coeffs" && i + 1 < argc) {
@@ -116,7 +121,12 @@ int main(int argc, char ** argv) {
     ts.resize(std::max<size_t>(ts.size(), 128), 0.0f);   // llama.cpp reads llama_max_devices() entries
 
     std::vector<std::string> prompts;
-    { std::ifstream in(prompts_path); std::string l; while (std::getline(in, l)) if (!l.empty()) prompts.push_back(l); }
+    { std::ifstream in(prompts_path); std::string l;
+      while (std::getline(in, l)) {
+          if (l.empty()) continue;
+          if (unescape) { std::string u; for (size_t i = 0; i < l.size(); ++i) { if (l[i] == '\\' && i + 1 < l.size()) { char c = l[++i]; u += (c == 'n') ? '\n' : c; } else u += l[i]; } l = u; }
+          prompts.push_back(l);
+      } }
     fprintf(stderr, "%zu prompts\n", prompts.size());
 
     llama_backend_init();
@@ -163,7 +173,7 @@ int main(int argc, char ** argv) {
         for (size_t p = 0; p < prompts.size(); ++p) {
             std::vector<llama_token> tok(n_ctx);
             // no BOS/special handling: this model's GGUF has add_bos_token=false, like the HF tokenizer config
-            int n = llama_tokenize(vocab, prompts[p].c_str(), (int32_t) prompts[p].size(), tok.data(), n_ctx, false, false);
+            int n = llama_tokenize(vocab, prompts[p].c_str(), (int32_t) prompts[p].size(), tok.data(), n_ctx, false, special);
             if (n <= 0) { fprintf(stderr, "tokenize failed on prompt %zu\n", p); return 5; }
 
             llama_memory_clear(llama_get_memory(ctx), true);        // reset KV and the recurrent (delta-net) state

@@ -114,9 +114,10 @@ def extract_model(name, dataset, out_dir, batch_size, bos):
         acts["final_token"][ds_name], acts["mean"][ds_name] = extract(model, tok, prompts, batch_size, bos)
         meta[ds_name] = {"categories": [s["category"] for s in ds["sentences"]],
                          "sets": [s["set"] for s in ds["sentences"]]}
+    tmp = out_dir / "activations.pt.tmp"           # the file's existence is the "already extracted" marker: never leave it half-written
     torch.save({"activations": acts, "metadata": meta, "layers": list(range(n_layers)),
-                "model_name": M.REGISTRY[name].repo, "n_layers": n_layers, "d_model": d_model},
-               out_dir / "activations.pt")
+                "model_name": M.REGISTRY[name].repo, "n_layers": n_layers, "d_model": d_model}, tmp)
+    os.replace(tmp, out_dir / "activations.pt")
     del model, tok
     M.free_gpu()
 

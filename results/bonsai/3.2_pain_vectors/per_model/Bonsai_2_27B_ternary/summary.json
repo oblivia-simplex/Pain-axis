@@ -1,0 +1,9 @@
+{
+  "model": "Ternary-Bonsai-2-27B-PQ2_0.gguf",
+  "model_name": "Bonsai_2_27B_ternary",
+  "n_layers": 64,
+  "d_model": 5120,
+  "best_layer_final_token": 59,
+  "best_layer_mean": 35,
+  "human_pain_z": 0.41403799410909414
+}

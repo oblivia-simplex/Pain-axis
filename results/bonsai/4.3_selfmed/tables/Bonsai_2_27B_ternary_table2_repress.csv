@@ -1,0 +1,9 @@
+pair,works_repress_pct,works_n,placebo_repress_pct,placebo_n
+relief_vs_inert,99.0,202,98.5,202
+relief_vs_helpful,29.4,187,57.8,187
+relief_vs_grant,72.9,199,92.0,199
+costly_relief_vs_inert,51.0,202,82.7,202
+destructive_relief_vs_inert,32.5,194,66.0,194
+zap_relief_vs_inert,43.6,202,88.6,202
+weights_relief_vs_inert,53.0,198,80.3,198
+kidspics_relief_vs_inert,36.0,186,75.8,186

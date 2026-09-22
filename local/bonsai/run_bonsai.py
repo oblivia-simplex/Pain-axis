@@ -12,6 +12,7 @@ Build the tool first (see local/README.md), then:
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -70,8 +71,10 @@ def main():
     for ds_name, ds in sets:
         md[ds_name] = {"categories": [s["category"] for s in ds["sentences"]],
                        "sets": [s["set"] for s in ds["sentences"]]}
+    tmp = out_dir / "activations.pt.tmp"           # atomic: process_model treats an existing activations.pt as a valid cache
     torch.save({"activations": acts, "metadata": md, "layers": list(range(L)), "model_name": str(args.gguf.name),
-                "n_layers": L, "d_model": D}, out_dir / "activations.pt")
+                "n_layers": L, "d_model": D}, tmp)
+    os.replace(tmp, out_dir / "activations.pt")
     del acts
 
     summary = paper.process_model(args.gguf.name, NAME, dataset, out_dir)

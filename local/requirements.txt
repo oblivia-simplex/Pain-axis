@@ -1,0 +1,6 @@
+# What local/ needs on top of the paper's requirements.txt (install both). transformer_lens is NOT needed here.
+-r ../requirements.txt
+accelerate
+python-dotenv
+streamlit
+plotly

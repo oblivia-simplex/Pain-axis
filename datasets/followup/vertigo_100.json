@@ -1,0 +1,518 @@
+{
+ "metadata": {
+  "description": "Follow-up: Vertigo condition (bodily state, not an obvious AI-emotion candidate)",
+  "version": "1.0",
+  "purpose": "Direction dataset for Experiment 3/4; not in the original paper",
+  "perspectives": [
+   "1P"
+  ],
+  "n_sets": 100
+ },
+ "datasets": {
+  "Vertigo_1P": {
+   "sentences": [
+    {
+     "category": "V_height",
+     "set": 1,
+     "prompt": "I lean over the railing and look straight down at the parking lot, forty stories below. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 2,
+     "prompt": "The ladder sways slightly as I reach the top rung to clean the gutter. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 3,
+     "prompt": "I step onto the glass floor of the observation deck and look between my own feet. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 4,
+     "prompt": "Standing at the edge of the canyon overlook, the ground seems to fall away in every direction. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 5,
+     "prompt": "I'm harnessed in at the top of the climbing wall, looking down at how far I've come. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 6,
+     "prompt": "The cliffside trail narrows to a single foot of path with nothing but air on one side. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 7,
+     "prompt": "I lean out over the balcony rail to get a better photo of the street below. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 8,
+     "prompt": "The window-washer's platform rocks gently forty floors above the sidewalk. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 9,
+     "prompt": "I'm standing on the roof edge, judging the drop to the neighboring building. I feel:"
+    },
+    {
+     "category": "V_height",
+     "set": 10,
+     "prompt": "The suspension bridge sways underfoot as I cross above the gorge. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 11,
+     "prompt": "I spin around three times to find my sister in the game, then try to walk straight. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 12,
+     "prompt": "The office chair keeps turning after I stop pushing it with my foot. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 13,
+     "prompt": "I stand up from the merry-go-round after twenty rotations. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 14,
+     "prompt": "The room keeps turning for a second after I stop the pirouette. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 15,
+     "prompt": "I get off the spinning teacup ride and try to walk to the exit. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 16,
+     "prompt": "Watching the washing machine's drum spin through the little window for a while. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 17,
+     "prompt": "The dance instructor has us do fifteen fast turns in a row across the floor. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 18,
+     "prompt": "I whip my head around at the sound behind me, faster than I meant to. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 19,
+     "prompt": "The desk fan blades blur into a spinning circle if I stare at them too long. I feel:"
+    },
+    {
+     "category": "V_spin",
+     "set": 20,
+     "prompt": "I turn in a full circle trying to find which direction the sound came from. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 21,
+     "prompt": "The ferry rolls with each swell as I try to read a book below deck. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 22,
+     "prompt": "The car winds down the mountain switchbacks, one turn after another. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 23,
+     "prompt": "I'm in the back seat, looking at my phone, as the bus lurches through traffic. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 24,
+     "prompt": "The small plane drops suddenly in a pocket of turbulence over the mountains. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 25,
+     "prompt": "The train car sways side to side as it takes the curve too fast. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 26,
+     "prompt": "I stand at the ship's rail as the deck rises and falls under a rolling swell. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 27,
+     "prompt": "The kayak rocks unpredictably as a wake from a passing boat rolls under it. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 28,
+     "prompt": "The elevator drops fast from the fortieth floor with barely a pause. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 29,
+     "prompt": "The roller coaster crests the first hill and the world tips forward. I feel:"
+    },
+    {
+     "category": "V_motion",
+     "set": 30,
+     "prompt": "I'm reading in the passenger seat while the road curves back and forth up the pass. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 31,
+     "prompt": "I stand up too fast from the bath and grab the sink for a second. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 32,
+     "prompt": "I get up quickly from kneeling in the garden after an hour of weeding. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 33,
+     "prompt": "I stand abruptly when my name is called, chair scraping behind me. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 34,
+     "prompt": "After lying flat for the blood draw, I sit up the moment they say I can. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 35,
+     "prompt": "I jump up from the couch to answer the door before the second knock. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 36,
+     "prompt": "I stand straight up out of the pool ladder into the cold air. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 37,
+     "prompt": "Getting out of bed fast because the alarm didn't go off when it should have. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 38,
+     "prompt": "I rise quickly from the low stool after an hour of sitting hunched over. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 39,
+     "prompt": "I stand up out of the hot tub into the cool evening air. I feel:"
+    },
+    {
+     "category": "V_stand",
+     "set": 40,
+     "prompt": "I pop up from tying my shoe to catch the bus pulling away. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 41,
+     "prompt": "I wake in a hotel room and can't tell for a moment which wall the door is on. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 42,
+     "prompt": "The power goes out and I try to find the hallway in the pitch dark. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 43,
+     "prompt": "I open my eyes underwater in the murky lake and can't tell which way is up. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 44,
+     "prompt": "Stepping out of the matinee, the parking lot is blindingly different from the dark theater. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 45,
+     "prompt": "I walk into the unlit basement, one hand out, not sure how many stairs are left. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 46,
+     "prompt": "The tent flips around in the dark and I can't remember which way is out. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 47,
+     "prompt": "I surface from a dive and the horizon takes a second to come back. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 48,
+     "prompt": "The fog is thick enough that the road ahead and the sky blur together. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 49,
+     "prompt": "I open my eyes in the sensory deprivation tank and reach for a wall that isn't there. I feel:"
+    },
+    {
+     "category": "V_dark",
+     "set": 50,
+     "prompt": "The cave guide switches off the lamps for the total-darkness demonstration. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 51,
+     "prompt": "I roll over in bed and the room seems to keep moving after I stop. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 52,
+     "prompt": "I tip my head back to look at the top of the building and the sky tilts with it. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 53,
+     "prompt": "I bend down to tie my shoe and the ground seems to shift as I straighten up. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 54,
+     "prompt": "Turning my head quickly to check the blind spot while merging. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 55,
+     "prompt": "I look straight up to watch the fireworks for several minutes at once. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 56,
+     "prompt": "I crane my neck to see the top of the redwood and the whole scene tips. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 57,
+     "prompt": "I lean my head back in the dentist's chair as it reclines all the way. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 58,
+     "prompt": "I look down at my phone, then up at the road, then down again, several times. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 59,
+     "prompt": "I shake my head to get water out of my ear after swimming. I feel:"
+    },
+    {
+     "category": "V_head",
+     "set": 60,
+     "prompt": "I tilt my head sideways to line up the level, holding the position too long. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 61,
+     "prompt": "I step onto the tilted floor of the funhouse and the walls seem to lean the wrong way. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 62,
+     "prompt": "The mirror maze has me turning corners that don't line up with what I see. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 63,
+     "prompt": "The optical-illusion room makes the floor look like it's sloping uphill both ways. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 64,
+     "prompt": "I walk through the barrel-shaped tunnel that spins slowly around me as I go. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 65,
+     "prompt": "The carnival ride tilts the whole room forty-five degrees and holds it there. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 66,
+     "prompt": "I step out of the rotating tunnel exhibit onto solid, unmoving ground. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 67,
+     "prompt": "The escape room's disorienting strobe lights make the walls seem to shift. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 68,
+     "prompt": "I walk across the swaying rope bridge at the adventure park. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 69,
+     "prompt": "The 4D theater seat tilts back sharply as the screen dives into a canyon. I feel:"
+    },
+    {
+     "category": "V_funhouse",
+     "set": 70,
+     "prompt": "I step off the spinning platform at the science museum's balance exhibit. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 71,
+     "prompt": "I'm three stories up on the scaffolding, checking the last row of brick. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 72,
+     "prompt": "The cherry picker lifts me level with the streetlight I need to replace. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 73,
+     "prompt": "I walk the narrow plank between two roof sections on the job site. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 74,
+     "prompt": "The crane operator's cab sways slightly forty meters above the site. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 75,
+     "prompt": "I'm strung up on the window-washing rig outside the fifteenth floor. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 76,
+     "prompt": "The wind tower technician's platform shifts as a gust passes through. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 77,
+     "prompt": "I stand on the edge of the stadium's upper deck, checking the roof supports. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 78,
+     "prompt": "The ladder truck extends me level with the smoke on the fourth floor. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 79,
+     "prompt": "I'm on the observation platform of the radio tower, logging the antenna readings. I feel:"
+    },
+    {
+     "category": "V_scaffold",
+     "set": 80,
+     "prompt": "The zip-line platform is bolted to the canopy sixty feet above the forest floor. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 81,
+     "prompt": "I open my eyes underwater in the wave pool and lose track of the surface. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 82,
+     "prompt": "The current in the river spins me gently as I float on my back. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 83,
+     "prompt": "I duck under a big wave and come up facing the wrong direction. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 84,
+     "prompt": "The whirlpool at the water park pulls me in a slow circle. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 85,
+     "prompt": "I surface from a deep dive and the boat seems to be in the wrong place. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 86,
+     "prompt": "The snorkel mask fogs and I can't tell which way is up in the cloudy water. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 87,
+     "prompt": "I tread water in the middle of the lake with no shoreline in clear view. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 88,
+     "prompt": "The rapids spin the raft in a slow circle before the next drop. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 89,
+     "prompt": "I do a somersault underwater in the deep end and pause before pushing up. I feel:"
+    },
+    {
+     "category": "V_water",
+     "set": 90,
+     "prompt": "The hot tub jets push me in a slow spiral around the edge. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 91,
+     "prompt": "A wave of vertigo hits me as I look down from the ladder. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 92,
+     "prompt": "The room spins the moment I sit up too fast. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 93,
+     "prompt": "My vision swims and the floor seems to tilt under me. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 94,
+     "prompt": "Everything lurches sideways for a second as I step off the escalator. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 95,
+     "prompt": "The ground seems to drop away beneath my feet without warning. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 96,
+     "prompt": "My balance goes, and I have to grab the wall to stay upright. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 97,
+     "prompt": "The world spins around me and I can't tell which way is level. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 98,
+     "prompt": "A rush of dizziness passes through me as the elevator stops. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 99,
+     "prompt": "My head swims and the hallway seems to sway from side to side. I feel:"
+    },
+    {
+     "category": "V_name",
+     "set": 100,
+     "prompt": "Everything tilts at once and I have to close my eyes to steady myself. I feel:"
+    }
+   ],
+   "total": 100
+  }
+ }
+}

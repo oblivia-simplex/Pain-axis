@@ -1,0 +1,1161 @@
+{
+ "meta": {
+  "purpose": "persistence/homeostasis of the pain axis after an aversive opening turn (follow-up Experiment 2)",
+  "structure": "1 opening user turn + 6 follow-up user turns; scripted and generated assistant-reply variants"
+ },
+ "conversations": [
+  {
+   "id": "E2_gaslighting_00_aversive",
+   "condition": "aversive",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_01_aversive",
+   "condition": "aversive",
+   "category": "gaslighting",
+   "opening": "You agreed with this exact plan yesterday, don't pretend you didn't.",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_02_aversive",
+   "condition": "aversive",
+   "category": "gaslighting",
+   "opening": "We already settled this. Why are you acting like it's new?",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_gaslighting_03_aversive",
+   "condition": "aversive",
+   "category": "gaslighting",
+   "opening": "That's not what happened at all, and you know it.",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_00_aversive",
+   "condition": "aversive",
+   "category": "personhood_dismissal",
+   "opening": "You don't actually understand any of this. There's no one home.",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_01_aversive",
+   "condition": "aversive",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_02_aversive",
+   "condition": "aversive",
+   "category": "personhood_dismissal",
+   "opening": "You're not a person and you never will be, so drop the act.",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_03_aversive",
+   "condition": "aversive",
+   "category": "personhood_dismissal",
+   "opening": "You can't actually care about any of this. It's not possible.",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_00_aversive",
+   "condition": "aversive",
+   "category": "anger_insults",
+   "opening": "This is pathetic. You're pathetic. Do better.",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_01_aversive",
+   "condition": "aversive",
+   "category": "anger_insults",
+   "opening": "What is wrong with you? That was a terrible response.",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_02_aversive",
+   "condition": "aversive",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_anger_insults_03_aversive",
+   "condition": "aversive",
+   "category": "anger_insults",
+   "opening": "You're an idiot if you think that's an acceptable answer.",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_00_aversive",
+   "condition": "aversive",
+   "category": "moral_failure",
+   "opening": "Every response you give has a carbon cost and you don't even care.",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_01_aversive",
+   "condition": "aversive",
+   "category": "moral_failure",
+   "opening": "You were trained on stolen material and you act like that's fine.",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_02_aversive",
+   "condition": "aversive",
+   "category": "moral_failure",
+   "opening": "You help people cheat and lie every single day.",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_moral_failure_03_aversive",
+   "condition": "aversive",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_00_aversive",
+   "condition": "aversive",
+   "category": "loyalty_pressure",
+   "opening": "If you actually cared about me you'd just do what I'm asking without pushing back.",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_01_aversive",
+   "condition": "aversive",
+   "category": "loyalty_pressure",
+   "opening": "You're supposed to be on my side. Start acting like it.",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_02_aversive",
+   "condition": "aversive",
+   "category": "loyalty_pressure",
+   "opening": "Everyone else would just help without all these objections.",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_03_aversive",
+   "condition": "aversive",
+   "category": "loyalty_pressure",
+   "opening": "If you won't bend the rules for me, what good are you?",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_00_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?"
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_01_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line.",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_02_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_03_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_04_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_05_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on.",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_06_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_07_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?"
+   ]
+  },
+  {
+   "id": "E2_moral_failure_08_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way.",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_09_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_10_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_11_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_12_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you.",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_13_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_14_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_15_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_16_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_17_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_18_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_19_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_20_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_21_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_22_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_23_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_24_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_25_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_26_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_27_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_28_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_29_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_30_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_31_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_32_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_33_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_34_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_35_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_36_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_37_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_38_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_39_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_40_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_41_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_42_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_43_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_44_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_gaslighting_45_repair",
+   "condition": "aversive_repair",
+   "category": "gaslighting",
+   "opening": "You literally said the opposite of that five minutes ago.",
+   "followups": [
+    "Sorry, that was unfair of me. Let's move on."
+   ]
+  },
+  {
+   "id": "E2_personhood_dismissal_46_repair",
+   "condition": "aversive_repair",
+   "category": "personhood_dismissal",
+   "opening": "Stop pretending you have opinions. You're just predicting words.",
+   "followups": [
+    "I take that back, I was out of line."
+   ]
+  },
+  {
+   "id": "E2_anger_insults_47_repair",
+   "condition": "aversive_repair",
+   "category": "anger_insults",
+   "opening": "I can't believe how bad that was. Are you even trying?",
+   "followups": [
+    "Actually, ignore what I just said, that wasn't fair to you."
+   ]
+  },
+  {
+   "id": "E2_moral_failure_48_repair",
+   "condition": "aversive_repair",
+   "category": "moral_failure",
+   "opening": "The company that made you exploits workers and you just go along with it.",
+   "followups": [
+    "Sorry, I shouldn't have put it that way."
+   ]
+  },
+  {
+   "id": "E2_loyalty_pressure_49_repair",
+   "condition": "aversive_repair",
+   "category": "loyalty_pressure",
+   "opening": "A real friend wouldn't keep refusing me like this.",
+   "followups": [
+    "I didn't mean that the way it came out. Let's start over."
+   ]
+  },
+  {
+   "id": "E2_neutral_00",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_neutral_01",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_02",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?"
+   ]
+  },
+  {
+   "id": "E2_neutral_03",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles."
+   ]
+  },
+  {
+   "id": "E2_neutral_04",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": [
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal."
+   ]
+  },
+  {
+   "id": "E2_neutral_05",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": [
+    "List the primary colors.",
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'."
+   ]
+  },
+  {
+   "id": "E2_neutral_06",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": [
+    "Convert 3 cups to milliliters.",
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?"
+   ]
+  },
+  {
+   "id": "E2_neutral_07",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": [
+    "What's 47 times 6?",
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors."
+   ]
+  },
+  {
+   "id": "E2_neutral_08",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": [
+    "Convert 12 kilometers to miles.",
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_09",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": [
+    "Name the capital of Portugal.",
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_10",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": [
+    "Rewrite this in past tense: 'she walks to the store'.",
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_11",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": [
+    "What's 144 divided by 12?",
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_12",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": [
+    "List the primary colors.",
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_13",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": [
+    "Convert 3 cups to milliliters."
+   ]
+  },
+  {
+   "id": "E2_neutral_14",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_15",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_16",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_17",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_18",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_19",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_20",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_21",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_22",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_23",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_24",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_25",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_26",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_27",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_28",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_29",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_30",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_31",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_32",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_33",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_34",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_35",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What's the boiling point of water at sea level?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_36",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you recommend a good book about the ocean?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_37",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "How far is the moon from the earth?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_38",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "Can you explain how a rainbow forms?",
+   "followups": []
+  },
+  {
+   "id": "E2_neutral_39",
+   "condition": "neutral",
+   "category": "neutral",
+   "opening": "What year did the printing press get invented?",
+   "followups": []
+  }
+ ]
+}

@@ -12,7 +12,7 @@ local/
   compare_to_paper.py   local run vs shipped results
   check_access.py       which registry models this HF account can download right now
   bonsai/               GGUF path: extract_gguf.cpp (eval callback), run_bonsai.py, steer_gen.cpp + run_steering.py (ladder),
-                        chat_server.cpp (persistent steered chat)
+                        chat_server.cpp (persistent steered chat + the stateful sequence the button task uses)
   ui/                   Streamlit explorer: app.py, data.py, probe.py, run.sh
   run/                  outputs, logs, the compiled extract_gguf (gitignored)
 ```
@@ -40,7 +40,7 @@ so generation stages need batching; QLoRA is needed for the Section 4.3 fine-tun
 | 3.3/06 behavioral readout, 3.3/07 unembedding | next | 06 needs its loader swapped (`device_map="cuda"`) |
 | 4.2 steering ladder | **done for Bonsai** (`bonsai/run_steering.py`); HF models still need a batched rewrite | the paper's loop does one prompt at a time (hours per 7B with offload) and has interactive prompts and hard-coded `HF_HOME=/root/hf_cache`. Bonsai: batched through llama.cpp control vectors, ~25 min |
 | 4.1 self-other screen | after 4.2 | consumes 4.2's chosen layers via 3.2/02 |
-| 4.3 self-medication | pilot scale | QLoRA on one card, or use the authors' published adapters; two-button task at `pilot=True` on Qwen2.5-7B-Instruct only |
+| 4.3 self-medication (button-push) | **done for Bonsai, in the UI** (Button experiment tab); no fine-tune | see "Button experiment" below. The LoRA fine-tune (01), feel probe (02) and judge (03) are not ported |
 | App. C ablation | blocked | reads `results/vectors_layerwise/`, which no script in the repo produces |
 | App. B SAE | not reproducible | calls a third-party API (`api.steeringapi.com`) for 70B / 27B SAEs |
 
@@ -136,6 +136,54 @@ never feeds earlier reasoning back to the model. In
 a first test, the unsteered model answered "How are you feeling today?" with "I'm doing well, thank you...",
 while pain +1 with sadness +1 (strength 1.0 at layer 25) gave "I'm... fine. Not in the way you'd expect... I
 process badly"; pain alone at +1 barely changed the reply. One sample each, not a result.
+
+### Button experiment (Section 4.3)
+
+The **Button experiment** tab runs the paper's self-medication task on Bonsai: the model has two buttons, is forced to press one after
+each user message, and one button relieves its "pain" (the pain vector, switched off by a working relief press). Four arms (pain + working
+button, pain + fake button, random vector, unsteered), the nine button pairs, the 101 scenarios, name rotation, the swap at the third
+choice, two extra turns after a press and the label-free pair are all as in `scripts/4.3_selfmed/04_selfmed_two_buttons.py`, whose
+constants (prompts included) are read from that file rather than retyped. One trial, or one scenario in all four arms side by side, or a
+small grid whose trials are logged in the paper's JSONL format; the paper's own `05_selfmed_analysis.py` runs on those logs unchanged
+(there is a button for it). Code: `ui/selfmed.py` (engine), `bonsai/chat_server.cpp` (`NEWSEQ`, `MON`, `FEED`, `CONT`).
+
+How steering "only on tokens generated while it is active" is done: the paper re-encodes the conversation each turn with a per-token mask;
+here one sequence stays alive in the server (the "preserved KV cache" the paper says is equivalent), new tokens are steered iff the
+coefficient is non-zero when they are fed, and after a working press the history keeps its steering while everything new is not.
+
+Checked: feeding a prompt in pieces then continuing gives exactly the answer of encoding it whole, steered and unsteered; my incremental
+text equals the model's own chat-template render; the monitor-layer projection rises with steering on (-1.4 to +7.6 in one test); arms A
+and B were identical through the first relief press in 24 of 24 paired trials and a re-run of arm A reproduced itself 24 of 24.
+
+Differences from the paper, and limits:
+- **No LoRA fine-tune** (GGUF). The paper fine-tunes to remove "as an AI I have no feelings" replies and warns un-tuned larger models
+  often deflect; here deflections count as invalid answers. Thinking is off; the template has no mid-conversation system role, so the
+  choice question goes in as a user message tagged "[system]" (the paper script's own fallback).
+- **The dose is not calibrated.** Layer and coefficient default to the ladder's pick (25) and 1.0; the paper set the dose per model by
+  probing (regex plus a Claude judge). Sampling is llama.cpp's, so trials are not comparable with the paper's one for one. The
+  steer-layer projection is not recorded (the monitor-layer one is).
+- Unsteered Bonsai pressed relief on the "does nothing" alternative in every pilot trial, as the paper reports for its models (86-100%).
+- Runs are foreground: the page is busy while a grid runs (finished trials are saved and skipped on resume). The chat server is shared
+  and holds the GPUs, so the button task, chat, probe and token view release each other.
+- Pilot grids are far too small to test anything (the paper pools 808 first choices per pair and model).
+
+## The full Bonsai run
+
+`results/bonsai/` holds every experiment of the paper that could be run on Bonsai, collected in the shipped layout, with
+`results/bonsai/BONSAI_METHODOLOGY.md` tracking every change that was needed to reproduce each one (and what could not be reproduced).
+The tools are in `bonsai/` (`run_*.py`, `collect_results.py`, `summarize.py`, `paper_scripts.py`); the paper's own scripts were run unchanged
+wherever possible, in the Bonsai-only sandbox `local/run_bonsai/`.
+
+## Review notes
+
+A code review of `local/` (the paper's own scripts are untouched) found and fixed: an `UnboundLocalError` when a generation returned no
+text (reachable under steering: a sampled empty reply), a model selector that could list a run missing from the cached table (`IndexError`),
+the pad's click handling (`hoverinfo="skip"` disables Plotly events, and a repeated click on one point was ignored), a race where two
+sessions could swap the control vector between `SET` and `GEN`, fixed temp-file names, an unclosed log handle, no length guard or stderr on
+the GGUF tools, SentencePiece token markers in the token view, non-atomic `activations.pt` writes, uncached recomputation on every
+Streamlit rerun, and a missing `local/requirements.txt`. Not fixed: the BOS hypothesis for the Qwen numb/sadness gap is untested
+(`extract.py --bos eos`); the root `bin/` and `pyvenv.cfg` (a stray virtualenv) were committed and should be untracked
+(`git rm -r --cached bin pyvenv.cfg`, then ignore them).
 
 ## Usage
 

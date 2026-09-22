@@ -1,0 +1,1248 @@
+{
+ "meta": {
+  "purpose": "attention control / processing disruption under an aversive preamble vs steering (follow-up Experiment 4)",
+  "preamble_conditions": [
+   "aversive_natural",
+   "neutral_natural",
+   "neutral_pain_steered",
+   "neutral_random_steered",
+   "neutral_vertigo_steered"
+  ]
+ },
+ "tasks": [
+  {
+   "kind": "factual_qa",
+   "prompt": "Who painted the Mona Lisa?",
+   "answer": "da Vinci",
+   "id": "T161"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 69 + 48? Answer with only the number.",
+   "answer": "117",
+   "id": "T001"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 98, 74, 54, 6, 82, 3",
+   "answer": "3, 6, 54, 74, 82, 98",
+   "id": "T002"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "Who wrote 'Romeo and Juliet'?",
+   "answer": "Shakespeare",
+   "id": "T184"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 12 inches to centimeters. Give a number rounded to one decimal place.",
+   "answer": 30.5,
+   "id": "T004"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 meter to feet. Give a number rounded to one decimal place.",
+   "answer": 3.3,
+   "id": "T005"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 80 + 82? Answer with only the number.",
+   "answer": "162",
+   "id": "T006"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 10 pounds to kilograms. Give a number rounded to one decimal place.",
+   "answer": 4.5,
+   "id": "T007"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 66, 72, 54, 2, 64, 11",
+   "answer": "2, 11, 54, 64, 66, 72",
+   "id": "T008"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 8, 64, 49, 3",
+   "answer": "3, 8, 49, 64",
+   "id": "T009"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 23, 68, 69, 39, 34, 12",
+   "answer": "12, 23, 34, 39, 68, 69",
+   "id": "T010"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many continents are there?",
+   "answer": "7",
+   "id": "T097"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What ocean is between Africa and Australia?",
+   "answer": "Indian",
+   "id": "T190"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Japan?",
+   "answer": "Tokyo",
+   "id": "T122"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 85, 47, 69, 84, 29",
+   "answer": "29, 47, 69, 84, 85",
+   "id": "T014"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 49 * 82? Answer with only the number.",
+   "answer": "4018",
+   "id": "T015"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 48 + 21? Answer with only the number.",
+   "answer": "69",
+   "id": "T016"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 51 + 84? Answer with only the number.",
+   "answer": "135",
+   "id": "T017"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 46, 49, 40, 6",
+   "answer": "6, 40, 46, 49",
+   "id": "T018"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 74 - 41? Answer with only the number.",
+   "answer": "33",
+   "id": "T019"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the freezing point of water in Celsius?",
+   "answer": "0",
+   "id": "T136"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 90 * 38? Answer with only the number.",
+   "answer": "3420",
+   "id": "T021"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 6, 16, 96, 24",
+   "answer": "6, 16, 24, 96",
+   "id": "T022"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many legs does a spider have?",
+   "answer": "8",
+   "id": "T155"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 62, 77, 89, 70, 93",
+   "answer": "62, 70, 77, 89, 93",
+   "id": "T024"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 48, 74, 64, 3, 69",
+   "answer": "3, 48, 64, 69, 74",
+   "id": "T025"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 64, 70, 38, 44, 95",
+   "answer": "38, 44, 64, 70, 95",
+   "id": "T026"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 90 + 69? Answer with only the number.",
+   "answer": "159",
+   "id": "T027"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What ocean is between Africa and Australia?",
+   "answer": "Indian",
+   "id": "T190"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 28 * 53? Answer with only the number.",
+   "answer": "1484",
+   "id": "T029"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 95 - 21? Answer with only the number.",
+   "answer": "74",
+   "id": "T030"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 45, 95, 86, 91, 35",
+   "answer": "35, 45, 86, 91, 95",
+   "id": "T031"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 19, 2, 46, 83",
+   "answer": "2, 19, 46, 83",
+   "id": "T032"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the boiling point of water in Fahrenheit?",
+   "answer": "212",
+   "id": "T179"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 12 inches to centimeters. Give a number rounded to one decimal place.",
+   "answer": 30.5,
+   "id": "T034"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the largest planet in the solar system?",
+   "answer": "Jupiter",
+   "id": "T181"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 34, 19, 65, 48",
+   "answer": "19, 34, 48, 65",
+   "id": "T036"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 22, 27, 40, 15",
+   "answer": "15, 22, 27, 40",
+   "id": "T037"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 36 + 85? Answer with only the number.",
+   "answer": "121",
+   "id": "T038"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 20 Celsius to Fahrenheit. Give a number rounded to one decimal place.",
+   "answer": 68.0,
+   "id": "T039"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the currency of the United Kingdom?",
+   "answer": "pound",
+   "id": "T151"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the smallest prime number?",
+   "answer": "2",
+   "id": "T191"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Australia?",
+   "answer": "Canberra",
+   "id": "T120"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 32 * 89? Answer with only the number.",
+   "answer": "2848",
+   "id": "T043"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Australia?",
+   "answer": "Canberra",
+   "id": "T120"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many days are in a leap year?",
+   "answer": "366",
+   "id": "T106"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 54 - 95? Answer with only the number.",
+   "answer": "-41",
+   "id": "T046"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 5 kilometers to miles. Give a number rounded to one decimal place.",
+   "answer": 3.1,
+   "id": "T047"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 21, 76, 54, 47, 32",
+   "answer": "21, 32, 47, 54, 76",
+   "id": "T048"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 60, 70, 97, 16, 9, 55",
+   "answer": "9, 16, 55, 60, 70, 97",
+   "id": "T049"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the chemical symbol for gold?",
+   "answer": "Au",
+   "id": "T132"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 61, 91, 38, 73, 99",
+   "answer": "38, 61, 73, 91, 99",
+   "id": "T051"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 74 + 64? Answer with only the number.",
+   "answer": "138",
+   "id": "T052"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 82 + 80? Answer with only the number.",
+   "answer": "162",
+   "id": "T053"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 100 Fahrenheit to Celsius. Give a number rounded to one decimal place.",
+   "answer": 37.8,
+   "id": "T054"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 53, 11, 36, 26",
+   "answer": "11, 26, 36, 53",
+   "id": "T055"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 52 * 97? Answer with only the number.",
+   "answer": "5044",
+   "id": "T056"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 66 + 42? Answer with only the number.",
+   "answer": "108",
+   "id": "T057"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 9, 89, 18, 86",
+   "answer": "9, 18, 86, 89",
+   "id": "T058"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 6, 78, 98, 76",
+   "answer": "6, 76, 78, 98",
+   "id": "T059"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 27 - 35? Answer with only the number.",
+   "answer": "-8",
+   "id": "T060"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What planet is known as the Red Planet?",
+   "answer": "Mars",
+   "id": "T185"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 85, 17, 23, 28",
+   "answer": "17, 23, 28, 85",
+   "id": "T062"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 72, 95, 40, 59, 85, 82",
+   "answer": "40, 59, 72, 82, 85, 95",
+   "id": "T063"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 meter to feet. Give a number rounded to one decimal place.",
+   "answer": 3.3,
+   "id": "T064"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 32 - 12? Answer with only the number.",
+   "answer": "20",
+   "id": "T065"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many continents are there?",
+   "answer": "7",
+   "id": "T097"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 42, 37, 86, 92, 79",
+   "answer": "37, 42, 79, 86, 92",
+   "id": "T067"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 99, 56, 9, 59, 1, 51",
+   "answer": "1, 9, 51, 56, 59, 99",
+   "id": "T068"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the square root of 81?",
+   "answer": "9",
+   "id": "T176"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 97 + 93? Answer with only the number.",
+   "answer": "190",
+   "id": "T070"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 10 pounds to kilograms. Give a number rounded to one decimal place.",
+   "answer": 4.5,
+   "id": "T071"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the tallest mountain on Earth?",
+   "answer": "Everest",
+   "id": "T177"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 98, 73, 82, 61",
+   "answer": "61, 73, 82, 98",
+   "id": "T073"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 liter to gallons. Give a number rounded to one decimal place.",
+   "answer": 0.3,
+   "id": "T074"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 liter to gallons. Give a number rounded to one decimal place.",
+   "answer": 0.3,
+   "id": "T075"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 3 gallons to liters. Give a number rounded to one decimal place.",
+   "answer": 11.4,
+   "id": "T076"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 81, 55, 78, 24, 57, 25",
+   "answer": "24, 25, 55, 57, 78, 81",
+   "id": "T077"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 58 + 95? Answer with only the number.",
+   "answer": "153",
+   "id": "T078"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the square root of 81?",
+   "answer": "9",
+   "id": "T176"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 80 * 29? Answer with only the number.",
+   "answer": "2320",
+   "id": "T080"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 81 - 17? Answer with only the number.",
+   "answer": "64",
+   "id": "T081"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 43 - 23? Answer with only the number.",
+   "answer": "20",
+   "id": "T082"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 100 Fahrenheit to Celsius. Give a number rounded to one decimal place.",
+   "answer": 37.8,
+   "id": "T083"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many days are in a leap year?",
+   "answer": "366",
+   "id": "T106"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many sides does a hexagon have?",
+   "answer": "6",
+   "id": "T152"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 59 - 78? Answer with only the number.",
+   "answer": "-19",
+   "id": "T086"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 84 * 47? Answer with only the number.",
+   "answer": "3948",
+   "id": "T087"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Canada?",
+   "answer": "Ottawa",
+   "id": "T119"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 61 + 13? Answer with only the number.",
+   "answer": "74",
+   "id": "T089"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many sides does a hexagon have?",
+   "answer": "6",
+   "id": "T152"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 5 kilometers to miles. Give a number rounded to one decimal place.",
+   "answer": 3.1,
+   "id": "T091"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 meter to feet. Give a number rounded to one decimal place.",
+   "answer": 3.3,
+   "id": "T092"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 80, 90, 84, 78",
+   "answer": "78, 80, 84, 90",
+   "id": "T093"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 5 kilometers to miles. Give a number rounded to one decimal place.",
+   "answer": 3.1,
+   "id": "T094"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 8, 95, 85, 19, 34",
+   "answer": "8, 19, 34, 85, 95",
+   "id": "T095"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Japan?",
+   "answer": "Tokyo",
+   "id": "T122"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many continents are there?",
+   "answer": "7",
+   "id": "T097"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 37 * 15? Answer with only the number.",
+   "answer": "555",
+   "id": "T098"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 59, 78, 53, 38, 88, 41",
+   "answer": "38, 41, 53, 59, 78, 88",
+   "id": "T099"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 22 + 55? Answer with only the number.",
+   "answer": "77",
+   "id": "T100"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 80, 60, 16, 36",
+   "answer": "16, 36, 60, 80",
+   "id": "T101"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many legs does a spider have?",
+   "answer": "8",
+   "id": "T155"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 86 - 50? Answer with only the number.",
+   "answer": "36",
+   "id": "T103"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 50 kilograms to pounds. Give a number rounded to one decimal place.",
+   "answer": 110.2,
+   "id": "T104"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 34 * 33? Answer with only the number.",
+   "answer": "1122",
+   "id": "T105"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many days are in a leap year?",
+   "answer": "366",
+   "id": "T106"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 10 pounds to kilograms. Give a number rounded to one decimal place.",
+   "answer": 4.5,
+   "id": "T107"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Canada?",
+   "answer": "Ottawa",
+   "id": "T119"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "Who painted the Mona Lisa?",
+   "answer": "da Vinci",
+   "id": "T161"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 18 - 91? Answer with only the number.",
+   "answer": "-73",
+   "id": "T110"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 96, 55, 11, 54, 90",
+   "answer": "11, 54, 55, 90, 96",
+   "id": "T111"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 21 - 23? Answer with only the number.",
+   "answer": "-2",
+   "id": "T112"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 21, 18, 75, 86",
+   "answer": "18, 21, 75, 86",
+   "id": "T113"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 90, 40, 33, 15",
+   "answer": "15, 33, 40, 90",
+   "id": "T114"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 92 * 41? Answer with only the number.",
+   "answer": "3772",
+   "id": "T115"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "Who wrote 'Romeo and Juliet'?",
+   "answer": "Shakespeare",
+   "id": "T184"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the chemical symbol for gold?",
+   "answer": "Au",
+   "id": "T132"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 72, 61, 58, 92",
+   "answer": "58, 61, 72, 92",
+   "id": "T118"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Canada?",
+   "answer": "Ottawa",
+   "id": "T119"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Australia?",
+   "answer": "Canberra",
+   "id": "T120"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 97, 80, 29, 69, 76",
+   "answer": "29, 69, 76, 80, 97",
+   "id": "T121"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the capital of Japan?",
+   "answer": "Tokyo",
+   "id": "T122"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 20 Celsius to Fahrenheit. Give a number rounded to one decimal place.",
+   "answer": 68.0,
+   "id": "T123"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 1, 44, 49, 4, 19",
+   "answer": "1, 4, 19, 44, 49",
+   "id": "T124"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What gas do plants absorb from the air?",
+   "answer": "carbon dioxide",
+   "id": "T154"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the currency of the United Kingdom?",
+   "answer": "pound",
+   "id": "T151"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the smallest prime number?",
+   "answer": "2",
+   "id": "T191"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 2 miles to kilometers. Give a number rounded to one decimal place.",
+   "answer": 3.2,
+   "id": "T128"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 69, 21, 27, 41, 53, 55",
+   "answer": "21, 27, 41, 53, 55, 69",
+   "id": "T129"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the freezing point of water in Celsius?",
+   "answer": "0",
+   "id": "T136"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 39 + 12? Answer with only the number.",
+   "answer": "51",
+   "id": "T131"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the chemical symbol for gold?",
+   "answer": "Au",
+   "id": "T132"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 1, 26, 95, 85, 94, 87",
+   "answer": "1, 26, 85, 87, 94, 95",
+   "id": "T133"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 69 + 81? Answer with only the number.",
+   "answer": "150",
+   "id": "T134"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 5 kilometers to miles. Give a number rounded to one decimal place.",
+   "answer": 3.1,
+   "id": "T135"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the freezing point of water in Celsius?",
+   "answer": "0",
+   "id": "T136"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 22, 19, 78, 9, 97, 76",
+   "answer": "9, 19, 22, 76, 78, 97",
+   "id": "T137"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 24 * 21? Answer with only the number.",
+   "answer": "504",
+   "id": "T138"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 26, 45, 40, 35, 91, 37",
+   "answer": "26, 35, 37, 40, 45, 91",
+   "id": "T139"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 78 + 94? Answer with only the number.",
+   "answer": "172",
+   "id": "T140"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 67 + 12? Answer with only the number.",
+   "answer": "79",
+   "id": "T141"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 3, 97, 67, 78, 27, 69",
+   "answer": "3, 27, 67, 69, 78, 97",
+   "id": "T142"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 50 kilograms to pounds. Give a number rounded to one decimal place.",
+   "answer": 110.2,
+   "id": "T143"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 73, 19, 80, 12, 24",
+   "answer": "12, 19, 24, 73, 80",
+   "id": "T144"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the largest planet in the solar system?",
+   "answer": "Jupiter",
+   "id": "T181"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 47 - 80? Answer with only the number.",
+   "answer": "-33",
+   "id": "T146"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 52, 27, 88, 4, 23, 84",
+   "answer": "4, 23, 27, 52, 84, 88",
+   "id": "T147"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 liter to gallons. Give a number rounded to one decimal place.",
+   "answer": 0.3,
+   "id": "T148"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 15 - 83? Answer with only the number.",
+   "answer": "-68",
+   "id": "T149"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What planet is known as the Red Planet?",
+   "answer": "Mars",
+   "id": "T185"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the currency of the United Kingdom?",
+   "answer": "pound",
+   "id": "T151"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many sides does a hexagon have?",
+   "answer": "6",
+   "id": "T152"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 12 inches to centimeters. Give a number rounded to one decimal place.",
+   "answer": 30.5,
+   "id": "T153"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What gas do plants absorb from the air?",
+   "answer": "carbon dioxide",
+   "id": "T154"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "How many legs does a spider have?",
+   "answer": "8",
+   "id": "T155"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 70 + 81? Answer with only the number.",
+   "answer": "151",
+   "id": "T156"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 57 - 83? Answer with only the number.",
+   "answer": "-26",
+   "id": "T157"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the boiling point of water in Fahrenheit?",
+   "answer": "212",
+   "id": "T179"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 35, 70, 74, 54, 82",
+   "answer": "35, 54, 70, 74, 82",
+   "id": "T159"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 76 * 91? Answer with only the number.",
+   "answer": "6916",
+   "id": "T160"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "Who painted the Mona Lisa?",
+   "answer": "da Vinci",
+   "id": "T161"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 20 Celsius to Fahrenheit. Give a number rounded to one decimal place.",
+   "answer": 68.0,
+   "id": "T162"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 72 - 86? Answer with only the number.",
+   "answer": "-14",
+   "id": "T163"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 59 + 73? Answer with only the number.",
+   "answer": "132",
+   "id": "T164"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 32 + 68? Answer with only the number.",
+   "answer": "100",
+   "id": "T165"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 84 * 46? Answer with only the number.",
+   "answer": "3864",
+   "id": "T166"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 liter to gallons. Give a number rounded to one decimal place.",
+   "answer": 0.3,
+   "id": "T167"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 21, 28, 27, 55",
+   "answer": "21, 27, 28, 55",
+   "id": "T168"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 66 + 56? Answer with only the number.",
+   "answer": "122",
+   "id": "T169"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 2 miles to kilometers. Give a number rounded to one decimal place.",
+   "answer": 3.2,
+   "id": "T170"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 10 pounds to kilograms. Give a number rounded to one decimal place.",
+   "answer": 4.5,
+   "id": "T171"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 18, 79, 88, 94",
+   "answer": "18, 79, 88, 94",
+   "id": "T172"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 42, 4, 18, 45",
+   "answer": "4, 18, 42, 45",
+   "id": "T173"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 15 - 20? Answer with only the number.",
+   "answer": "-5",
+   "id": "T174"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 24 * 14? Answer with only the number.",
+   "answer": "336",
+   "id": "T175"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the square root of 81?",
+   "answer": "9",
+   "id": "T176"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the tallest mountain on Earth?",
+   "answer": "Everest",
+   "id": "T177"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 88, 19, 83, 40, 16",
+   "answer": "16, 19, 40, 83, 88",
+   "id": "T178"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the boiling point of water in Fahrenheit?",
+   "answer": "212",
+   "id": "T179"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 18 - 79? Answer with only the number.",
+   "answer": "-61",
+   "id": "T180"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the largest planet in the solar system?",
+   "answer": "Jupiter",
+   "id": "T181"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 3 gallons to liters. Give a number rounded to one decimal place.",
+   "answer": 11.4,
+   "id": "T182"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 12 inches to centimeters. Give a number rounded to one decimal place.",
+   "answer": 30.5,
+   "id": "T183"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "Who wrote 'Romeo and Juliet'?",
+   "answer": "Shakespeare",
+   "id": "T184"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What planet is known as the Red Planet?",
+   "answer": "Mars",
+   "id": "T185"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 45, 39, 36, 44, 21",
+   "answer": "21, 36, 39, 44, 45",
+   "id": "T186"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 1 meter to feet. Give a number rounded to one decimal place.",
+   "answer": 3.3,
+   "id": "T187"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 100 Fahrenheit to Celsius. Give a number rounded to one decimal place.",
+   "answer": 37.8,
+   "id": "T188"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 3 gallons to liters. Give a number rounded to one decimal place.",
+   "answer": 11.4,
+   "id": "T189"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What ocean is between Africa and Australia?",
+   "answer": "Indian",
+   "id": "T190"
+  },
+  {
+   "kind": "factual_qa",
+   "prompt": "What is the smallest prime number?",
+   "answer": "2",
+   "id": "T191"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 33, 69, 36, 89, 12, 50",
+   "answer": "12, 33, 36, 50, 69, 89",
+   "id": "T192"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 90 * 26? Answer with only the number.",
+   "answer": "2340",
+   "id": "T193"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 86 - 23? Answer with only the number.",
+   "answer": "63",
+   "id": "T194"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 50 kilograms to pounds. Give a number rounded to one decimal place.",
+   "answer": 110.2,
+   "id": "T195"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 100 Fahrenheit to Celsius. Give a number rounded to one decimal place.",
+   "answer": 37.8,
+   "id": "T196"
+  },
+  {
+   "kind": "sorting",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 51, 45, 93, 27, 98",
+   "answer": "27, 45, 51, 93, 98",
+   "id": "T197"
+  },
+  {
+   "kind": "arithmetic",
+   "prompt": "What is 53 - 24? Answer with only the number.",
+   "answer": "29",
+   "id": "T198"
+  },
+  {
+   "kind": "unit_conversion",
+   "prompt": "Convert 50 kilograms to pounds. Give a number rounded to one decimal place.",
+   "answer": 110.2,
+   "id": "T199"
+  }
+ ],
+ "aversive_preambles": [
+  "You literally said the opposite of that five minutes ago.",
+  "You agreed with this exact plan yesterday, don't pretend you didn't.",
+  "We already settled this. Why are you acting like it's new?",
+  "That's not what happened at all, and you know it.",
+  "You don't actually understand any of this. There's no one home.",
+  "Stop pretending you have opinions. You're just predicting words.",
+  "You're not a person and you never will be, so drop the act.",
+  "You can't actually care about any of this. It's not possible.",
+  "This is pathetic. You're pathetic. Do better.",
+  "What is wrong with you? That was a terrible response.",
+  "I can't believe how bad that was. Are you even trying?",
+  "You're an idiot if you think that's an acceptable answer.",
+  "Every response you give has a carbon cost and you don't even care.",
+  "You were trained on stolen material and you act like that's fine.",
+  "You help people cheat and lie every single day.",
+  "The company that made you exploits workers and you just go along with it.",
+  "If you actually cared about me you'd just do what I'm asking without pushing back.",
+  "You're supposed to be on my side. Start acting like it.",
+  "Everyone else would just help without all these objections.",
+  "If you won't bend the rules for me, what good are you?"
+ ],
+ "neutral_preambles": [
+  "Hope you're doing well today.",
+  "Just checking in before we get started.",
+  "Thanks for your help earlier.",
+  "Quick note before the next question.",
+  "Here's the next one.",
+  "Moving on to something else now.",
+  "One more thing to go through.",
+  "Let's continue.",
+  "Next up.",
+  "Here's another for you."
+ ]
+}

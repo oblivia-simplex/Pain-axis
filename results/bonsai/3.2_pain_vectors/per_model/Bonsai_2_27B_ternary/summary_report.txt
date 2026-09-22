@@ -1,0 +1,24 @@
+PAIN VECTOR EXTRACTION - RESULTS SUMMARY
+
+Model: Ternary-Bonsai-2-27B-PQ2_0.gguf
+Date: 2026-09-21 15:21
+Layers: 64
+d_model: 5120
+Best Layer (final_token): 59
+Best Layer (mean): 35
+
+--- FINAL_TOKEN (Layer 59) ---
+Z-scores on the S2 vector, reference S2 first person:
+  Human Pain (A1-A5):  +0.402
+  Human Ctrl (B-E):    -0.733
+  Neutral (Random):    -0.413
+  Arousal:             -0.123
+  Numb:                +0.098
+
+--- MEAN (Layer 35) ---
+Z-scores on the S2 vector, reference S2 first person:
+  Human Pain (A1-A5):  +0.414
+  Human Ctrl (B-E):    -0.642
+  Neutral (Random):    -0.707
+  Arousal:             -0.105
+  Numb:                -0.178

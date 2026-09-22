@@ -219,3 +219,6 @@ __marimo__/
 
 # local scaled-down runs (outputs of local/*.py)
 local/run/
+
+# sandbox for the Bonsai-only paper-script runs (results/bonsai holds the collected outputs)
+local/run_bonsai/

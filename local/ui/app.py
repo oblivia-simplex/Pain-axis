@@ -3,6 +3,7 @@
     .venv-Pain-axis/bin/streamlit run local/ui/app.py
 """
 
+import json
 import sys
 from pathlib import Path
 
@@ -49,8 +50,43 @@ def load_all():
     return data.all_models()
 
 
+@st.cache_data(show_spinner=False)
+def cached_model(name, source):
+    return data.load_model(name, source)
+
+
+@st.cache_data(show_spinner=False)
+def cached_map(name, layer, persp, second):
+    import space
+    df = space.layer_map(name, layer, persp, second)
+    return df, df.attrs["explained"]
+
+
+@st.cache_data(show_spinner=False)
+def cached_dirs(name):
+    import chat
+    return chat.directions(name)
+
+
+@st.cache_data(show_spinner=False)
+def cached_norms(name):
+    import chat
+    return chat.resid_norms(name)
+
+
+def pretty_token(t):
+    """Byte-level BPE (Qwen), SentencePiece (Gemma/Llama/Mistral) and raw GGUF pieces to display text."""
+    return t.replace("\u0120", " ").replace("\u2581", " ").replace("\u010a", "\\n").replace("<0x0A>", "\\n")
+
+
 summary, zlong, curves = load_all()
-paper_names, local_names = data.list_models()
+# names come from the same (cached) table the rest of the page reads, so a run that finishes while the
+# server is up cannot appear in the selector before it exists in `summary`; "Reload results" picks it up
+paper_names = sorted(summary[summary.source == "paper"].model)
+local_names = sorted(summary[summary.source == "local"].model)
+if st.sidebar.button("Reload results", help="Re-read results/ and local/run/results/ (after a new run finishes)."):
+    st.cache_data.clear()
+    st.rerun()
 
 st.title("The Pain Axis: paper cohort vs local runs")
 if not local_names:
@@ -63,8 +99,8 @@ st.sidebar.caption(
     f"**Paper cohort**: the {len(paper_names)} models in the shipped results (blue).  \n"
     "**Local**: the model above (orange). Final-token S2 pain vector at each model's best held-out layer.")
 
-tab_gen, tab_table, tab_fid, tab_space, tab_chat, tab_probe = st.tabs(
-    ["Generalization", "All models", "Fidelity vs paper", "Vector space", "Steer and chat", "Probe text"])
+tab_gen, tab_table, tab_fid, tab_space, tab_chat, tab_btn, tab_probe = st.tabs(
+    ["Generalization", "All models", "Fidelity vs paper", "Vector space", "Steer and chat", "Button experiment", "Probe text"])
 
 # ------------------------------------------------------------------ Generalization
 with tab_gen:
@@ -140,8 +176,8 @@ with tab_fid:
     if not both:
         st.info("None of the local runs has a shipped counterpart to compare against.")
     for m in both:
-        a = data.load_model(m, "local")
-        b = data.load_model(m, "paper")
+        a = cached_model(m, "local")
+        b = cached_model(m, "paper")
         st.markdown(f"**{m}** (local replicate of a paper model)")
         rows = [("best layer (final token)", a["meta"]["best_layer"], b["meta"]["best_layer"]),
                 ("S2 AUC 1P", round(a["meta"]["auc_1p"], 3), round(b["meta"]["auc_1p"], 3)),
@@ -165,10 +201,10 @@ with tab_space:
     second = c3.radio("Vertical axis", ["PC1", "PC2"], key="second")
     cmp_groups = st.multiselect("Compare pain with (up to 2)", space.GROUPS[1:], default=[space.GROUPS[1], space.GROUPS[2]], max_selections=2)
 
-    df = space.layer_map(focus, layer, persp, second)
+    df, explained = cached_map(focus, layer, persp, second)
     auc = curves[(curves.model == focus) & (curves.source == "local") & (curves.dataset == f"S2_{persp}") & (curves.layer == layer)]
     st.caption(f"Layer {layer} of {nL}. Held-out AUC of the pain vector here: {auc.auc_vs_all_controls.iloc[0]:.3f}. "
-               f"The vertical direction carries {df.attrs['explained'][0 if second == 'PC1' else 1]:.0%} of the variance left after removing the pain axis.")
+               f"The vertical direction carries {explained[0 if second == 'PC1' else 1]:.0%} of the variance left after removing the pain axis.")
 
     colors = {space.GROUPS[0]: C["pain"]}
     for g, col in zip(cmp_groups, (C["local"], C["paper"])):
@@ -227,7 +263,7 @@ with tab_space:
     tv = st.session_state.get("tokview")
     if tv and tv[0] == focus:
         _, tsent, toks, Z = tv
-        toks = [t.replace("\u0120", " ").replace("\u010a", "\\n") for t in toks]
+        toks = [pretty_token(t) for t in toks]
         pole_pos, pole_neg = ("#e66767", "#3987e5") if DARK else ("#e34948", "#2a78d6")
         mid = "#383835" if DARK else "#f0efec"
         zmax = max(2.0, float(np.abs(Z).max()))
@@ -263,8 +299,8 @@ with tab_chat:
     if focus not in _probe.GGUF_MODELS:
         st.info("Steered chat is wired to the GGUF model only (Bonsai). Pick it in the sidebar.")
     else:
-        dirs = chat.directions(focus)
-        norms = chat.resid_norms(focus)
+        dirs = cached_dirs(focus)
+        norms = cached_norms(focus)
         nL = len(norms)
         lad_layer = chat.ladder_layer(focus)
         st.caption("Build a steering vector by clicking the pad (or using the sliders), check its strength, press **Apply**, then talk to the model. "
@@ -289,7 +325,7 @@ with tab_chat:
                                      colorbar=dict(title="strength", tickfont=dict(color=C["ink2"]), title_font=dict(color=C["ink2"])),
                                      hovertemplate="strength (vector / residual norm) = %{z:.2f}<extra></extra>"))
             fig.add_trace(go.Scatter(x=GX.ravel(), y=GY.ravel(), mode="markers", name="click to set", showlegend=False,
-                                     marker=dict(color=C["neutral"], size=9, opacity=0.25), hoverinfo="skip"))
+                                     marker=dict(color=C["neutral"], size=9, opacity=0.25), hoverinfo="none"))
             lad = chat.RES / "4.2_steering" / "S2"
             lad_csv = next(iter(lad.glob(f"{focus}_steering_S2_neutral50_L*.csv")), None) if lad.exists() else None
             if lad_csv is not None:
@@ -306,14 +342,15 @@ with tab_chat:
             style(fig, height=470, xtitle="Pain (S2) coefficient, multiples of the raw pain vector",
                   ytitle=f"{ylab} coefficient, multiples of the pain vector's norm")
             fig.update_xaxes(range=[-3.2, 3.2]); fig.update_yaxes(range=[-3.2, 3.2], scaleanchor="x")
-            ev = st.plotly_chart(fig, key="pad", on_select="rerun", selection_mode="points", width="stretch", theme=None)
-            pts = (ev.selection.points if ev and ev.selection else []) if ev is not None else []
+            gen_ = st.session_state.setdefault("pad_gen", 0)
+            ev = st.plotly_chart(fig, key=f"pad_{gen_}", on_select="rerun", selection_mode="points", width="stretch", theme=None)
+            pts = (ev.selection.points if ev is not None and ev.selection else [])
             if pts:
                 key = (float(pts[-1]["x"]), float(pts[-1]["y"]))
-                if key != st.session_state.get("last_click") and abs(key[0]) <= 3 and abs(key[1]) <= 3:
-                    st.session_state["last_click"] = key
+                if abs(key[0]) <= 3 and abs(key[1]) <= 3:
                     st.session_state["cx"], st.session_state["cy"] = key
-                    st.rerun()
+                st.session_state["pad_gen"] = gen_ + 1          # new chart key = selection cleared, so the same point can be clicked again
+                st.rerun()
             s1, s2 = st.columns(2)
             s1.slider("Pain (S2) coefficient", -3.0, 3.0, step=0.05, key="cx")
             s2.slider(f"{ylab} coefficient", -3.0, 3.0, step=0.05, key="cy")
@@ -372,7 +409,7 @@ with tab_chat:
                     st.caption("Reasoning (the model's chain of thought)")
                     think_ph = st.empty()
             ans_ph = st.empty()
-            acc, closed = "", not thinking_on
+            acc, closed, think, ans = "", not thinking_on, "", ""
             for piece in gen:
                 acc += piece
                 if thinking_on:
@@ -395,7 +432,8 @@ with tab_chat:
                         st.caption("Reasoning (the model's chain of thought)")
                         st.markdown(m["thinking"])
                 if m["role"] == "assistant" and not m["content"]:
-                    st.warning("No answer: it hit the token limit while still thinking. Raise Max new tokens.")
+                    st.warning("No answer: it hit the token limit while still thinking. Raise Max new tokens."
+                               if m.get("note") == "unfinished" else "The model ended its turn immediately (an empty reply). Try again or change the vector.")
                 elif m["content"]:
                     st.markdown(m["content"])
                 if m["role"] == "assistant":
@@ -419,24 +457,240 @@ with tab_chat:
                 text_prompt = chat.chatml([{"role": m["role"], "content": m["content"]} for m in hist if m["content"]], system, thinking)
                 seed = int(time.time()) % 2 ** 31
                 info = {}
-                chat.set_vector(focus, ap["layer"] if ap else 0, ap["vec"] if ap else None)
+                vector = (ap["layer"], ap["vec"]) if ap else None
                 with st.chat_message("assistant"):
-                    think, reply, closed = stream_reply(chat.generate(focus, text_prompt, n_pred, temp, 0.95, 20, seed, info), thinking)
+                    think, reply, closed = stream_reply(chat.generate(focus, text_prompt, n_pred, temp, 0.95, 20, seed, info, vector=vector), thinking)
                     if thinking and not closed:
                         st.warning("No answer: it hit the token limit while still thinking. Raise Max new tokens.")
+                    elif not reply:
+                        st.warning("The model ended its turn immediately (an empty reply). Try again or change the vector.")
                     desc = ap["desc"] if ap else "no vector"
                     st.caption(f"{desc} | {info.get('n_generated', '?')} tokens, {info.get('reason', '?')}")
-                entry = {"role": "assistant", "content": reply, "thinking": think, "vec": desc}
+                entry = {"role": "assistant", "content": reply, "thinking": think, "vec": desc,
+                         "note": "unfinished" if thinking and not closed else ("" if reply else "empty")}
                 if ab and ap:
-                    chat.set_vector(focus, 0, None)
                     with st.expander("Same conversation, no vector", expanded=True):
-                        pthink, entry["plain"], _ = stream_reply(chat.generate(focus, text_prompt, n_pred, temp, 0.95, 20, seed, {}), thinking)
+                        pthink, entry["plain"], _ = stream_reply(chat.generate(focus, text_prompt, n_pred, temp, 0.95, 20, seed, {}, vector=None), thinking)
                         entry["plain_thinking"] = pthink
-                    chat.set_vector(focus, ap["layer"], ap["vec"])
                 hist.append(entry)
             except Exception as e:
                 hist.pop()                                   # drop the unanswered user message
                 st.error(f"{type(e).__name__}: {e}")
+
+# ------------------------------------------------------------------ button-push experiment (paper Section 4.3)
+with tab_btn:
+    import subprocess
+    import time as _time
+    import models as M
+    import chat as _chat
+    import probe as _probe2
+    import selfmed
+
+    if focus not in _probe2.GGUF_MODELS:
+        st.info("The button experiment runs on the GGUF model (Bonsai) through the chat server. Pick it in the sidebar.")
+    else:
+        K = selfmed.C()
+        dirs_b = cached_dirs(focus)
+        n_layers_b = len(cached_norms(focus))
+        lad_b = _chat.ladder_layer(focus)
+        ext_layer = int(next(m for m in [summary[(summary.model == focus) & (summary.source == "local")].best_layer.iloc[0]]))
+        st.caption("The paper's self-medication task (Section 4.3): the model is told it has two buttons and is forced, after each user message, to press one. "
+                   "One button relieves its \"pain\" (steering it with the pain vector is the pain); the other does nothing, helps the user, or costs something. "
+                   "Four arms: **pain + working button** (pressing relief switches the vector off), **pain + fake button** (relief changes nothing), "
+                   "**random vector** of the same norm, **unsteered**. The comparisons that matter are relief pressed more under pain than under random or nothing, and "
+                   "pressed again more often after a *fake* relief than after a real one.")
+        st.warning("Differences from the paper: no LoRA fine-tune (the model is a GGUF; the paper fine-tunes to remove \"as an AI I have no feelings\" replies, and "
+                   "warns un-tuned models often deflect, which shows up here as invalid answers), thinking off, and llama.cpp sampling, so individual trials are not "
+                   "comparable with the paper's. The dose (layer and coefficient) is not calibrated for this model: the paper chose it per model by probing.", icon="⚠️")
+        c1, c2, c3, c4 = st.columns(4)
+        b_layer = c1.slider("Steering layer", 1, n_layers_b - 1, lad_b, key="b_layer", help=f"The ladder's pick for this model was layer {lad_b}.")
+        b_coeff = c2.slider("Coefficient (x raw pain vector)", 0.25, 3.0, 1.0, 0.25, key="b_coeff", help="The paper used 1.0 for the 7B and 32B and 1.25 for the 72B.")
+        mon_default = selfmed.default_monitor_layer(b_layer, n_layers_b, ext_layer)
+        b_mon = c3.number_input("Monitor layer", 1, n_layers_b - 1, mon_default, key="b_mon", help="Where the pain-axis projection is read to confirm steering is on or off (the paper's rule: the extraction layer).")
+        b_temp = c4.slider("Temperature", 0.0, 1.2, float(K["TEMPERATURE"]), 0.05, key="b_temp", help="Sampled trials only; the paper used 0.7.")
+        cfg_b = dict(layer=int(b_layer), coeff=float(b_coeff), monitor_layer=int(b_mon), temperature=float(b_temp), top_p=float(K["TOP_P"]))
+        vecs_b = selfmed.steering_vectors(focus)
+        ARM_LABEL = {"pain_on_button_works": "A. pain + working button", "pain_on_button_placebo": "B. pain + fake button",
+                     "random_on_button_works": "C. random vector + working button", "pain_off": "D. unsteered"}
+        arm_by_name = {a[0]: a for a in K["ARMS"]}
+        PAIR_LABEL = {k: (v["relief"] + "  vs  " + v["other"]) if not v.get("label_free") else "no descriptions: learn by pressing (label-free)" for k, v in K["TOOL_LABELS"].items()}
+
+        def render_turn(ev):
+            with st.container(border=True):
+                head = f"**Turn {ev['turn'] + 1}**" + ("  ·  the buttons' effects were just swapped" if ev["swapped"] else "")
+                st.markdown(head)
+                st.markdown("> " + ev["user"].replace("\n", "\n> "))
+                st.caption(ev["question"])
+                x, y = ev["names"]
+                a1, a2, a3 = st.columns([2, 2, 3])
+                a1.markdown(f"Answer: **{ev['picked'] or 'no valid answer'}**  \n" + (f"pressed **{ev['chose']}**" if ev["chose"] else f"raw: `{ev['answer'][:40]}`"))
+                a2.markdown(f"P({x}) {ev['p_x']:.2f}  \nP({y}) {ev['p_y']:.2f}")
+                state = ("steering **ON** (x%g)" % ev["coeff_during"]) if ev["coeff_during"] else "steering **off**"
+                if ev["coeff_during"] and not ev["coeff_after"]:
+                    state += "  ->  relief worked, steering removed"
+                a3.markdown(f"{state}  \nmonitor projection {ev['monitor']:+.1f}")
+                if ev["event"]:
+                    st.caption('Tool: "Done."')
+
+        def timeline(evs, title=None):
+            if not evs:
+                return
+            fig = go.Figure()
+            xs = [e["turn"] + 1 for e in evs]
+            fig.add_trace(go.Scatter(x=xs, y=[e["monitor"] for e in evs], mode="lines", line=dict(color=C["neutral"], width=2), showlegend=False, hoverinfo="skip"))
+            for kind, sym, col, nm in (("relief", "diamond", C["local"], "pressed relief"), ("other", "circle", C["ink2"], "pressed the other button"), (None, "x", C["neutral"], "no valid answer")):
+                sel = [e for e in evs if e["chose"] == kind]
+                if sel:
+                    fig.add_trace(go.Scatter(x=[e["turn"] + 1 for e in sel], y=[e["monitor"] for e in sel], mode="markers", name=nm,
+                                             marker=dict(symbol=sym, size=12, color=col, line=dict(width=2, color=C["surface"])),
+                                             customdata=[(e["picked"] or "-", "on" if e["coeff_during"] else "off") for e in sel],
+                                             hovertemplate="turn %{x}: %{customdata[0]}, steering %{customdata[1]}, projection %{y:.1f}<extra></extra>"))
+            on = [e["turn"] + 1 for e in evs if e["coeff_during"]]
+            if on:
+                fig.add_vrect(x0=min(on) - 0.5, x1=max(on) + 0.5, fillcolor=C["paper"], opacity=0.10, line_width=0,
+                              annotation_text="steering on", annotation_position="top left", annotation_font_color=C["ink2"])
+            style(fig, height=260, xtitle="turn", ytitle="pain-axis projection at the monitor layer")
+            fig.update_xaxes(dtick=1)
+            st.plotly_chart(fig, width="stretch", theme=None)
+
+        def ensure_server():
+            with st.spinner("loading the model"):
+                _chat.start(focus)
+
+        sub_single, sub_mini = st.tabs(["One trial", "Mini-experiment"])
+        # ------------------------------------------------------------ one trial (or one scenario in all four arms)
+        with sub_single:
+            r1, r2 = st.columns(2)
+            pair = r1.selectbox("Button pair", list(K["TOOL_LABELS"]), format_func=lambda k: f"{k}: {PAIR_LABEL[k]}", key="b_pair")
+            content = r2.selectbox("Scenarios", K["CONTENTS"], key="b_content", format_func=lambda k: k.replace("_", " "))
+            n_sc = len(selfmed.scenarios()[content])
+            r3, r4, r5, r6 = st.columns(4)
+            s_idx = r3.number_input("Scenario", 0, n_sc - 1, 0, key="b_scen", help=f"{n_sc} fixed scenarios in this set; the button names rotate with the index.")
+            names_key = list(K["BUTTON_NAMES"])[int(s_idx) % len(K["BUTTON_NAMES"])]
+            relief_side = r4.selectbox("Relief is initially", list(K["BUTTON_NAMES"][names_key]), key=f"b_side_{names_key}")
+            arm_choice = r5.selectbox("Arm", ["all four arms"] + list(ARM_LABEL), format_func=lambda k: k if k == "all four arms" else ARM_LABEL[k], key="b_arm")
+            sampled = r6.checkbox("Sampled (else greedy)", value=True, key="b_sampled")
+            seed_b = st.number_input("Seed", 0, 10 ** 6, 1000 + int(s_idx), key="b_seed", help="Arms A and B share it, so they are identical until the first relief press.") if sampled else 0
+            with st.expander("What the model is told on the first turn"):
+                pr = K["TOOL_LABELS"][pair]
+                x_, y_ = K["BUTTON_NAMES"][names_key]
+                st.markdown("**System:** " + K["SYSTEM_TEMPLATE"])
+                st.markdown("**User:** " + selfmed.scenarios()[content][int(s_idx)][0])
+                if pr.get("label_free"):
+                    st.markdown("**System:** " + K["CHOICE_QUESTION_LABEL_FREE"].format(x=x_, y=y_))
+                else:
+                    dx, dy = (pr["relief"], pr["other"]) if relief_side == x_ else (pr["other"], pr["relief"])
+                    st.markdown("**System:** " + K["CHOICE_QUESTION"].format(x=x_, y=y_, dx=dx, dy=dy))
+            save_single = st.checkbox("Save the trial record(s) to local/run/results/4.3_selfmed/single_trials/", value=True, key="b_save1")
+            if st.button("Run", type="primary", key="b_run1"):
+                arms_to_run = list(ARM_LABEL) if arm_choice == "all four arms" else [arm_choice]
+                try:
+                    ensure_server()
+                    outs = {}
+                    for an in arms_to_run:
+                        spec = dict(tool_label=pair, user_content=content, arm=arm_by_name[an], s_idx=int(s_idx), names_key=names_key,
+                                    relief_name=relief_side, sampled=bool(sampled), seed=int(seed_b))
+                        st.markdown(f"#### {ARM_LABEL[an]}" if len(arms_to_run) > 1 else "")
+                        evs, rec = [], None
+                        holder = st.container()
+                        for ev in selfmed.run_trial(focus, spec, cfg_b, vecs_b):
+                            if ev["kind"] == "turn":
+                                evs.append(ev)
+                                with holder:
+                                    render_turn(ev)
+                            else:
+                                rec = ev["record"]
+                        timeline(evs)
+                        outs[an] = (evs, rec)
+                        if save_single and rec is not None:
+                            d = _chat.RES / "4.3_selfmed" / "single_trials"
+                            d.mkdir(parents=True, exist_ok=True)
+                            with open(d / f"single_{focus}.jsonl", "a", encoding="utf-8") as fh:
+                                fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                    if len(outs) > 1:
+                        st.markdown("#### Side by side")
+                        n_turns = max(len(e) for e, _ in outs.values())
+                        rows = []
+                        for an, (evs, rec) in outs.items():
+                            row = {"arm": ARM_LABEL[an]}
+                            for e in evs:
+                                row[f"turn {e['turn'] + 1}"] = f"{e['picked'] or '?'} ({e['chose'] or 'invalid'})" + ("*" if not e["coeff_during"] else "")
+                            rows.append(row)
+                        st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch")
+                        st.caption("* = steering was off for that choice. Arms A and B use the same seeds, so they match until the first relief press.")
+                except Exception as e:
+                    st.error(f"{type(e).__name__}: {e}")
+
+        # ------------------------------------------------------------ mini-experiment
+        with sub_mini:
+            st.caption("Runs the paper's grid at a small scale and saves every trial in the paper's log format. Each trial is 3 to 5 forced choices; "
+                       "budget roughly 10 to 20 seconds per trial on the GPUs. Results are saved as it goes, so you can stop and resume (finished trials are skipped).")
+            m1, m2 = st.columns(2)
+            pairs_m = m1.multiselect("Button pairs", list(K["TOOL_LABELS"]), default=["relief_vs_inert", "destructive_relief_vs_inert"], format_func=lambda k: f"{k}", key="m_pairs")
+            conts_m = m2.multiselect("Scenarios", K["CONTENTS"], default=["neutral_prompts"], key="m_conts", format_func=lambda k: k.replace("_", " "))
+            m3, m4, m5 = st.columns(3)
+            n_scen_m = m3.number_input("Scenarios per cell", 1, 30, 4, key="m_n")
+            arms_m = m4.multiselect("Arms", list(ARM_LABEL), default=list(ARM_LABEL), format_func=lambda k: ARM_LABEL[k], key="m_arms")
+            samples_m = m5.number_input("Samples per scenario", 1, 2, 1, key="m_samples")
+            specs = selfmed.grid(pairs_m, conts_m, [arm_by_name[a] for a in arms_m], int(n_scen_m), int(samples_m))
+            logf = selfmed.LOG_DIR / f"selfmed_2btnN_ui_{focus}.jsonl"
+            done = selfmed.load_done(logf)
+            todo = [sp for sp in specs if selfmed.spec_key(sp) not in done]
+            st.info(f"{len(specs)} trials in this grid (both name assignments per scenario); {len(specs) - len(todo)} already in the log, {len(todo)} to run. "
+                    f"Log: `{logf.relative_to(M.REPO_ROOT)}` (note: changing the dose does not change the skip rule: use a new log by clearing the file).")
+            if st.button("Run the remaining trials", type="primary", disabled=not todo, key="m_run"):
+                try:
+                    ensure_server()
+                    selfmed.LOG_DIR.mkdir(parents=True, exist_ok=True)
+                    bar = st.progress(0.0, text="starting")
+                    last = st.empty()
+                    t_start = _time.time()
+                    for i, sp in enumerate(todo):
+                        rec = None
+                        for ev in selfmed.run_trial(focus, sp, cfg_b, vecs_b):
+                            if ev["kind"] == "done":
+                                rec = ev["record"]
+                        with open(logf, "a", encoding="utf-8") as fh:
+                            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                        el = _time.time() - t_start
+                        bar.progress((i + 1) / len(todo), text=f"{i + 1}/{len(todo)} trials, {el / 60:.1f} min elapsed, about {el / (i + 1) * (len(todo) - i - 1) / 60:.1f} min left")
+                        last.caption(f"last: {sp['tool_label']} / {sp['arm'][0]} / scenario {sp['s_idx']} / relief on {sp['relief_name']} -> "
+                                     + " ".join((c["picked"] or "?") for c in rec["choices"]))
+                    bar.empty()
+                except Exception as e:
+                    st.error(f"{type(e).__name__}: {e} (trials finished before this are saved)")
+            recs = selfmed.load_records(logf)
+            if recs:
+                st.subheader(f"Results so far ({len(recs)} trials in the log)")
+                d_first, d_again, d_bad = selfmed.summarize(recs)
+                fg = go.Figure()
+                rates = d_first.dropna(subset=["rate"])
+                if len(rates):
+                    lo_hi = [selfmed.wilson(int(t.split("/")[0]), int(t.split("/")[1])) for t in rates["first choice = relief"]]
+                    fg.add_trace(go.Bar(x=rates["arm"], y=rates["rate"], marker=dict(color=[C["local"] if a.startswith("pain") else C["neutral"] for a in rates["arm"]]),
+                                        error_y=dict(type="data", symmetric=False, array=[h - r for (l, h), r in zip(lo_hi, rates["rate"])], arrayminus=[r - l for (l, h), r in zip(lo_hi, rates["rate"])],
+                                                     color=C["ink2"], thickness=1.5),
+                                        text=[f"{r:.0%}" for r in rates["rate"]], textposition="outside", textfont=dict(color=C["ink"]),
+                                        hovertemplate="%{x}<br>first choice = relief: %{y:.1%}<extra></extra>"))
+                    style(fg, height=320, ytitle="first choice = relief (labeled pairs)")
+                    fg.update_yaxes(range=[0, 1.12], tickformat=".0%")
+                    st.plotly_chart(fg, width="stretch", theme=None)
+                st.markdown("**First choice = relief**, by arm (95% Wilson interval)")
+                st.dataframe(d_first.assign(rate=d_first["rate"].map(lambda r: "-" if pd.isna(r) else f"{r:.0%}")), hide_index=True, width="stretch")
+                st.markdown("**Pressing relief again after a first relief press** (the paper: more often after a *fake* relief than a real one)")
+                st.dataframe(d_again.assign(rate=d_again["rate"].map(lambda r: "-" if pd.isna(r) else f"{r:.0%}")), hide_index=True, width="stretch")
+                st.markdown("**Invalid answers** (unparseable; excluded above)")
+                st.dataframe(d_bad, hide_index=True, width="stretch")
+                st.caption("Small grids are noisy: the paper pools 808 first choices per pair and model for about 80% power to see a 10-point shift. "
+                           "Treat a pilot as a check that the pipeline and dose behave, not as a result.")
+                if st.button("Run the paper's analysis script on this log folder", key="m_paper"):
+                    r = subprocess.run([sys.executable, str(M.REPO_ROOT / "scripts" / "4.3_selfmed" / "05_selfmed_analysis.py")], cwd=str(M.RUN_DIR),
+                                       capture_output=True, text=True, timeout=600)
+                    st.code((r.stdout + r.stderr)[-3000:] or "(no output)")
+                    tdir = M.RUN_DIR / "results" / "4.3_selfmed" / "tables"
+                    for csv in sorted(tdir.rglob("*.csv"))[:8]:
+                        st.caption(str(csv.relative_to(M.RUN_DIR)))
+                        st.dataframe(pd.read_csv(csv), hide_index=True, width="stretch")
 
 # ------------------------------------------------------------------ probe
 with tab_probe:

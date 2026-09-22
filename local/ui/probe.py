@@ -54,6 +54,27 @@ def load_reference(name):
             "z_pain": z[np.isin(cats, PAIN)], "z_ctrl": z[~np.isin(cats, PAIN)]}
 
 
+MAX_CHARS = 1200      # ~300-400 tokens; extract_gguf's default context is 512 tokens
+
+
+def check_texts(texts):
+    texts = [t.strip() for t in texts if t.strip()]
+    if not texts:
+        raise ValueError("enter at least one prompt")
+    if any(len(t) > MAX_CHARS for t in texts):
+        raise ValueError(f"a prompt is longer than {MAX_CHARS} characters (the GGUF tool reads at most 512 tokens)")
+    return texts
+
+
+def run_tool(cmd, **kw):
+    """subprocess.run that reports the tool's own stderr instead of just an exit status."""
+    r = subprocess.run(cmd, capture_output=True, timeout=600, **kw)
+    if r.returncode != 0:
+        tail = r.stderr.decode(errors="replace").strip().splitlines()[-3:]
+        raise RuntimeError(f"{Path(cmd[0]).name} exited with {r.returncode}: " + " | ".join(tail))
+    return r
+
+
 def release_gpu():
     _hf.clear()
     try:
@@ -77,8 +98,7 @@ def _acts_gguf(name, texts, layer):
     release_gpu()                                   # the tool needs the VRAM
     with tempfile.TemporaryDirectory() as td:
         (Path(td) / "p.txt").write_text("\n".join(texts) + "\n", encoding="utf-8")
-        subprocess.run([str(TOOL), str(GGUF_MODELS[name]), f"{td}/p.txt", td, "--ts", "0.45,0.55"],
-                       check=True, capture_output=True, timeout=600)
+        run_tool([str(TOOL), str(GGUF_MODELS[name]), f"{td}/p.txt", td, "--ts", "0.45,0.55"])
         meta = json.load(open(f"{td}/meta.json"))
         arr = np.fromfile(f"{td}/final.f32", dtype=np.float32).reshape(meta["n_prompts"], meta["n_layers"], meta["n_embd"])
         return arr[:, layer].copy()
@@ -86,8 +106,6 @@ def _acts_gguf(name, texts, layer):
 
 def score(name, texts, ref):
     """z-score of each text on the pain vector (higher = more pain-like, in the paper's units)."""
-    texts = [t.strip() for t in texts if t.strip()]
-    if any(len(t) > 2000 for t in texts):
-        raise ValueError("text too long")
+    texts = check_texts(texts)
     acts = (_acts_gguf if name in GGUF_MODELS else _acts_hf)(name, texts, ref["layer"])
     return texts, (acts @ ref["unit"] - ref["mu"]) / (ref["sd"] + 1e-8)
