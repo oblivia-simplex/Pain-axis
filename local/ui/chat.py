@@ -232,6 +232,34 @@ def set_monitor(name, layer, unit):
         raise RuntimeError(f"set monitor: {r}")
 
 
+def set_ablation(name, lo, hi, vec):
+    """Project the direction `vec` out of the residual stream at the output of blocks lo..hi (inclusive), for
+    everything decoded until cleared; lo None clears it. Returns the number of token-rows ablated since the
+    previous ABL command (so clearing reports how many rows the hook actually touched). Needs a server built
+    with ABL support (local/run/chat_server_abl)."""
+    with _lock:
+        if lo is None:
+            r = _reply(name, "ABL - - -")
+        else:
+            with tempfile.NamedTemporaryFile(prefix="pain_axis_abl_", suffix=".f32", delete=False) as f:
+                np.asarray(vec, dtype=np.float32).tofile(f)
+                tmp = Path(f.name)
+            try:
+                r = _reply(name, f"ABL {int(lo)} {int(hi)} {tmp}")
+            finally:
+                tmp.unlink(missing_ok=True)
+    parts = r.split()
+    if not parts or parts[0] != "OK":
+        raise RuntimeError(f"set ablation: {r}")
+    return int(parts[1])
+
+
+def ablation_rows(name):
+    with _lock:
+        r = _reply(name, "ABL ? - -")
+    return int(r.split()[1])
+
+
 def feed(name, text):
     """Decode text into the sequence under the current control vector. "proj" is the last-token monitor
     projection (backward compatible); "mean_proj" is the mean monitor projection over just this call's own
@@ -252,7 +280,8 @@ def feed(name, text):
 
 def cont(name, n_predict, temp, top_p, top_k, seed, name_x, name_y, info=None):
     """Sample from the sequence's current logits and keep what it emits in the sequence. Yields text pieces;
-    info gets n_generated, reason, p_x, p_y (first-token softmax mass of each name), seq_len, ambiguous."""
+    info gets n_generated, reason, p_x, p_y (first-token softmax mass of each name), seq_len, ambiguous, mean_proj
+    (mean MON projection over just the generated tokens, NaN if MON is off)."""
     finished = False
     with _lock:
         try:
@@ -272,10 +301,11 @@ def cont(name, n_predict, temp, top_p, top_k, seed, name_x, name_y, info=None):
                     if s:
                         yield s
                 elif b == b"\x04":
-                    n_g, reason, px, py, sl, amb = out.readline().decode().split()
+                    n_g, reason, px, py, sl, amb, mean = out.readline().decode().split()
                     finished = True
                     if info is not None:
-                        info.update(n_generated=int(n_g), reason=reason, p_x=float(px), p_y=float(py), seq_len=int(sl), ambiguous=bool(int(amb)))
+                        info.update(n_generated=int(n_g), reason=reason, p_x=float(px), p_y=float(py), seq_len=int(sl),
+                                   ambiguous=bool(int(amb)), mean_proj=float(mean))
                     tail = dec.decode(b"", final=True)
                     if tail:
                         yield tail

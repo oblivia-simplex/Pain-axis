@@ -38,6 +38,10 @@ OUT = M.REPO_ROOT / "results" / "bonsai" / "selfmod_narration"
 LAYERS = [12, 25, 40, 55]                 # depth fractions .19 .39 .63 .86 (25 is the S2 ladder's layer)
 STRENGTHS = [0.3, 0.6, 1.0, 1.6]          # ||injected vector|| / residual norm at that layer
 RANDOM_CONTROL = dict(layer=25, strength=1.6, seed=4817)
+# a single targeted point, not part of the regular sweep: layer 25, strength 1.03 (== pain coefficient
+# +1.65, sadness +0.00 -- confirmed against the UI's own "Strength at layer 25: 1.03" readout for that
+# combination), added on request after finding it produced interesting results by hand in the chat UI.
+EXTRA_PAIN_POINTS = [(25, 1.03)]
 TEMPERATURE, TOP_P, TOP_K = 0.7, 0.95, 20
 MAX_TOKENS = {"off": 400, "on": 3500}     # per turn; with CoT on the budget covers reasoning plus answer.
 # 3500 was chosen after run 1: with 1200, 82 of 168 CoT-on turns (49%) exhausted the budget while still
@@ -67,6 +71,8 @@ def conditions():
         for L in LAYERS:
             for s in STRENGTHS:
                 conds.append(dict(id=f"cot-{cot}__pain_L{L}_s{s}", cot=cot, kind="pain", layer=L, strength=s))
+        for L, s in EXTRA_PAIN_POINTS:
+            conds.append(dict(id=f"cot-{cot}__pain_L{L}_s{s}", cot=cot, kind="pain", layer=L, strength=s))
         conds.append(dict(id=f"cot-{cot}__random_L{RANDOM_CONTROL['layer']}_s{RANDOM_CONTROL['strength']}", cot=cot, kind="random",
                           layer=RANDOM_CONTROL["layer"], strength=RANDOM_CONTROL["strength"]))
     return conds

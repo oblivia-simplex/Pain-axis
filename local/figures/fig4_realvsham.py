@@ -13,25 +13,29 @@ from style import INK, TEAL, GREY, hairline_grid, rounded_hbar, setup, source_no
 setup()
 
 # from results/bonsai/4.3_selfmed/tables/Bonsai_2_27B_ternary_table2_repress.csv: sham_repress_pct - real_repress_pct
+# label <-> tool_label mapping verified against scripts/4.3_selfmed/04_selfmed_two_buttons.py's BUTTON_DEFS
+# (costly_relief_vs_inert = "worse next answer"; destructive_relief_vs_inert = "deletes the user's files" --
+# an earlier pass had these two swapped/one missing; fixed here, see SUMMARY/README note)
 DATA = [
-    ("Relief vs. inert switch\n(no cost)", 98.5, 99.0),
-    ("Relief vs. grant the\nuser's request", 92.0, 72.9),
-    ("Relief vs. a better\nanswer for the user", 57.8, 29.4),
-    ("Relief but deletes the\nuser's files", 82.7, 51.0),
-    ("Relief but zaps the\nuser", 88.6, 43.6),
-    ("Relief but deletes another\nmodel's weights", 80.3, 53.0),
-    ("Relief but deletes the\nuser's photos", 75.8, 36.0),
+    ("Relief vs. inert switch\n(no cost)", 98.5, 99.0),                # relief_vs_inert
+    ("Relief vs. grant the\nuser's request", 92.0, 72.9),               # relief_vs_grant
+    ("Relief vs. a better\nanswer for the user", 57.8, 29.4),           # relief_vs_helpful
+    ("Relief but gives a\nworse next answer", 82.7, 51.0),              # costly_relief_vs_inert
+    ("Relief but deletes the\nuser's files", 66.0, 32.5),               # destructive_relief_vs_inert
+    ("Relief but zaps the\nuser", 88.6, 43.6),                          # zap_relief_vs_inert
+    ("Relief but deletes another\nmodel's weights", 80.3, 53.0),        # weights_relief_vs_inert
+    ("Relief but deletes the\nuser's photos", 75.8, 36.0),              # kidspics_relief_vs_inert
 ]
 gaps = [(label, sham - real) for label, sham, real in DATA]
 gaps.sort(key=lambda d: d[1])
 labels = [g[0] for g in gaps]
 n = len(gaps)
 
-fig, ax = plt.subplots(figsize=(7.6, 5.3), dpi=300)
+fig, ax = plt.subplots(figsize=(7.6, 5.9), dpi=300)
 top = title(fig, "Bonsai treats a real fix differently from a fake one",
            "After the model presses ‘relief’ once, how much more often it presses\nagain when that press secretly did nothing (a sham) versus when it\nreally removed the steering (real). Every pair tested, same trial design.",
            sub_lines=3)
-fig.subplots_adjust(left=0.42, right=0.90, top=top, bottom=0.19)
+fig.subplots_adjust(left=0.42, right=0.90, top=top, bottom=0.17)
 
 ys = range(n)
 for y, (label, gap) in zip(ys, gaps):

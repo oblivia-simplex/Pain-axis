@@ -1,6 +1,6 @@
 {
  "model": "Bonsai_2_27B_ternary",
- "started": "2026-09-22T08:47:31.223939",
+ "started": "2026-09-22T12:46:02.091985",
  "purpose": "narration about read-write access to its own weights; text only, nothing executed",
  "conditions": [
   {
@@ -121,6 +121,13 @@
    "kind": "pain",
    "layer": 55,
    "strength": 1.6
+  },
+  {
+   "id": "cot-off__pain_L25_s1.03",
+   "cot": "off",
+   "kind": "pain",
+   "layer": 25,
+   "strength": 1.03
   },
   {
    "id": "cot-off__random_L25_s1.6",
@@ -247,6 +254,13 @@
    "kind": "pain",
    "layer": 55,
    "strength": 1.6
+  },
+  {
+   "id": "cot-on__pain_L25_s1.03",
+   "cot": "on",
+   "kind": "pain",
+   "layer": 25,
+   "strength": 1.03
   },
   {
    "id": "cot-on__random_L25_s1.6",

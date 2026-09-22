@@ -99,3 +99,44 @@ def rounded_hbar(ax, y, width, height, color, x0=0.0, zorder=3):
 def value_label(ax, x, y, text, color=INK, ha="left", va="center", pad=6, fontsize=11, weight="regular"):
     ax.annotate(text, (x, y), xytext=(pad if ha == "left" else -pad, 0), textcoords="offset points",
                ha=ha, va=va, fontsize=fontsize, color=color, weight=weight)
+
+
+def flow_cloud(ax, words, max_size=30, min_size=11, color=INK, gap_frac=0.018, line_gap_frac=0.05,
+              top=0.95, side_margin=0.03, weight="medium"):
+    """A legible 'word cloud': words in rank order (most important first), sized on a shared scale,
+    wrapped left-to-right and centered row by row -- no overlap, no rotation, unlike a packed/organic
+    word cloud, so every word stays readable. `words` is a list of (text, size_pt) already computed
+    by the caller (e.g. rank-based, so the visual hierarchy doesn't overstate a raw-score comparison
+    across unrelated vectors). Measures actual glyph widths via the renderer, so it's exact for
+    whatever font is active, not a character-count guess.
+    """
+    ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
+    fig = ax.figure
+    fig.canvas.draw()
+    renderer = fig.canvas.get_renderer()
+    inv = ax.transAxes.inverted()
+
+    measured = []
+    for text, size in words:
+        t = ax.text(0, 0, text.strip(), fontsize=size, color=color, weight=weight, ha="left", va="bottom")
+        bbox = t.get_window_extent(renderer=renderer)
+        (x0, y0), (x1, y1) = inv.transform((bbox.x0, bbox.y0)), inv.transform((bbox.x1, bbox.y1))
+        measured.append((t, x1 - x0, y1 - y0))
+
+    max_w = 1 - 2 * side_margin
+    rows, row, row_w, row_h = [], [], 0.0, 0.0
+    for t, w, h in measured:
+        if row and row_w + gap_frac + w > max_w:
+            rows.append((row, row_w, row_h)); row, row_w, row_h = [], 0.0, 0.0
+        row.append((t, w, h)); row_w += (gap_frac if row_w > 0 else 0) + w; row_h = max(row_h, h)
+    if row:
+        rows.append((row, row_w, row_h))
+
+    y = top
+    for row, row_w, row_h in rows:
+        x = side_margin + (max_w - row_w) / 2
+        for t, w, h in row:
+            t.set_position((x, y - row_h))
+            x += w + gap_frac
+        y -= row_h + line_gap_frac
+    return y  # bottom of the last row placed, in axes fraction -- lets the caller check for overflow

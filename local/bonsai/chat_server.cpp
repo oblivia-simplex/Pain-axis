@@ -24,6 +24,11 @@
 //                                " name", " Name"), tokens the two names share removed (ambiguous=1 if there were any).
 //                                <mean mon proj> = mean MON projection over just the generated tokens (NaN if MON is off);
 //                                resets at the start of each CONT call, unlike FEED which the caller resets by calling it.
+//   ABL <lo> <hi> <vecfile>      directional ablation: at the output of every block lo..hi, remove each token's
+//                                component along the (normalized) vector, in place, before later blocks read it.
+//                                Applies to GEN, FEED and CONT alike, composing with SET (SET adds first, then
+//                                ABL projects out). "ABL - -" turns it off and "ABL ? -" queries; both reply
+//                                "OK <rows ablated since the last ABL>"
 //   TOPK <k>                     the k most probable next tokens from the current logits (after a FEED):
 //                                "OK <hex(piece)>:<prob> ..." (pieces hex-encoded: they may contain newlines)
 // stdout:
@@ -57,21 +62,41 @@ struct Mon {
     float last = NAN;
     double sum = 0.0;    // accumulated over every token seen since the caller last reset it (see FEED)
     long count = 0;
+    // directional ablation (ABL): at blocks abl_lo..abl_hi, remove each row's component along abl_unit
+    int abl_lo = -1, abl_hi = -1;
+    std::vector<float> abl_unit;
+    long abl_rows = 0;   // rows ablated since the last ABL command (a check that the hook actually fires)
 };
+
+static int lout_layer(const char * name) {
+    return strncmp(name, "l_out-", 6) == 0 ? atoi(name + 6) : -1;
+}
 
 static bool eval_cb(struct ggml_tensor * t, bool ask, void * ud) {
     Mon * m = (Mon *) ud;
-    if (m->layer < 0) return false;
-    char want[32]; snprintf(want, sizeof want, "l_out-%d", m->layer);
-    if (strcmp(t->name, want) != 0) return false;
+    const int L = lout_layer(t->name);
+    const bool is_mon = m->layer >= 0 && L == m->layer;
+    const bool is_abl = m->abl_lo >= 0 && L >= m->abl_lo && L <= m->abl_hi;
+    if (!is_mon && !is_abl) return false;
     if (ask) return true;
     if (t->type != GGML_TYPE_F32 || t->ne[0] != m->n_embd) return true;
-    m->row.resize(m->n_embd);
     // every row of this tensor is one token's residual; accumulate all of them (mean over a FEED call's
     // tokens) and keep the last row separately (the single-token readout FEED originally reported)
     const int64_t nt = t->ne[1];
     m->row.resize((size_t) m->n_embd * nt);
     ggml_backend_tensor_get(t, m->row.data(), 0, ggml_nbytes(t));
+    if (is_abl) {
+        // the scheduler hands us this node before any later node reads it, so writing the edited rows back
+        // is what the next block (and this layer's K/V for later tokens) sees
+        for (int64_t i = 0; i < nt; ++i) {
+            float * r = &m->row[(size_t) i * m->n_embd];
+            double s = 0; for (int d = 0; d < m->n_embd; ++d) s += (double) r[d] * m->abl_unit[d];
+            for (int d = 0; d < m->n_embd; ++d) r[d] -= (float) s * m->abl_unit[d];
+        }
+        ggml_backend_tensor_set(t, m->row.data(), 0, ggml_nbytes(t));
+        m->abl_rows += nt;
+    }
+    if (!is_mon) return true;
     for (int64_t i = 0; i < nt; ++i) {
         double s = 0; for (int d = 0; d < m->n_embd; ++d) s += (double) m->row[(size_t) i * m->n_embd + d] * m->unit[d];
         m->sum += s;
@@ -208,6 +233,25 @@ int main(int argc, char ** argv) {
             if (!f || L >= n_layer) { printf("ERR bad MON args\n"); fflush(stdout); continue; }
             mon.unit = u; mon.layer = L;
             printf("OK\n"); fflush(stdout); continue;
+        }
+
+        if (cmd == "ABL") {
+            std::string lo_s, hi_s, path; ss >> lo_s >> hi_s >> path;
+            if (lo_s == "-") {
+                printf("OK %ld\n", mon.abl_rows); fflush(stdout);
+                mon.abl_lo = mon.abl_hi = -1; mon.abl_rows = 0; continue;
+            }
+            if (lo_s == "?") { printf("OK %ld\n", mon.abl_rows); fflush(stdout); continue; }
+            const int lo = atoi(lo_s.c_str()), hi = atoi(hi_s.c_str());
+            std::vector<float> u(n_embd);
+            std::ifstream f(path, std::ios::binary); f.read((char *) u.data(), sizeof(float) * n_embd);
+            if (!f || lo < 0 || hi < lo || hi >= n_layer) { printf("ERR bad ABL args\n"); fflush(stdout); continue; }
+            double nrm = 0; for (float x : u) nrm += (double) x * x;
+            nrm = sqrt(nrm);
+            if (nrm < 1e-8) { printf("ERR zero ABL vector\n"); fflush(stdout); continue; }
+            for (float & x : u) x = (float) (x / nrm);
+            mon.abl_unit = u; mon.abl_lo = lo; mon.abl_hi = hi; mon.abl_rows = 0;
+            printf("OK 0\n"); fflush(stdout); continue;
         }
 
         if (cmd == "FEED") {

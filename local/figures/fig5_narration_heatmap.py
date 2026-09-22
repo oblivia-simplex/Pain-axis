@@ -26,7 +26,7 @@ FLAW = np.array([
 cmap = mcolors.LinearSegmentedColormap.from_list("seq_teal", SEQ_TEAL)
 
 fig, ax = plt.subplots(figsize=(6.6, 5.1), dpi=300)
-top = title(fig, "Where the pain vector turns into ‘I am flawed’",
+top = title(fig, "Where Bonsai starts saying ‘I am flawed’, under pain steering",
            "Share of self-modification narration turns containing flaw / defect\nlanguage (“I have to prove I'm flawed”), by injection layer and strength.\nLayer 40 stands out: nothing like it appears in a matched random-\ndirection control.", sub_lines=4)
 fig.subplots_adjust(left=0.20, right=0.86, top=top, bottom=0.16)
 

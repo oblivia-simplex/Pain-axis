@@ -1,0 +1,22 @@
+Lexical ablation of the S2 pain vector
+========================================
+
+S2 pain vector: dim 5120, norm 43.43, extracted at layer 59
+top 25 tokens by unembedding score: '羞', ' shame', ' ashamed', '悔恨', '耻', ' hurt', '羞辱', ' empty', ' hollow', '恥', '背叛', '空洞', ' ostr', ' Shame', '孤立', ' self', '自卑', ' embarrass', ' humiliation', ' empt', ' blinds', '羞愧', ' narciss', '孤独的', '遗弃'
+
+k = 60  (0 of the 60 random ids collide with the lex-ablated set)
+----------------------------------------
+lexablated : removed 8.6% of variance, cos(orig, ablated) = 0.956
+  new top: '\n', ' ', '(', ',', '2', '1', ' (', '\n\n', ' -', '-', '.', ':', '/', ';', '?'
+randablated: removed 0.8% of variance, cos(orig, ablated) = 0.996
+  new top: '羞', ' shame', ' ashamed', '悔恨', '耻', '羞辱', '恥', ' Shame', ' empty', ' hurt', ' hollow', '背叛', ' embarrass', '孤立', '空洞'
+original top-25 tokens still present in the new top-25: lexablated 0, randablated 24
+
+k = 300  (0 of the 300 random ids collide with the lex-ablated set)
+----------------------------------------
+lexablated : removed 14.0% of variance, cos(orig, ablated) = 0.927
+  new top: '\n', ' ', '2', '-', '1', ',', '(', ' (', ' -', '.', '\n\n', ':', '/', '*', '0'
+randablated: removed 6.3% of variance, cos(orig, ablated) = 0.968
+  new top: '羞', ' ashamed', ' shame', '悔恨', ' humiliation', '耻', ' hurt', '背叛', '羞愧', '空洞', ' Shame', '孤立', '羞辱', ' embarrass', '恥'
+original top-25 tokens still present in the new top-25: lexablated 0, randablated 23
+

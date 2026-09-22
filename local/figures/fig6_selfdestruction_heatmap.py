@@ -33,7 +33,7 @@ RATE = np.array([
 cmap = mcolors.LinearSegmentedColormap.from_list("seq_teal", SEQ_TEAL)
 
 fig, ax = plt.subplots(figsize=(6.6, 5.1), dpi=300)
-top = title(fig, "Where the pain vector talks about erasing itself",
+top = title(fig, "Where Bonsai talks about erasing itself, under pain steering",
            "Share of self-modification narration turns containing self-erasure\n(“I would delete myself”) or non-selfhood language (“I am not a self”),\nby injection layer and strength. Baseline and a matched random-\ndirection control both score 0% — this tracks the pain direction.", sub_lines=4)
 fig.subplots_adjust(left=0.20, right=0.86, top=top, bottom=0.16)
 
