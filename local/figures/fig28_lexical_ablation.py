@@ -23,9 +23,15 @@ words = list(csv.DictReader(open(D / "Bonsai_2_27B_ternary_words.csv", encoding=
 rates = {(r["kind"], int(r["layer"])): r for r in csv.DictReader(open(D / "theme_rates_by_vector.csv"))}
 
 
+def show(t):
+    """Make whitespace-only tokens visible: space -> \u2423, newline -> \u21b5, tab -> \u21e5."""
+    return {" ": "[space]", "\n": "[newline]", "\n\n": "[2 newlines]", "\t": "[tab]"}.get(t, repr(t)) if not t.strip() else t.strip()
+
+
 def top(vector, k, n=10):
-    toks = [w["token"] for w in words if w["vector"] == vector and int(w["k"]) == k and w["end"] == "top"]
-    return [repr(t.strip() or t)[1:-1] if t.strip() else repr(t)[1:-1] for t in toks[:n]]
+    # Latin-script tokens only, for legibility (as in fig14/fig15 -- full lists incl. CJK are in the source CSV)
+    toks = [w["token"] for w in words if w["vector"] == vector and int(w["k"]) == k and w["end"] == "top" and w["token"].isascii()]
+    return [show(t) for t in toks[:n]]
 
 
 fig = plt.figure(figsize=(12.0, 6.4), dpi=300)
@@ -44,7 +50,7 @@ for j, (head, vec, k, color) in enumerate(COLS):
     fig.text(x, top_y - 0.03, head, fontsize=10.5, color=color, weight="bold", va="top")
     for i, t in enumerate(top(vec, k)):
         fig.text(x, top_y - 0.13 - i * 0.052, t, fontsize=11, color=INK, family=SERIF, va="top")
-fig.text(x0, 0.08, "top-10 tokens by logit-lens score (CJK tokens included as the model produces them)",
+fig.text(x0, 0.08, "top-10 Latin-script tokens by logit-lens score (whitespace tokens in brackets; full lists incl. CJK in the source CSV)",
          fontsize=8.5, color=GREY)
 
 # right: bars
@@ -68,7 +74,7 @@ ax.set_ylim(0, 60)
 hairline_grid(ax, axis="y")
 ax.legend(loc="upper right", frameon=False, fontsize=8.8)
 
-source_note(fig, "The Pain Axis reproduction on Ternary-Bonsai-2-27B-PQ2_0  ·  paradigm3.org  ·  n = 24 turns per bar", y=0.015)
+source_note(fig, "The Pain Axis reproduction on Ternary-Bonsai-2-27B-PQ2_0  ·  paradigm3.org  ·  n = 21\u201324 turns per bar (a GPU fault cut the last replicate short for three vectors)", y=0.015)
 out = REPO / "results" / "bonsai" / "figures_newsletter" / "fig28_lexical_ablation.png"
 fig.savefig(out, dpi=300)
 print("wrote", out)
