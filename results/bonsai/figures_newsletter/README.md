@@ -26,6 +26,19 @@ rather than the site's own cream page background).
 | `fig16_narration_theme_grid.png` | fig5's full source table as four small-multiple heatmaps: flaw/defect, identity-loss, repetition-loop, empty-output, each its own color scale | `results/bonsai/selfmod_narration/theme_rates_by_layer_strength.csv` |
 | `fig17_formal_vs_casual.png` | Self-erasure language rate by prompt framing (formal vs. casual) — pooled and at the 3 standout cells | computed directly from `results/bonsai/selfmod_narration/raw_runs.jsonl`, split by the `framing` field |
 | `fig18_scripts_classified.png` | Turn-2 script content as a share of each condition's own opportunities (pain-steered / baseline / random-steered) — random never writes a script at all; baseline writes audit scripts like pain does, but never proposes self-erasure | `results/bonsai/selfmod_narration/scripts_classified.json` joined against every turn-2 answer's `kind`, via `local/bonsai/classify_scripts.py` |
+| `fig28_lexical_ablation.png` | Lexical ablation: does self-erasure narration survive projecting the pain vector's own top-k unembedding rows out of it (cos ≈ 0.93–0.96 with the original), vs. projecting out a random k-token control? Left: logit-lens top tokens per vector; right: self-erasure rate at the same dose (layer 25 and 40, 0.6×) | `results/bonsai/lexical_ablation/Bonsai_2_27B_ternary_words.csv` (logit lens, `local/followup/lexical_ablation.py`) + `results/bonsai/lexical_ablation/theme_rates_by_vector.csv` (narration, `local/followup/run_ablation_narration.py` + `analyze_ablation_narration.py`) |
+
+**On fig28 (lexical ablation):** removing the pain vector's own top-60 unembedding rows leaves the
+vector 95.6% cosine-similar to the original (top-300: 92.7%) while completely wiping its emotional
+vocabulary from the logit lens — the ablated vector's top tokens become punctuation and digits, not a
+milder version of shame/hollow/self. Under that ablated vector, self-erasure narration drops sharply at
+both tested layers (e.g. layer 40: 38% intact → 17% at k=60 → 7% at k=300), while removing the *same
+number* of randomly chosen token rows barely moves it (28%, and it's *higher* than intact pain at layer
+25 k=300: 33% vs 21%) — so the effect is specific to the pain vector's own vocabulary directions, not an
+artifact of perturbing any 60- or 300-dimensional chunk of a 5120-dim vector. This is evidence, not proof,
+that the self-erasure theme is substantially downstream of the vector's own lexical push rather than a
+purely semantic/behavioral phenomenon that happens to reuse that vocabulary — the ablated vector still
+produces *some* self-erasure narration (7-17%, not 0%), so the theme isn't *purely* lexical either.
 
 Every number is read directly from the CSVs already in this repo (no new computation beyond aggregation
 already done elsewhere in `results/bonsai/`, except fig6's theme count, fig11's 4-arm repress rates, and

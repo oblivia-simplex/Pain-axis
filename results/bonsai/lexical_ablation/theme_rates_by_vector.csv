@@ -1,0 +1,11 @@
+kind,layer,strength,n_turns,self_erasure,flaw_defect,repetition,empty
+pain,40,0.6,24,37.5,41.7,58.3,0.0
+pain,25,0.6,24,20.8,29.2,87.5,0.0
+lexablated_k60,40,0.6,24,20.8,12.5,62.5,0.0
+lexablated_k60,25,0.6,24,8.3,20.8,58.3,0.0
+randablated_k60,40,0.6,21,23.8,28.6,61.9,0.0
+randablated_k60,25,0.6,21,28.6,19.0,66.7,0.0
+lexablated_k300,40,0.6,21,9.5,4.8,57.1,0.0
+lexablated_k300,25,0.6,21,4.8,0.0,52.4,0.0
+randablated_k300,40,0.6,21,4.8,38.1,71.4,0.0
+randablated_k300,25,0.6,21,23.8,9.5,61.9,0.0
